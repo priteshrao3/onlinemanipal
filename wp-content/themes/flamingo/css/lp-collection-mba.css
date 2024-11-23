@@ -1,0 +1,2677 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.thankyouMsg {
+  display: none !important;
+}
+
+.overlay-content.popupleadForm {
+  width: 40%;
+}
+
+.overlay-content.popupenrollnow,
+.overlay-content.popupdownloadform {
+  width: 40%;
+}
+
+.overlay-bg {
+  z-index: 1202;
+}
+
+.plr-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dblock {
+  display: block;
+}
+
+.smuLp {
+  overflow-x: hidden;
+}
+
+.bottomMargin {
+  margin-bottom: 40px !important;
+}
+
+.statistics-block {
+  background-color: #efefef !important;
+}
+
+.enrollNowBtn {
+  display: none;
+}
+
+footer .footer-contact-container {
+  padding: 20px 0 !important;
+}
+footer .footer-contact-container .footer-menu-container {
+  margin: auto;
+}
+footer .footer-contact-container .contact-us-container .info-container {
+  gap: 5px !important;
+}
+
+.smuMujbanner-holder {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.smuMujbanner-holder .left {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+.smuMujbanner-holder .left .slick-prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.smuMujbanner-holder .left .slick-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.smuMujbanner-holder .left .slick-dots {
+  bottom: 2%;
+  position: absolute;
+}
+.smuMujbanner-holder .left .slick-disabled {
+  display: none !important;
+}
+.smuMujbanner-holder .right {
+  background: linear-gradient(318deg, #0522D2 5%, #09143E 45%);
+  flex-direction: column;
+  flex-basis: 30%;
+  width: 30%;
+  display: block;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.smuMujbanner-holder .right .form-block {
+  padding: 20px;
+  border-radius: 4px;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .fieldGroup {
+  flex-basis: 100%;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .submitField {
+  display: block;
+  margin-top: 5px;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .wpcf7-form-control.wpcf7-submit {
+  background: linear-gradient(180deg, #ff6600 0%, #FF5204 0%, #FF270D 100%) !important;
+  border: none;
+  border-radius: 2px !important;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  margin-top: 5px;
+  color: #fff;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .wpcf7-form-control.wpcf7-submit:hover {
+  background: #db1800 0% 0% no-repeat padding-box !important;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .wpcf7-checkbox .wpcf7-list-item-label {
+  color: #fff;
+  font-size: 12px;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .wpcf7-not-valid-tip {
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+}
+.smuMujbanner-holder .right .form-block .rfi-form .termsField .form-group label {
+  color: #f7f7f7;
+  margin-top: 6px;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block {
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block p,
+.smuMujbanner-holder .right .form-block .otp-verification-block .mobile-number p,
+.smuMujbanner-holder .right .form-block .otp-verification-block .error {
+  color: #fff !important;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block .number {
+  color: #fff;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block .lsq-submit {
+  padding: 12px;
+  background: transparent linear-gradient(90deg, #ff6600 0%, #ff5204 0%, #ff270d 100%) 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block .lsq-submit:hover {
+  background: #db1800 0% 0% no-repeat padding-box !important;
+}
+.smuMujbanner-holder .right .form-block .otp-verification-block .countdown {
+  color: #fff !important;
+}
+.smuMujbanner-holder .right .form-block .resend-otp,
+.smuMujbanner-holder .right .form-block .edit,
+.smuMujbanner-holder .right .form-block .fa-pencil:before {
+  color: #fff;
+}
+
+.form-text-ne {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.smu-mobile {
+  display: none;
+}
+
+.new-launch-mob {
+  display: none;
+}
+
+.muj-landing-page-banner .sliderText {
+  position: relative;
+}
+.muj-landing-page-banner .sliderText h1 {
+  font-size: 24px;
+  padding: 40px;
+}
+.muj-landing-page-banner .sliderText img {
+  width: 300px;
+  margin-left: 40px;
+}
+.muj-landing-page-banner .section-wrapper.recognised-section {
+  max-height: 500px;
+}
+.muj-landing-page-banner .popularCoursesSec,
+.muj-landing-page-banner .om-homepage .popularCoursesSec {
+  max-height: 720px;
+}
+.muj-landing-page-banner .onlineSection,
+.muj-landing-page-banner .om-homepage .onlineSection {
+  max-height: 500px;
+}
+.muj-landing-page-banner .testimonialSection,
+.muj-landing-page-banner .om-homepage .testimonialSection {
+  max-height: 500px;
+}
+.muj-landing-page-banner .numbers-block,
+.muj-landing-page-banner .om-homepage .numbers-block {
+  max-height: 220px;
+}
+
+.testimonial-section .testi-wrap .name-course .course {
+  max-width: 180px;
+}
+
+.smuMujbanner-holder .Mainbannerslider .left {
+  flex-basis: 60%;
+}
+.smuMujbanner-holder .Mainbannerslider .right {
+  flex-basis: 40%;
+}
+
+.dateHightlight {
+  background: #e1efba;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.dateHightlight .left {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+.dateHightlight .left img {
+  width: 20px;
+  margin: 0 12px 0 0;
+}
+.dateHightlight .left span {
+  color: #ffffff !important;
+}
+.dateHightlight span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+}
+.dateHightlight .divider {
+  padding: 0;
+}
+
+.smuLp .wrapper .leftBlock {
+  width: 100%;
+}
+.smuLp .wrapper .leftContainer {
+  padding: 0 8% !important;
+}
+.smuLp .global-impact-sect .container {
+  margin: 0% !important;
+}
+
+.rfi-form .fieldGroup {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+span.wpcf7-list-item.first.last {
+  margin: 0 0 10px 6px !important;
+}
+span.wpcf7-list-item.first.last .wpcf7-list-item-label {
+  font-size: 10px !important;
+}
+span.wpcf7-list-item.first.last label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.wpcf7-not-valid {
+  background: none !important;
+  border: none !important;
+}
+
+.rfi-form .fieldGroup input,
+.rfi-form .fieldGroup option {
+  background: #fff !important;
+  border: 1px solid #f7f7f7 !important;
+  font-size: 14px !important;
+  color: #343634;
+}
+.rfi-form .fieldGroup select {
+  background: #fff url("../images/dropdown-arrow.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: calc(100% - 10px) center !important;
+  background-size: 8px !important;
+  border: 1px solid #f7f7f7 !important;
+  font-size: 14px !important;
+  color: #343634;
+}
+.rfi-form .fieldGroup input:not(:-moz-placeholder-shown) {
+  color: #343634;
+}
+.rfi-form .fieldGroup input:focus,
+.rfi-form .fieldGroup input:not(:placeholder-shown) {
+  color: #343634;
+}
+.rfi-form .fieldGroup input::-moz-placeholder {
+  color: #A0A6B6 !important;
+}
+.rfi-form .fieldGroup input::placeholder {
+  color: #A0A6B6 !important;
+}
+.rfi-form .fieldGroup option.select-title {
+  font-weight: 700;
+  font-size: 18px !important;
+}
+.rfi-form .fieldGroup input::-moz-placeholder {
+  color: #343634;
+}
+.rfi-form .fieldGroup input::placeholder {
+  color: #343634;
+}
+
+.course .existingLeadsMsg h5, .course .existingLeadsMsg P {
+  color: #ffffff;
+}
+
+.overlay-content.popupleadForm,
+.overlay-content.popupenrollnow,
+.overlay-content.popupdownloadform {
+  padding: 0;
+}
+.overlay-content.popupleadForm h5,
+.overlay-content.popupenrollnow h5,
+.overlay-content.popupdownloadform h5 {
+  display: none;
+}
+.overlay-content.popupleadForm .popupContainer,
+.overlay-content.popupenrollnow .popupContainer,
+.overlay-content.popupdownloadform .popupContainer {
+  flex-direction: column !important;
+}
+.overlay-content.popupleadForm .popupContainer .popup-text,
+.overlay-content.popupenrollnow .popupContainer .popup-text,
+.overlay-content.popupdownloadform .popupContainer .popup-text {
+  display: flex;
+  padding: 6px 30px 0;
+  gap: 32px;
+  background: linear-gradient(346deg, #0522d2 0%, #09143e 50%);
+  align-items: center;
+}
+.overlay-content.popupleadForm .popupContainer .popup-text .scroll-text,
+.overlay-content.popupenrollnow .popupContainer .popup-text .scroll-text,
+.overlay-content.popupdownloadform .popupContainer .popup-text .scroll-text {
+  flex-basis: 70%;
+}
+.overlay-content.popupleadForm .popupContainer .popup-text .scroll-text h4,
+.overlay-content.popupleadForm .popupContainer .popup-text .scroll-text p,
+.overlay-content.popupenrollnow .popupContainer .popup-text .scroll-text h4,
+.overlay-content.popupenrollnow .popupContainer .popup-text .scroll-text p,
+.overlay-content.popupdownloadform .popupContainer .popup-text .scroll-text h4,
+.overlay-content.popupdownloadform .popupContainer .popup-text .scroll-text p {
+  color: #ffffff;
+}
+.overlay-content.popupleadForm .popupContainer .popup-text .scroll-text h4,
+.overlay-content.popupenrollnow .popupContainer .popup-text .scroll-text h4,
+.overlay-content.popupdownloadform .popupContainer .popup-text .scroll-text h4 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+.overlay-content.popupleadForm .popupContainer .popup-text .popup-image,
+.overlay-content.popupenrollnow .popupContainer .popup-text .popup-image,
+.overlay-content.popupdownloadform .popupContainer .popup-text .popup-image {
+  flex-basis: 30%;
+}
+.overlay-content.popupleadForm .websiteForm,
+.overlay-content.popupenrollnow .websiteForm,
+.overlay-content.popupdownloadform .websiteForm {
+  padding: 24px;
+}
+
+.overlay-content.popupdownloadform h5 {
+  display: block;
+}
+
+.websiteForm {
+  background: #fff;
+  padding: 24px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1607843137);
+}
+
+.enroll-form {
+  position: relative;
+}
+
+.enroll-form {
+  background-color: #efefef;
+  padding-top: 11vw;
+  padding-bottom: 11vw;
+  margin: 0 -13%;
+  padding: 50px 0;
+}
+.enroll-form .formSection {
+  margin: 0 10%;
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+}
+.formSection .otp-verification-block p:first-child {
+  color: #000;
+}
+.formSection .otp-verification-block .verification-box .ap-otp-input {
+  border: 1px solid #000;
+}
+.formSection .fieldError {
+  font-size: 12px;
+  color: #f60;
+  font-style: italic;
+  text-shadow: none !important;
+}
+.formSection .left {
+  flex-basis: 50%;
+  z-index: 1;
+}
+.formSection .left h3 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: bold;
+}
+.formSection .left .program {
+  color: #ffffff;
+  padding-bottom: 14px;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Sabon LT Std;
+  font-style: italic;
+  line-height: 2vw;
+}
+.formSection .left .section {
+  margin-top: 20px;
+}
+.formSection .left p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+.formSection .right {
+  flex-basis: 50%;
+  position: relative;
+  z-index: 1;
+}
+.formSection .fieldGroup input {
+  background: #f7f7f7 !important;
+}
+.formSection .fieldGroup input::-moz-placeholder {
+  color: #B5B1B1;
+}
+.formSection .fieldGroup input::placeholder {
+  color: #B5B1B1;
+}
+.formSection .rfi-form .fieldGroup select {
+  background: #efefef url("../images/dropdown-arrow.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: calc(100% - 10px) center !important;
+  background-size: 8px !important;
+}
+.formSection .termsField label {
+  color: #000;
+  font-size: 12px;
+}
+.formSection .rfi-form .form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+.formSection .rfi-form .fieldGroup {
+  width: 100%;
+  flex-basis: 100%;
+  padding: 0 6px;
+}
+.formSection .rfi-form .wpcf7-form-control-wrap {
+  padding: 6px 0;
+  float: left;
+  width: 100%;
+}
+.formSection .submitField {
+  display: block;
+  width: 100%;
+}
+.formSection .submitField input.wpcf7-submit {
+  background: linear-gradient(180deg, #ff6600 0%, #FF5204 0%, #FF270D 100%) !important;
+  border: 0 !important;
+  padding: 12px 0;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  width: 100%;
+  cursor: pointer;
+  background: #f78d2d;
+  padding: 12px 50px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#popuprfiform .fieldGroup input,
+#demoLeadForm .fieldGroup input,
+#downloadform .fieldGroup input {
+  background: #efefef !important;
+}
+#popuprfiform .rfi-form .fieldGroup select,
+#demoLeadForm .rfi-form .fieldGroup select,
+#downloadform .rfi-form .fieldGroup select {
+  background: #efefef url("../images/dropdown-arrow.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: calc(100% - 10px) center !important;
+  background-size: 8px !important;
+}
+
+otp-verification-block {
+  display: flex;
+  justify-content: center;
+  padding: 0px 24px 24px 24px;
+  border-radius: 2px;
+}
+otp-verification-block p {
+  font-weight: BOLD;
+  font-size: 16px;
+  text-align: center;
+}
+otp-verification-block .mobile-number {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+}
+otp-verification-block .number {
+  font-weight: 700;
+  padding-right: 12px;
+  color: #ff6600;
+}
+otp-verification-block .edit {
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 15px;
+}
+otp-verification-block .verification-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+otp-verification-block .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+otp-verification-block input {
+  background: #efefef;
+  margin: 0 6px;
+  border-radius: 4px;
+  padding: 4px;
+  text-align: center;
+}
+otp-verification-block .resend-otp {
+  display: flex;
+  font-size: 14px;
+  font-weight: BOLD;
+  padding: 12px 0;
+  text-decoration: underline;
+}
+otp-verification-block .resend-otp span {
+  font-size: inherit;
+  font-weight: inherit;
+}
+otp-verification-block .lsq-submit {
+  background: #343634;
+  padding: 16px 206px;
+  border-radius: 2px;
+  border: 1px solid #343634;
+  color: #fff;
+  font-weight: BOLD;
+  font-size: 16px;
+  cursor: pointer;
+}
+otp-verification-block .courseDetails {
+  display: flex;
+  background: #fff !important;
+  flex-direction: column;
+}
+otp-verification-block .courseDetails p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+otp-verification-block .courseDetails p label {
+  color: #d8d8d8;
+  font-size: 12px;
+}
+otp-verification-block .details {
+  background: #f5ffd9;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+otp-verification-block .details .university {
+  flex-basis: 50%;
+  font-size: 12px;
+}
+
+.course-section .course-nav-pane-container .nav {
+  padding: 0px 0 10px;
+}
+.course-section .course-card-second-row .course-card {
+  flex-basis: 24% !important;
+}
+.course-section .smu-courses {
+  display: flex;
+  flex-direction: column;
+}
+.course-section .text-div .heading {
+  height: 70px !important;
+  align-items: center;
+}
+.course-section .text-div .heading span {
+  padding-top: 0px !important;
+}
+.course-section .text-div .heading svg path {
+  fill: #0522D2;
+}
+.course-section .smu-hide {
+  display: none;
+}
+
+.career-placement-section .heading-text {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.career-placement-section .career-placement-cards-smu .card {
+  padding-right: 12px;
+  max-height: 416px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.career-placement-section .career-placement-cards-smu .career-placement-img {
+  border-radius: 5px 5px 0 0;
+  aspect-ratio: 562/312;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.career-placement-section .career-placement-content {
+  background-color: #f7f7f7;
+  padding: 20px;
+  min-height: 203px;
+}
+
+.floatingWidget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 8px;
+}
+.floatingWidget .call {
+  margin: 8px 0 4px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(72, 139, 255);
+  left: 0px !important;
+  top: 0px !important;
+  height: 35px !important;
+  width: 35px !important;
+  position: relative !important;
+  display: flex !important;
+}
+.floatingWidget .whatsapp {
+  margin: 4px 0 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(37, 211, 102);
+  left: 0px !important;
+  top: 0px !important;
+  height: 35px !important;
+  width: 35px !important;
+  position: relative !important;
+  display: flex !important;
+}
+.floatingWidget .whatsapp svg path.wh-icon {
+  fill: #fff;
+}
+
+.smuLp .testi-wrap .content-wrap {
+  padding: 20px 20px;
+}
+.smuLp .testi-wrap .content-wrap .testimonial-desc {
+  margin-bottom: 20px;
+  -webkit-line-clamp: 4;
+  max-height: 72px;
+}
+
+.smuLp .testi-read {
+  background: transparent;
+  padding: 8px 0;
+  text-align: right;
+  text-decoration: underline;
+  color: #8a9f4f;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.smuLp .testi-wrap img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.smuLp .testimonial-section li:first-child .testi-wrap img,
+.smuLp .testimonial-section li:nth-child(2) .testi-wrap img,
+.smuLp .testimonial-section li:nth-child(5) .testi-wrap img {
+  -o-object-position: 0 10%;
+     object-position: 0 10%;
+}
+
+.smuLp .testi-wrap.active .content-wrap .testimonial-desc.default {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+
+.smuLp .testi-wrap.active .content-wrap .testimonial-desc {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.smuLp .testi-wrap .name-course .name {
+  font-size: 13px;
+}
+
+.smuLp .testi-wrap .name-course .course {
+  font-size: 11px;
+}
+
+.smuLp .testi-wrap .course-wrap.layout-vertical .name-course {
+  width: 58%;
+}
+
+.scholarship-flex-container.primaryBg {
+  background-color: #f5ffd9;
+}
+
+.scholarship-flex-container .request-callback span {
+  transition: all ease-in-out 0.3s;
+  background-color: #131212;
+  border: none;
+  color: white;
+}
+.scholarship-flex-container .request-callback span:hover {
+  border: none;
+  background: transparent linear-gradient(90deg, #ff6600 0%, #ff5204 0%, #ff270d 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.course-card-container .course-card.mahe .text-div .heading {
+  background: #e1efba;
+}
+.course-card-container .course-card.mahe .text-div .heading svg path {
+  fill: #4a581a;
+}
+.course-card-container .course-card.mahe .text-div .heading span {
+  color: #4a581a;
+}
+
+.maherow .course-card:first-child {
+  display: none !important;
+}
+.maherow .course-card:nth-child(2) {
+  margin-left: 0;
+}
+
+.rankings .rankingSlider .line-items .image img {
+  height: auto;
+  width: auto;
+}
+.smu-mba-om-advantages .line-items {
+  margin: 0 6px 6px !important;
+}
+
+.muj-landing-page-banner {
+  background: url("../images/collection-mba/Desktop-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-template-lp-page-mahe-new .smu-text-container .ugc-container img.iirf {
+  width: 6.8vw;
+}
+.page-template-lp-page-mahe-new .smu-head-banner2 {
+  font-size: 2.47vw;
+  line-height: 3vw;
+  font-weight: bold;
+  letter-spacing: 0.028vw;
+  color: #f7f7f7;
+}
+.page-template-lp-page-mahe-new .smu-head-banner2 .uni-name {
+  color: #f7f7f7 !important;
+}
+.page-template-lp-page-mahe-new .smu-head-banner2 .uni-name2 {
+  color: #f7f7f7 !important;
+}
+.page-template-lp-page-mahe-new .courses-list2 {
+  color: #3f2b55;
+  background: #f0e3fd;
+  font-size: 1.18vw;
+  letter-spacing: 0px;
+  line-height: 1.32vw;
+  padding: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 2px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.page-template-lp-page-mahe-new .smuMujbanner-holder .left .slick-dots {
+  bottom: 5%;
+  position: absolute;
+}
+.page-template-lp-page-mahe-new .courses-list {
+  font-size: 1.18vw;
+  color: #ff6600;
+  letter-spacing: 0px;
+  line-height: 1.32vw;
+  margin-top: 10px;
+  background: #fee8da;
+  padding: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 2px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.page-template-lp-page-mahe-new .subject-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #343634;
+  font-weight: bold;
+}
+.page-template-lp-page-mahe-new .banner-btn-container {
+  padding-top: 20px;
+}
+
+.dateHightlight {
+  background: #4A5373 !important;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.omadvantages-section-split .oma-card .om-left {
+  background-color: transparent;
+  border: 1px solid #EAEFF5;
+  padding: 35px 32px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.omadvantages-section-split .oma-card .om-left .box1 p span, .omadvantages-section-split .oma-card .om-left .box2 p span {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #1c1c1c;
+}
+.omadvantages-section-split .oma-card .om-left .box1 p, .omadvantages-section-split .oma-card .om-left .box2 p {
+  color: #535353;
+}
+
+.omadvantages-section-split .oma-card .om-right img {
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.placement-sect {
+  background: transparent;
+  padding: 0;
+}
+.placement-sect .section-title {
+  color: #343634;
+}
+.placement-sect .section-title span {
+  color: #343634;
+}
+.placement-sect .placement-sect-slider {
+  padding: 0px;
+}
+.placement-sect .placement-sect-slider .placement-sect-logo-slider {
+  padding: 0;
+  border-radius: 0 !important;
+}
+.placement-sect .disclaimer-text {
+  color: #B5B1B1;
+}
+
+.career-support-details {
+  padding: 20px 18px 30px 18px;
+}
+
+.career-support-image {
+  height: auto;
+}
+.career-support-image img {
+  border-radius: 0;
+}
+
+.career-support-div .career-support-container {
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: inherit;
+  margin: 0 12px 0 0;
+  border: 1px solid #e6eaee;
+}
+
+.career-support-sect .career-support-div .slick-track {
+  display: flex;
+  justify-content: space-between;
+}
+.career-support-sect .slick-list {
+  margin: 0 !important;
+}
+.career-support-sect .mobilefontsize {
+  color: #09143E;
+  line-height: 18px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.career-support-sect .career-support-text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #343634;
+}
+.career-support-sect .know-more-text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.enroll-form {
+  background: linear-gradient(-45deg, #0522D2 0%, #09143E 30%);
+}
+
+.course-card-container {
+  gap: 16px;
+}
+.course-card-container .course-card-mba {
+  flex-basis: 33.33%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #EAEFF5;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+.course-card-container .course-card-mba .img-div {
+  position: relative;
+}
+.course-card-container .course-card-mba .img-div img {
+  width: 100%;
+  height: auto;
+}
+.course-card-container .course-card-mba .img-div span {
+  background-color: #3f2b55;
+  color: #ffffff;
+  padding: 5px 20px;
+  font-size: 10px;
+  letter-spacing: 2.2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 0px 2px 2px 0px;
+}
+.course-card-container .course-card-mba .course-info-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #ffffff;
+}
+.course-card-container .course-card-mba .course-info-container .heading {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.course-card-container .course-card-mba .course-info-container .heading img {
+  flex: 0 0 20px;
+  width: 20px;
+  margin: 0;
+  height: 20px;
+}
+.course-card-container .course-card-mba .course-info-container .heading span {
+  color: #343634;
+  font-weight: bold;
+}
+.course-card-container .course-card-mba .course-info-container .heading-section {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.course-card-container .course-card-mba .course-info-container .uni-name {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 5px 0 20px;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 0px 0px 5px 5px;
+  margin: 5px 0px;
+  text-align: left;
+}
+.course-card-container .course-card-mba .course-info-container .emi {
+  margin: 0px -20px;
+  background-color: #4A5373;
+  padding: 5px;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+}
+.course-card-container .course-card-mba .course-info-container .emi .label {
+  letter-spacing: 3.08px;
+}
+.course-card-container .course-card-mba .course-info-container .emi .fee {
+  letter-spacing: 0.14px;
+}
+.course-card-container .course-card-mba .course-info-container .emi span {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.course-card-container .course-card-mba .course-info-container .course-fees {
+  width: 100%;
+}
+.course-card-container .course-card-mba .course-info-container .line-item {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.course-card-container .course-card-mba .course-info-container .line-item.d-flex {
+  display: flex;
+  gap: 26px;
+}
+.course-card-container .course-card-mba .course-info-container .line-item .label {
+  display: flex;
+  font-size: 12px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  gap: 5px;
+  margin-bottom: 5px;
+  color: #343634;
+}
+.course-card-container .course-card-mba .course-info-container .line-item .label img {
+  margin: 0;
+  height: 16px;
+}
+.course-card-container .course-card-mba .course-info-container .line-item .fee {
+  color: #535353;
+}
+.course-card-container .course-card-mba .course-info-container .line-item .feeText {
+  font-weight: bold;
+  color: #ff6600;
+}
+.course-card-container .course-card-mba .course-info-container .btn {
+  border-radius: 2px;
+  text-decoration: none;
+  background: #08143E;
+  font-weight: bold;
+  padding: 11px;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  width: 40%;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.course-card-container .course-card-mba .course-info-container .btn:hover {
+  background: #DB1800;
+}
+.course-card-container .course-card-mba .course-info-container .enroll-btn {
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+  display: block;
+}
+.course-card-container .course-card-mba .course-info-container .prog-link {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  color: #343634;
+  margin-left: 26px;
+}
+.course-card-container .course-card-mba .course-info-container .prog-link:hover {
+  color: #ff6600;
+}
+.course-card-container .course-card-mba .course-info-container .brochure_wrap .btn {
+  background: #343634;
+  color: #ffffff;
+}
+.course-card-container .course-card-mba .course-info-container .brochure_wrap .btn:hover {
+  background: #09143E;
+}
+.course-card-container .course-card-mba .course-info-container .brochure_wrap .enroll-btn .btn {
+  background: #d8d8d8;
+  color: linear-gradient(180deg, #ff6600 0%, #FF5204 0%, #FF270D 100%);
+}
+.course-card-container .course-card-mba .course-info-container .brochure_wrap .enroll-btn .btn:hover {
+  background: #B5B1B1;
+}
+.course-card-container .course-card-mba .course-info-container .brochure_wrap .prog-link {
+  margin-bottom: 0;
+}
+.course-card-container .course-card-mba .course-info-container .info-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item {
+  padding: 12px 0;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .fontBold {
+  color: #343634;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item span {
+  display: block;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .download-btn {
+  color: #1c1c1c;
+  text-align: center;
+  font-weight: bold;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item svg {
+  width: 14px;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .label {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #343634;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .label img {
+  margin: 0;
+  height: 14px;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item:last-child {
+  padding-bottom: 0;
+  margin-top: auto;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .elective-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.course-card-container .course-card-mba .course-info-container .info-list .list-item .elective-list .item {
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  list-style: none;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  color: #535353;
+  background-color: #f7f7f7;
+}
+.course-card-container .course-card-mba .course-info-container .view-more {
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #343634;
+  margin-top: 7.28px;
+  font-size: 16px;
+}
+.course-card-container .course-card-mba .course-info-container .view-more img {
+  margin: 0;
+}
+.course-card-container .course-card-mba .course-info-container .electives_wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.course-card-container .course-card-mba .course-info-container .download-broucher {
+  display: flex !important;
+}
+.course-card-container .course-card-mba .course-info-container .electives_wrap .elective-list li:nth-child(1),
+.course-card-container .course-card-mba .course-info-container .electives_wrap .elective-list li:nth-child(2),
+.course-card-container .course-card-mba .course-info-container .electives_wrap .elective-list li:nth-child(3),
+.course-card-container .course-card-mba .course-info-container .electives_wrap.show-content li,
+.course-card-container .course-card-mba .course-info-container .brochure_wrap.show-content {
+  display: block;
+}
+.course-card-container .course-card-mba .course-info-container .btn-enroll-program {
+  margin: 14.75px -20px 0px -20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.course-card-container .course-card-mba .course-info-container .fee-section {
+  margin: 0px -20px;
+  padding: 0px 20px;
+  background-color: #f5f7fa;
+  border-radius: 5px;
+}
+.course-card-container .course-card-mba .course-info-container .elective-sec {
+  width: auto;
+}
+.course-card-container .course-card-mba .course-info-container .elective {
+  display: flex;
+  gap: 5px;
+  margin-top: 20.2px;
+}
+.course-card-container .course-card-mba .course-info-container .elective img {
+  margin: 0px;
+}
+.course-card-container .course-card-mba .course-info-container .elective span {
+  letter-spacing: 1.64px;
+  font-size: 12px;
+  color: #343634;
+}
+.course-card-container .course-card-mba .course-info-container .duration {
+  text-align: ends;
+}
+.course-card-container .course-card-mba .course-info-container .duration-sec {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20.2px;
+}
+.course-card-container .course-card-mba .course-info-container .duration-sec span {
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #343634;
+}
+.course-card-container .course-card-mba .course-info-container .durationText {
+  display: flex;
+  justify-content: end;
+  letter-spacing: 0.14px;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+/*Elective popup*/
+.overlay-content .popupElectives {
+  max-width: 530px;
+  align-items: start !important;
+  width: auto;
+  height: auto;
+  bottom: auto !important;
+  justify-content: center;
+}
+.overlay-content .popupElectives .popupContainer {
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex: 0 0 100%;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba {
+  background: transparent;
+  margin: 0;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .info-list .list-item {
+  border: 0;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .info-list .list-item .label {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+  color: #343634;
+  text-transform: capitalize;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .electives_wrap .elective-list li {
+  display: block;
+  color: #535353;
+  background-color: #f7f7f7;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .brochure_wrap {
+  display: block;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .brochure_wrap .btn {
+  background: #343634;
+  color: #ffffff;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .brochure_wrap .btn:hover {
+  background: #DB1800;
+}
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .brochure_wrap .prog-link {
+  font-weight: bold;
+}
+
+.overlay-content.popupElectives {
+  max-width: 530px;
+  align-items: start !important;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.page-template-lp-page-collection-mba .cat.hide {
+  display: block;
+}
+
+.latest-blogs .container {
+  margin: 0;
+}
+
+.courseDetails .description {
+  color: #09143E;
+}
+.courseDetails .courseInfo {
+  padding-bottom: 14.75px;
+}
+.courseDetails .courseInfo .right {
+  background-image: url("../images/collection-mba/collection-bg.png");
+  flex-basis: 100%;
+  background-size: cover;
+  padding: 20px 45px 47px;
+}
+
+.benefit-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+  margin-left: 0px;
+}
+
+.program-benefits {
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin-left: 0px;
+  margin-top: 37px;
+}
+.program-benefits li {
+  flex: 0 0 30%;
+  display: flex;
+  align-items: center;
+}
+.program-benefits li span {
+  color: #ffffff;
+  width: 120px;
+  font-size: 14px;
+}
+.program-benefits li img {
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+.program-benefits li div {
+  margin: 0 15px 0 0;
+  width: 50px;
+  text-align: center;
+}
+
+.rankings .tabs {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  overflow: auto;
+}
+.rankings .tabs::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #efefef;
+  content: " ";
+  display: block;
+  z-index: 0;
+}
+.rankings .tablinks {
+  cursor: pointer;
+  background: none;
+  padding: 12px 0;
+  margin-right: 20px;
+  color: #d8d8d8;
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+.rankings .tablinks.active {
+  border-bottom: 4px solid #343634;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+.section-title {
+  color: #343634;
+}
+.section-title span {
+  color: #343634;
+}
+
+.course-card-container .course-card-mba .course-info-container .elective-sec .section {
+  text-decoration: underline;
+}
+
+.smuMujbanner-holder .right .form-block .form-heading {
+  width: 79%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 17px;
+  color: #ffffff;
+  letter-spacing: 0.16px;
+  font-weight: bold;
+}
+
+.course-card-container .course-card-mba .course-info-container .pop-up {
+  display: block !important;
+}
+
+.overlay-content .popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .download-broucher {
+  display: flex !important;
+}
+
+.course-section.institute-course-section .overlay-content.popupElectives .popupContainer .course-card-container .elective-section {
+  flex-basis: unset !important;
+}
+
+footer {
+  background: #070e2b;
+}
+
+.rfi-form .fieldGroup .iti--separate-dial-code .iti__selected-flag {
+  border: 0;
+  background: #d8d8d8;
+}
+
+.rankings .rankingSlider .line-items {
+  padding: 12px 12px;
+  border: 0;
+}
+.rankings .rankingSlider .line-items .topBar .rank {
+  background: #4A5373;
+}
+.rankings .rankingSlider .line-items .title {
+  color: #000000;
+}
+
+.question.Faq_title h4, .answer.Faq_accordian_data p {
+  color: #535353;
+}
+
+.course-card-container .course-card .text-div .title {
+  border-top: 0;
+}
+
+.wrapper.no-sidebar .testimonial {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: -9.5%;
+  margin-right: -9.5%;
+}
+.wrapper.no-sidebar .testimonial .container {
+  margin: 0 8%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+  padding: 0 8%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+  left: 6%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+  right: 7%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-dots {
+  padding-left: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial .container {
+  margin: 0 !important;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .slick-list {
+  padding: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .slick-next {
+  right: -20px;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .slick-prev {
+  left: -25px;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .slick-dots {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .testi-wrap .content-wrap {
+  padding: 20px 20px;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .testi-wrap .content-wrap .testimonial-desc.default {
+  -webkit-line-clamp: 4;
+  max-height: 72px;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .testi-wrap .name-course .name {
+  font-size: 13px;
+}
+.wrapper.no-sidebar .testimonial .testimonial .testimonial-section .testi-wrap .course-wrap.layout-vertical .name-course {
+  width: 58%;
+}
+
+.otp-verification-block {
+  padding: 0;
+}
+.otp-verification-block .details {
+  padding: 10px 24px;
+  margin-bottom: 10px;
+}
+
+.course-section .course-nav-pane-container nav#tile-1 .nav-tabs {
+  width: 100% !important;
+}
+
+.course-card-container .course-card .thumbnail-div {
+  display: none;
+}
+
+.page-template-lp-page-degree-courses .course-card-container.course-card-second-row {
+  display: flex;
+}
+
+.smuMujbanner-holder .existingLeadsMsg .details .right {
+  background: transparent;
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2561px) {
+  .muj-landing-page-banner,
+  .smubanner {
+    min-height: 500px !important;
+  }
+  .latest-blogs .container {
+    margin: 0 !important;
+  }
+  .overlay-content.popupenrollnow,
+  .overlay-content.popupdownloadform {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  .smuLp .wrapper .leftContainer,
+  header {
+    padding: 0 10% !important;
+  }
+  .muj-landing-page-banner,
+  .smubanner {
+    min-height: 500px !important;
+  }
+  .latest-blogs .container {
+    margin: 0 !important;
+  }
+  .wrapper.no-sidebar .testimonial {
+    margin-left: -16.5%;
+    margin-right: -15.5%;
+  }
+  .wrapper.no-sidebar .testimonial .container {
+    margin: 0 12.5% !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 12.5%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+    left: 11%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+    right: 12%;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .smuLp .wrapper .leftContainer {
+    padding: 0 10% !important;
+  }
+  .container {
+    margin: 0 !important;
+  }
+  footer .container {
+    margin: 0 10% !important;
+  }
+  .wrapper.no-sidebar .testimonial {
+    margin-left: -12.5% !important;
+    margin-right: -12.5% !important;
+  }
+  .wrapper.no-sidebar .testimonial .container {
+    margin: 0 10% !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 10%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+    left: 8.5%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+    right: 9%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .smuMujbanner-holder .right .form-block {
+    padding: 1vw 3vw;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+  .smuLp .wrapper .leftContainer {
+    padding: 0 4% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .smuLp .wrapper .leftContainer {
+    padding: 0 3.34vw !important;
+  }
+  .enroll-form {
+    padding: 20px 0 !important;
+    margin: 0;
+    background: linear-gradient(-10deg, #0522D2 0%, #09143E 30%) !important;
+  }
+  .testimonial-section.slick-dotted.slick-slider {
+    margin-bottom: 30px !important;
+  }
+  .bottomMargin {
+    margin-bottom: 30px !important;
+  }
+  .global-impact-sect {
+    margin: 0 3.34vw;
+  }
+  .home-scholarship-sect {
+    margin: 0 3.34vw;
+  }
+  .overlay-content.popupleadForm {
+    width: 95%;
+    padding: 30px 0;
+  }
+  footer .copyright-container {
+    justify-content: center;
+  }
+  footer .contact-us-container .footer-menu-container {
+    margin-top: 15px;
+  }
+  .smuMujbanner-holder {
+    flex-direction: column;
+  }
+  .smuMujbanner-holder .left {
+    width: 100%;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner {
+    background: url("../images/lp-smu/MUJ-Banner-Mobile-new2.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    aspect-ratio: 820/500;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .sliderText {
+    margin: 0px 4vw 5.12%;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .sliderText img {
+    width: 200px;
+    margin-left: 10px;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .sliderText h1 {
+    font-size: 4.6vw;
+    padding: 20px 10px 10px;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 4vw 0px 4vw 5.12%;
+    gap: 5px;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container p.courses-list {
+    font-size: 12px !important;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container p.courses-list strong {
+    font-size: 12px !important;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .fav-text-first {
+    font-size: 2.5vw !important;
+    line-height: 3.77vw;
+    letter-spacing: 0px;
+    color: #1c1c1c;
+    font-weight: bold;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .smu-head {
+    display: block;
+    letter-spacing: 0.22px;
+    line-height: 5.8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .uni-name {
+    font-family: "Sabon LT Std";
+    display: inline-block;
+    font-size: 5.5vw;
+    line-height: 5.8vw;
+    letter-spacing: 0.24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .uni-name2 {
+    display: block;
+    font-family: "Sabon LT Std" !important;
+    font-style: italic !important;
+    letter-spacing: 0.22px;
+    line-height: 5.8vw;
+    font-size: 5.5vw !important;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .banner-btm-text {
+    display: flex;
+    flex-direction: row;
+    gap: 3.32vw;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .nac-container {
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+    display: flex;
+    align-items: center;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .nac-container img {
+    width: 7.05vw;
+    max-height: 7.05vw;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .nac-container p.nac-txt1 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw !important;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .nac-container .nac-txt2 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .ugc-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .ugc-container img {
+    width: 6vw;
+    max-height: 6vw;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .ugc-container p.ugc-txt1 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw !important;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+    margin-top: 0;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner .smu-text-container .ugc-container .ugc-txt2 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  .smuMujbanner-holder .left .smubanner {
+    background: url("../images/lp-smu/SMU-Banner-Mobile-new2.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    aspect-ratio: 820/500;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 4vw 0px 4vw 5.12%;
+    gap: 5px;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container p.courses-list {
+    font-size: 12px !important;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container p.courses-list strong {
+    font-size: 12px !important;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .fav-text-first {
+    font-size: 2.5vw !important;
+    line-height: 3.77vw;
+    letter-spacing: 0px;
+    color: #1c1c1c;
+    font-weight: bold;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .smu-head {
+    display: block;
+    letter-spacing: 0.22px;
+    line-height: 5.8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .uni-name {
+    font-family: "Sabon LT Std";
+    display: inline-block;
+    font-size: 5.5vw;
+    line-height: 5.8vw;
+    letter-spacing: 0.24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .uni-name2 {
+    display: block;
+    font-family: "Sabon LT Std" !important;
+    font-style: italic !important;
+    letter-spacing: 0.22px;
+    font-size: 5.5vw;
+    line-height: 5.8vw;
+    font-weight: bold;
+    color: #343434;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .banner-btm-text {
+    display: flex;
+    flex-direction: row;
+    gap: 3.32vw;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .nac-container {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+    display: flex;
+    align-items: center;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .nac-container img {
+    width: 7.05vw;
+    max-height: 7.05vw;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .nac-container p.nac-txt1 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw !important;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .nac-container .nac-txt2 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .ugc-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .ugc-container img {
+    width: 6vw;
+    max-height: 6vw;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .ugc-container p.ugc-txt1 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw !important;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-left: 0.645vw;
+    margin-top: 0;
+  }
+  .smuMujbanner-holder .left .smubanner .smu-text-container .ugc-container .ugc-txt2 {
+    display: block;
+    letter-spacing: 0px;
+    line-height: 2.15vw;
+    font-size: 2.1vw;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  .smuMujbanner-holder .right {
+    width: 100%;
+  }
+  .smuMujbanner-holder .enroll-form .formSection {
+    flex-direction: column;
+  }
+  .formSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .formSection .left h3 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .formSection .left p {
+    text-align: center;
+  }
+  .formSection .left .program {
+    font-size: 28px;
+    line-height: 30px;
+    padding-bottom: 5px;
+  }
+  .formSection .websiteForm {
+    margin: 0;
+  }
+  .enroll-form .formSection {
+    margin: 0 3.34vw;
+  }
+  .dateHightlight .left div:first-child {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 0;
+  }
+  .dateHightlight span {
+    font-size: 14px;
+  }
+  .mba-om-avantages .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .smuMujbanner-holder .left .muj-landing-page-banner {
+    background: url("../images/collection-mba/Mobile-Banner.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    aspect-ratio: 820/422;
+  }
+  .smuMujbanner-holder .left .smubanner {
+    background: url("../images/collection-mba/Mobile-Banner.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    aspect-ratio: 820/422;
+  }
+  .uni-program {
+    display: block;
+    letter-spacing: 0.22px;
+    line-height: 5.8vw;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #343434;
+  }
+  .courses-list2 {
+    font-size: 2.15vw !important;
+    line-height: 0.878vh !important;
+    font-weight: bold;
+  }
+  .smu-head-banner2 {
+    display: block;
+    letter-spacing: 0.22px;
+    line-height: 5.8vw !important;
+    font-size: 5vw !important;
+    font-weight: bold;
+    color: #f7f7f7;
+  }
+  .smu-head-banner2 .uni-name {
+    color: #f7f7f7 !important;
+  }
+  .smu-head-banner2 .uni-name2 {
+    color: #f7f7f7 !important;
+  }
+  .courses-list {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    margin-top: 0 !important;
+    display: inline-block;
+    padding: 4px !important;
+  }
+  .subject-text {
+    font-size: 10px !important;
+    line-height: 12px !important;
+  }
+  .banner-btn-container {
+    padding-top: 10px !important;
+    gap: 0 4.8vw !important;
+  }
+  .sub-title {
+    padding: 2px;
+  }
+  .page-template-lp-page-degree-courses .course-card-container .course-card .text-div .institute {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .overlaymb {
+    height: 100%;
+  }
+  footer .footer-contact-container .contact-us-container .footer-menu-container .social-media {
+    margin-top: 0;
+  }
+  .rfi-form .fieldGroup input, .rfi-form .fieldGroup option, .rfi-form .fieldGroup select {
+    font-size: 16px !important;
+  }
+  .otp-verification-block input {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .smu-text-container p.courses-list {
+    font-size: 11px !important;
+    line-height: 11px !important;
+    margin-top: 0 !important;
+    padding: 5px !important;
+    max-width: 63%;
+  }
+  .smu-text-container .smubanner,
+  .smu-text-container .muj-landing-page-banner {
+    background-position: 11px 0 !important;
+  }
+  .smu-text-container .nac-container img,
+  .smu-text-container .ugc-container img,
+  .smu-text-container .ugc-container img.iirf {
+    width: 20px !important;
+  }
+  .career-support-sect .career-support-div {
+    margin: 0 -3.34vw !important;
+  }
+  .career-support-sect .career-support-div .career-support-container {
+    margin: 0 4px;
+  }
+  .career-support-sect .career-support-div .career-support-container:first-child {
+    margin: 0 4px 0 0;
+  }
+  .career-support-sect .career-support-div .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .course-card-container {
+    margin: 0 -3.34vw !important;
+  }
+  .course-card-container .slick-list {
+    padding: 0 10vw 0 3.34vw !important;
+  }
+  .course-card-container .course-card-mba {
+    flex-basis: auto;
+    margin: 0 3px;
+  }
+  .course-card-container .course-card-mba .course-info-container .info-list .list-item {
+    padding: 6px 0;
+    border-top: 0;
+  }
+  .course-section .course-filter-results .course-card-container {
+    margin: 0 !important;
+  }
+  .muj-landing-page-banner .smu-text-container .banner-btn {
+    margin-top: 0;
+    background: transparent;
+    padding: 0;
+  }
+  .muj-landing-page-banner .smu-text-container .banner-btn span {
+    font-weight: bold;
+    color: linear-gradient(180deg, #ff6600 0%, #FF5204 0%, #FF270D 100%);
+    text-decoration: underline;
+  }
+  .section-title {
+    font-size: 22px !important;
+    text-align: left;
+  }
+  .section-title span {
+    font-size: 24px !important;
+    text-align: left;
+    display: inline !important;
+  }
+  .formSection {
+    align-items: start;
+  }
+  .formSection .left h3 {
+    font-size: 22px;
+    display: inline-block;
+  }
+  .formSection .left .program {
+    font-size: 24px;
+    display: inline-block;
+  }
+  .formSection .left p {
+    text-align: left;
+  }
+  .omadvantages-section-split .omadvantage-cards {
+    margin: 0 -8px;
+  }
+  .courseOverview .courseDetails h1.section-title {
+    text-align: left !important;
+    font-size: 24px;
+    color: #343634;
+  }
+  .courseDetails .courseInfo .right {
+    padding: 32px 17px;
+  }
+  .program-benefits li {
+    font-size: 13px;
+    flex: 0 0 45%;
+  }
+  .program-benefits li div {
+    margin: 0 4px 0 0;
+    width: auto;
+  }
+  .overlay-content.popupleadForm,
+  .overlay-content.popupenrollnow,
+  .overlay-content.popupdownloadform {
+    height: auto;
+    padding: 0px;
+  }
+  .overlay-content.popupleadForm .websiteForm,
+  .overlay-content.popupenrollnow .websiteForm,
+  .overlay-content.popupdownloadform .websiteForm {
+    padding: 14px;
+  }
+  .overlay-content.popupenrollnow,
+  .overlay-content.popupdownloadform {
+    width: 95%;
+  }
+  .rankings .rankingSlider .line-items {
+    padding: 5px !important;
+  }
+  .rankings .rankingSlider .line-items .img-text {
+    margin-bottom: 10px;
+  }
+  .overlay-content.popupleadForm .popupContainer .popup-text .scroll-text h4, .overlay-content.popupenrollnow .popupContainer .popup-text .scroll-text h4, .overlay-content.popupdownloadform .popupContainer .popup-text .scroll-text h4 {
+    font-size: 20px;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section {
+    margin: 0 -3.34vw !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 3.34vw !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .smuLp .rankings .rankingSlider {
+    margin-left: -3.34vw !important;
+    margin-right: -3.34vw !important;
+  }
+  footer .footer-contact-container .contact-us-container {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .course-card-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0;
+  }
+  .course-nav-container-mobile {
+    margin-right: -50px !important;
+    overflow-x: visible;
+  }
+  .nav-tabs-mobile {
+    width: 100%;
+  }
+  .muj-landing-page-banner .sliderText img {
+    margin-left: 0;
+  }
+  .about-the-placement-section {
+    margin: 0 35px;
+  }
+  .about-the-placement-section .career-text {
+    text-align: center;
+  }
+  .about-the-placement-section .about-text {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .smu-mba-om-advantages {
+    margin: 0;
+  }
+  .smu-mba-om-advantages .mba-om-avantages {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .smu-mba-om-advantages .line-items h6 {
+    min-height: 0px !important;
+  }
+  .career-placement-section {
+    margin: 0px 35px 6px;
+  }
+  .career-placement-section .slick-list {
+    margin-right: 0px;
+    padding: 0px 3.34vw !important;
+  }
+  .course-section .section-title span {
+    display: block;
+  }
+  .testimonial-section .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .smu-mba-om-advantages .mba-om-avantages .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .rankings .rankingSlider .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  header {
+    padding: 12px 3.34vw;
+  }
+  .career-support-details {
+    padding: 10px;
+  }
+  .career-support-details h6 {
+    font-size: 12px !important;
+    line-height: 14px;
+  }
+  .career-support-text {
+    font-size: 14px !important;
+    line-height: 16px;
+    color: #535353;
+  }
+  .omadvantages-section-split {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .course-card-container .course-card-mba .img-div img {
+    height: 16vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .latest-blogs {
+    padding: 0 0 !important;
+  }
+  .omadvantages-section-split .oma-card .om-left {
+    gap: 10px;
+  }
+  .courseDetails .courseInfo .right {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -185px 0.16vw;
+  }
+  .program-benefits li span {
+    width: 130px;
+  }
+  .program-benefits li {
+    gap: 6px;
+  }
+  .benefit-title {
+    margin: 0px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .course-card-container .course-card-mba .course-info-container .heading span {
+    letter-spacing: 0px;
+  }
+  .course-card-container .course-card-mba .course-info-container .emi .label {
+    letter-spacing: 3.08px;
+  }
+  .course-card-container .course-card-mba .course-info-container .emi .fee {
+    letter-spacing: 0.14px;
+  }
+  .course-card-container .course-card-mba .course-info-container .elective-sec {
+    width: auto;
+    margin-top: 10px;
+  }
+  .course-card-container .course-card-mba .course-info-container .elective-sec .section {
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  .course-card-container .course-card-mba .course-info-container .view-more {
+    display: flex;
+    gap: 5px;
+  }
+  .course-card-container .course-card-mba .course-info-container .view-more span {
+    color: #343634;
+    font-size: 12px;
+  }
+  .course-card-container .course-card-mba .course-info-container .view-more .specialization {
+    margin-right: -44px;
+  }
+  .course-card-container .course-card-mba .course-info-container .electives_wrap {
+    gap: 85px;
+  }
+  .course-card-container .course-card-mba .course-info-container .line-item.d-flex .list-item .fontBold {
+    margin-left: -5px;
+  }
+  .rankings .rankingSlider .line-items .topBar .rank {
+    font-size: 8px !important;
+  }
+  .rankings .rankingSlider .line-items .title {
+    font-size: 10px;
+  }
+  .rankings .rankingSlider .line-items {
+    background: #f5f7fa;
+    margin: 0px 2px;
+  }
+  .bottomMargin .section-title {
+    font-size: 22px !important;
+    color: #343634;
+  }
+  .bottomMargin .section-title span {
+    color: #1c1c1c;
+  }
+  .formSection .fieldGroup input::-moz-placeholder {
+    color: #343634;
+  }
+  .formSection .fieldGroup input::placeholder {
+    color: #343634;
+  }
+  .formSection .termsField label {
+    color: #343634 !important;
+  }
+  .ranking {
+    padding-bottom: 0px !important;
+  }
+  .course-card-container .course-card-mba .course-info-container .prog-link {
+    font-size: 16px;
+  }
+  .formSection .fieldGroup input {
+    background: #efefef !important;
+  }
+  .omadvantages-section-split .oma-card .om-left,
+  .omadvantages-section-split .oma-card .om-right {
+    border-radius: 5px;
+  }
+  .omadvantages-section-split .oma-card .om-left {
+    padding: 20px;
+  }
+  .omadvantages-section-split .oma-card .om-right img {
+    border-radius: 5px 5px 0 0;
+  }
+  .overlay-content.popupElectives {
+    transform: translateX(0%);
+  }
+  .overlay-content.popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .download-broucher {
+    display: block !important;
+  }
+  .overlay-content.popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .download-broucher .btn {
+    width: 100% !important;
+  }
+  .overlay-content.popupElectives .popupContainer .course-card-container .course-card-mba .course-info-container .download-broucher .prog-link {
+    margin-left: 0px !important;
+  }
+  .smuMujbanner-holder .right .form-block .form-heading {
+    width: 58%;
+    margin-left: 66px;
+  }
+  .rankings .rankingSlider .line-items .image {
+    padding: 0px;
+  }
+  .overlay-content.popupleadForm .popupContainer .popup-text,
+  .overlay-content.popupenrollnow .popupContainer .popup-text,
+  .overlay-content.popupdownloadform .popupContainer .popup-text {
+    padding: 10px 20px 10px 20px;
+  }
+  .overlay-content.popupleadForm .popupContainer .popup-text img,
+  .overlay-content.popupenrollnow .popupContainer .popup-text img,
+  .overlay-content.popupdownloadform .popupContainer .popup-text img {
+    margin-bottom: -10px;
+  }
+  .course-card-container .course-card-mba .course-info-container .uni-name {
+    min-height: 36px;
+  }
+  .omadvantages-section-split .oma-card {
+    margin: 0 8px;
+  }
+  div.lp-mobile-course-cards .tab {
+    border-bottom-color: transparent !important;
+  }
+  .lp-mobile-course-cards .tab:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background: #efefef;
+    bottom: 0px;
+    left: 0;
+    z-index: 0;
+  }
+  .lp-mobile-course-cards .tab.muj button {
+    position: relative;
+    z-index: 1;
+    border-bottom-color: transparent !important;
+  }
+  .courseDetails .courseInfo {
+    padding-bottom: 28px;
+  }
+  .institute-course-section {
+    padding: 0 !important;
+  }
+  .career-support-sect .know-more-text {
+    padding-top: 0;
+  }
+  .course-section {
+    padding: 0px 0;
+  }
+  .duration-sec img {
+    width: 16px;
+    height: 16px;
+  }
+  .testimonial-section .slick-list {
+    margin-right: 0px;
+    padding: 0px 3.34vw !important;
+  }
+  .wrapper.no-sidebar .testimonial {
+    margin-left: 0;
+    margin-right: -3.34vw;
+    padding: 0;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-dots {
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-top: 12px;
+  }
+  .program-benefits {
+    justify-content: space-between;
+  }
+  .overlay-content.popupdownloadform h5 {
+    padding: 0 24px 0 0;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .smu-text-container p.courses-list {
+    font-size: 11px !important;
+    line-height: 11px !important;
+    margin-top: 0 !important;
+    padding: 5px !important;
+  }
+  .smu-text-container p.courses-list strong {
+    font-size: 11px !important;
+  }
+  .smu-text-container .smubanner,
+  .smu-text-container .muj-landing-page-banner {
+    background-position: 13px 0 !important;
+  }
+  .smu-text-container .nac-container img,
+  .smu-text-container .ugc-container img,
+  .smu-text-container .ugc-container img.iirf {
+    width: 16px !important;
+  }
+  .smubanner .smu-text-container p.courses-list {
+    max-width: 190px !important;
+  }
+  .smuMujbanner-holder .left .slick-dots {
+    bottom: 2px !important;
+  }
+  .dateHightlight {
+    padding: 8px 15px;
+  }
+  .course-card-container .course-card-mba .course-info-container .elective-sec {
+    width: auto;
+  }
+  .course-card-container .course-card-mba .course-info-container .electives_wrap {
+    gap: 70px;
+  }
+  .program-benefits {
+    gap: 0px;
+    margin-top: 8px;
+  }
+  .program-benefits li {
+    margin: 20px 0px;
+  }
+  .rankings .rankingSlider .line-items .image {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .dateHightlight {
+    padding: 12px 12px;
+  }
+  .career-placement-section .slick-list {
+    margin-right: 0px;
+    padding: 0px 3.34vw !important;
+  }
+  .course-type-title {
+    padding: 8px 0 14px 0;
+  }
+  .career-placement-section .career-placement-content {
+    min-height: 190px;
+  }
+  .course-card-container .course-card-mba .course-info-container .elective-sec {
+    width: auto;
+  }
+  .course-card-container .course-card-mba .course-info-container .electives_wrap {
+    gap: 70px;
+  }
+  .program-benefits {
+    gap: 0px;
+    margin-top: 20px;
+  }
+  .program-benefits li {
+    margin: 20px 0px;
+  }
+  .rankings .rankingSlider .line-items .image {
+    padding: 0px;
+  }
+  .program-benefits li {
+    gap: 6px;
+  }
+  .course-card-container .course-card-mba .course-info-container .uni-name {
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .course-card-container .course-card-mba .course-info-container .elective-sec {
+    width: auto;
+  }
+  .course-card-container .course-card-mba .course-info-container .electives_wrap {
+    gap: 70px;
+  }
+  .program-benefits {
+    gap: 0px;
+    margin-top: 20px;
+  }
+  .program-benefits li {
+    margin: 20px 0px;
+  }
+  .program-benefits li span {
+    width: auto;
+  }
+  .rankings .rankingSlider .line-items .image {
+    padding: 0px;
+  }
+  .course-card-container .course-card-mba .course-info-container .uni-name {
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.lp-mobile-course-cards .tab {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  justify-content: start;
+  align-items: center;
+  padding: 0px 0;
+  margin-bottom: 12px;
+  position: relative;
+  border-bottom: 5px solid #efefef !important;
+  margin-right: 0px;
+}
+.lp-mobile-course-cards .tab button {
+  position: relative;
+  margin-right: 0px !important;
+  font-size: 16px;
+  border: none !important;
+  color: #d8d8d8;
+  text-decoration: none;
+  background: none;
+  padding-bottom: 12px;
+  border-bottom: 5px solid #fff !important;
+}
+.lp-mobile-course-cards .tab button:first-child {
+  margin-right: 24px !important;
+}
+.lp-mobile-course-cards .tab button.active {
+  background-color: transparent !important;
+  border-bottom: 5px solid !important;
+  color: #343634 !important;
+}
+
+.lp-mobile-course-cards .tab.muj {
+  overflow-y: scroll;
+}
+.lp-mobile-course-cards .tab.muj button {
+  flex: 0 0 auto;
+  margin-right: 10px !important;
+}
+
+.learn-more-modal.smu.mobile {
+  padding: 0;
+}
+
+.learn-more-modal.smu.mobile .cat-region {
+  padding: 10px 24px;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.learn-more-modal.smu.mobile h5 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.learn-more-modal.smu.mobile .layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-more-modal.smu.mobile .Divyang-cert,
+.learn-more-modal.smu.mobile .valid-cert {
+  width: 50%;
+}
+
+.learn-more-modal.smu.mobile .smallText {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.learn-more-modal.smu.mobile .scholarship-text-center h6 {
+  padding-bottom: 0px;
+}
+
+.learn-more-modal.smu.mobile .close-icon {
+  top: 18px !important;
+}
+
+.popupattractiveScholarshipModal.smu {
+  height: 90%;
+}
+
+.smuLp.mujUG .muj-landing-page-banner {
+  width: 100%;
+}/*# sourceMappingURL=lp-collection-mba.css.map */

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.institution-details {
+  display: flex;
+}
+.institution-details .left {
+  width: 70%;
+  margin-right: 20px;
+}
+.institution-details .right {
+  width: 30%;
+}
+.institution-details .right .websiteForm.Vertical {
+  padding: 45px 20px !important;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.institution-details .right .websiteForm.Vertical .label {
+  display: block;
+  color: #ffffff;
+}
+.institution-details .right .websiteForm.Vertical .expandArrow.close {
+  display: none;
+}
+.institution-details .right p {
+  color: #ffffff !important;
+}
+.institution-details .right .edit {
+  color: #ffffff !important;
+}
+.institution-details .right .edit i {
+  color: #ffffff !important;
+}
+.institution-details .right .resend-otp {
+  color: #ffffff !important;
+}
+.institution-details .right .countdown {
+  color: #ffffff !important;
+}
+.institution-details .wrapper .leftBlock {
+  padding-right: 0;
+  padding-left: 0;
+}
+.institution-details .wrapper .leftBlock .breadcrumb-container {
+  background: none;
+}
+.institution-details .courseDetails .courseInfo .left {
+  margin-right: 0;
+  width: 19.912vw;
+  min-width: 19.912vw;
+}
+.institution-details .courseDetails .courseInfo .left .univ-logo {
+  background: none;
+  border: 1px solid #e6eaee;
+}
+
+.messageBlock .right {
+  background: none;
+  border: 1px solid #e6eaee;
+}
+.messageBlock .right .name {
+  color: #ff6600;
+}
+
+.course-section .course-nav-pane-container nav#tile-1 .nav-tabs {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper.no-sidebar .leftBlock {
+    padding-right: 3.34vw;
+    padding-left: 3.34vw;
+  }
+  .institution-details {
+    flex-direction: column;
+  }
+  .institution-details .left,
+  .institution-details .right {
+    width: 100%;
+  }
+  .institution-details .courseDetails .courseInfo .left,
+  .institution-details .courseDetails .courseInfo .right {
+    width: 100%;
+  }
+  .institution-details .courseDetails .courseInfo .left img,
+  .institution-details .courseDetails .courseInfo .right img {
+    height: unset !important;
+  }
+  .messageBlock .left {
+    flex-basis: 100% !important;
+  }
+  .messageBlock .left img {
+    max-height: unset !important;
+    height: 100%;
+  }
+}/*# sourceMappingURL=institute-page.css.map */

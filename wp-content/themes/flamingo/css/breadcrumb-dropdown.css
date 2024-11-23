@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.breadcrumb-container {
+  background-color: #EAEFF5;
+  padding: 8px 0;
+}
+.breadcrumb-container .institute-bread-drop {
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select {
+  position: relative;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select select.slect {
+  display: none;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select select.slect option {
+  background-color: #f7f7f7;
+  padding: 15px 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 1px solid #919191;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-selected {
+  background-color: none;
+  padding: 5px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #09143E;
+  cursor: pointer;
+  min-width: 266px;
+  border: 1px solid #EAEFF5;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-selected:after {
+  position: absolute;
+  background: url(../images/dropdown-arrow.svg) 0 -13px;
+  background-repeat: no-repeat;
+  content: "";
+  top: 9px;
+  right: 11px;
+  width: 5px;
+  height: 0;
+  border: 6px solid transparent;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-selected.select-arrow-active {
+  background-color: #f7f7f7;
+  box-shadow: #D8D8D8 0px 2px 6px;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-selected.select-arrow-active:after {
+  background: url(../images/dropdown-arrow.svg) 0 0;
+  background-repeat: no-repeat;
+  top: 4px;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-items {
+  position: absolute;
+  background-color: #f7f7f7;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  box-shadow: #D8D8D8 0px 2px 6px;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-items div, .breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-items .same-as-selected {
+  background-color: #f7f7f7;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(145, 145, 145);
+  text-align: left;
+  padding: 5px 0px;
+  border-bottom: 1px solid #e7e7e7;
+  margin: 0 16px;
+  cursor: pointer;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-items div:last-child {
+  border-bottom: none;
+}
+.breadcrumb-container .institute-bread-drop .course-institution .course-dropdown.custom-select .select-hide {
+  display: none;
+}
+.breadcrumb-container .breadcrumb_title {
+  color: #B5B1B1;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0px;
+}
+.breadcrumb-container .breadcrumb_title:last-child {
+  color: #1c1c1c;
+}
+.breadcrumb-container .breadcrumb-seprator {
+  color: #B5B1B1;
+  padding: 0px 8px;
+}/*# sourceMappingURL=breadcrumb-dropdown.css.map */

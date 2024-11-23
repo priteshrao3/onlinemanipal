@@ -1,0 +1,517 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.testimonial-section .slick-prev {
+  left: 6%;
+}
+.testimonial-section .slick-next {
+  right: 7%;
+}
+.testimonial-section .slick-slide {
+  margin: 0 8px;
+  background: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  height: inherit;
+  border: 1px solid #e6eaee;
+}
+.testimonial-section .slick-list {
+  padding: 0 8%;
+}
+.testimonial-section .slick-track {
+  display: flex;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.testi-wrap {
+  overflow: hidden;
+  position: relative;
+  margin: 0 0px;
+  transition: all 0.3s ease-in-out;
+}
+.testi-wrap .content-wrap {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #535353;
+  background: #ffffff;
+  height: 177px;
+  border-radius: 0 0 5px 5px;
+  min-height: 177px;
+  /*-webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;*/
+  transition: 0.3s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+  transform: translateY(0%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+}
+.testi-wrap .content-wrap::after {
+  /*background: #e1efba;
+        content: " ";
+        display: block;
+        left: 0;
+        top: 99%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border-radius: 0 0 5px 5px;*/
+}
+.testi-wrap .content-wrap .testimonial-desc {
+  line-height: 18px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  transition: color 0.5s 0.25s;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.5, 1.03);
+  max-height: 56px;
+  height: 72px;
+  opacity: 1;
+  width: auto;
+  color: #09143E;
+}
+.testi-wrap .content-wrap .testimonial-desc.expanded {
+  color: #ffffff;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin-bottom: 0;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: vertical;
+  overflow: visible;
+  text-overflow: unset;
+  display: -webkit-box;
+}
+.testi-wrap .content-wrap .btm-25 {
+  bottom: 25px;
+}
+.testi-wrap .name-course .name {
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #ff6600;
+}
+.testi-wrap .name-course .course {
+  font-size: 12px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  color: #09143E;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 15px;
+  font-weight: bold;
+}
+.testi-wrap .name-course .batch {
+  font-size: 12px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  color: #09143E;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 15px;
+}
+.testi-wrap .name-course .location {
+  font-size: 12px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  color: #000000;
+  white-space: nowrap;
+  line-height: 15px;
+}
+.testi-wrap .course-wrap.layout-vertical {
+  flex-direction: row;
+  align-items: end;
+}
+.testi-wrap .course-wrap.layout-vertical .name-course {
+  width: 50%;
+  flex: 0 0 auto;
+}
+.testi-wrap .career-transform {
+  margin-top: 20px;
+  margin-bottom: 23px;
+  opacity: 0;
+  flex: 0 0 0;
+  transition: 0.3s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+.testi-wrap .career-transform .previous-designation {
+  opacity: 0.5;
+  font-weight: bold;
+  color: #000000;
+}
+.testi-wrap .career-transform .current-designation {
+  font-weight: bold;
+  color: #000000;
+}
+
+.testi-wrap.active, .testi-wrap.full-txt {
+  height: 100%;
+  padding-bottom: 0;
+}
+.testi-wrap.active .layout-vertical, .testi-wrap.full-txt .layout-vertical {
+  flex-direction: column;
+  height: auto;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.testi-wrap.active .career-transform, .testi-wrap.full-txt .career-transform {
+  opacity: 1;
+  flex: 0 0 auto;
+}
+.testi-wrap.active .content-wrap, .testi-wrap.full-txt .content-wrap {
+  width: 100%;
+  bottom: 0%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 0;
+}
+.testi-wrap.active .content-wrap .testimonial-desc, .testi-wrap.full-txt .content-wrap .testimonial-desc {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+  text-overflow: unset;
+}
+.testi-wrap.active .content-wrap .testimonial-desc.default, .testi-wrap.full-txt .content-wrap .testimonial-desc.default {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+.testi-wrap.active .content-wrap .testimonial-desc.expanded, .testi-wrap.full-txt .content-wrap .testimonial-desc.expanded {
+  opacity: 1;
+  height: auto;
+  width: auto;
+  margin-bottom: 20px;
+  color: #535353;
+  max-height: unset;
+  min-height: unset;
+  overflow: hidden;
+  color: #09143E;
+}
+.testi-wrap.active .course-wrap.layout-vertical .name-course, .testi-wrap.full-txt .course-wrap.layout-vertical .name-course {
+  width: 100%;
+}
+.testi-wrap.active .course-wrap.layout-vertical .name-course .name, .testi-wrap.full-txt .course-wrap.layout-vertical .name-course .name {
+  text-overflow: unset;
+  overflow: visible;
+  white-space: unset;
+}
+.testi-wrap.active .course-wrap.layout-vertical .name-course .course, .testi-wrap.full-txt .course-wrap.layout-vertical .name-course .course {
+  text-transform: uppercase;
+  color: #000000;
+  text-overflow: unset;
+  overflow: visible;
+  white-space: unset;
+}
+
+.testi-wrap.full-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100% !important;
+}
+.testi-wrap.full-txt .testimonial-desc.default {
+  display: none;
+}
+.testi-wrap.full-txt .content-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: unset !important;
+  min-height: unset !important;
+}
+.testi-wrap.full-txt .content-wrap .course-wrap.layout-vertical .name-course .course {
+  color: #09143E;
+}
+
+.testi-wrap.video-testi .content-wrap {
+  padding: 20px 30px;
+  justify-content: center;
+  height: auto;
+  min-height: unset;
+}
+
+.testi-read {
+  background: #c8e27e;
+  padding: 8px 15px;
+  display: inline-block;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  margin-left: auto;
+  font-weight: bold;
+  height: 36px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  color: #09143E;
+}
+
+.testimonial-read {
+  background: transparent;
+  padding: 8px 0;
+  text-align: right;
+  text-decoration: underline;
+  color: #09143E;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.testi-watch {
+  display: flex;
+  align-items: center;
+  color: #09143E;
+  cursor: pointer;
+  text-decoration: none;
+}
+.testi-watch .fa {
+  margin-right: 8px;
+  font-size: 33px;
+  color: #09143E;
+}
+.testi-watch span {
+  text-decoration: underline;
+  color: #09143E;
+}
+.testi-watch:hover .fa {
+  color: #ff6600;
+}
+.testi-watch:hover span {
+  color: #ff6600;
+}
+
+.testimonial-section.slick-dotted.slick-slider {
+  margin-bottom: 50px;
+}
+
+.testi-wrap img {
+  height: auto;
+}
+
+.img-wrap {
+  position: relative;
+  display: block;
+}
+.img-wrap .play-ic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 2;
+  color: #09143E;
+}
+.img-wrap .play-ic::after {
+  content: " ";
+  display: block;
+  width: 25px;
+  height: 25px;
+  left: 8px;
+  position: absolute;
+  background: #ffffff;
+  top: 13px;
+  z-index: -1;
+}
+.img-wrap .play-ic:hover {
+  color: #ff6600;
+}
+.img-wrap .play-ic:hover:after {
+  background: #ffffff;
+}
+.img-wrap .back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(20px);
+  z-index: 0;
+}
+
+.video-testi {
+  cursor: pointer;
+}
+.video-testi img {
+  z-index: 1;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.smu .testimonial .slick-slide .testi-read {
+  background: #fee8da;
+}
+.smu .testimonial .slick-slide .testi-watch .fa,
+.smu .testimonial .slick-slide .testi-watch span {
+  color: #ff6600;
+}
+.smu .testimonial .slick-slide .testi-wrap .content-wrap .testimonial-desc.expanded {
+  color: #EAEFF5;
+}
+.smu .testimonial .slick-slide .testi-wrap.active .content-wrap .testimonial-desc.expanded, .smu .testimonial .slick-slide .testi-wrap.full-txt .content-wrap .testimonial-desc.expanded {
+  color: #535353;
+}
+
+@media only screen and (min-width: 1921px) {
+  .testi-wrap.video-testi .img-wrap {
+    display: block;
+    height: 87%;
+  }
+  .testi-wrap.video-testi img {
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  .testi-wrap.video-testi .img-wrap {
+    display: block;
+    height: 84%;
+  }
+  .testi-wrap.video-testi img {
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .testimonial-section .slick-list {
+    padding: 0 12%;
+  }
+  .testimonial-section .slick-prev {
+    left: 10.2%;
+  }
+  .testimonial-section .slick-next {
+    right: 11.2%;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .testi-wrap.video-testi .content-wrap {
+    padding: 20px 30px 20px;
+    position: relative;
+  }
+  .testi-wrap.video-testi .img-wrap {
+    display: block;
+    height: 84%;
+  }
+  .testi-wrap.video-testi img {
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .testimonial-section .slick-list {
+    padding: 0 10%;
+  }
+  .testimonial-section .slick-prev {
+    left: 8.9%;
+  }
+  .testimonial-section .slick-next {
+    right: 8.9%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .testi-wrap.active .content-wrap {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .testi-wrap .course-wrap.layout-vertical .name-course {
+    width: 48%;
+    flex: 0 0 auto;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    margin: 0 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .testimonial-section.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+  }
+  .container {
+    margin: 0 35px;
+  }
+  .testi-wrap.active .content-wrap .testimonial-desc {
+    -webkit-line-clamp: 10;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .testimonial-section .slick-slide {
+    margin: 0 8px 0 0;
+  }
+  .testimonial-section li.slick-slide:last-child {
+    margin: 0;
+  }
+  .testi-wrap .content-wrap {
+    padding: 15px;
+  }
+  .testi-wrap .name-course .course, .testi-wrap .name-course .batch {
+    font-size: 10px;
+  }
+  .testi-wrap .testi-watch .fa {
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  .testi-wrap .testi-read {
+    right: 15px;
+    bottom: 15px;
+  }
+  .testi-wrap.video-testi .content-wrap {
+    padding: 30px 15px;
+  }
+  .testi-wrap.video-testi .img-wrap {
+    display: block;
+    height: 80%;
+  }
+  .testi-wrap.video-testi img {
+    height: 100%;
+    z-index: 1;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .testimonial-section .slick-list {
+    margin-right: 0px;
+    padding: 0 3.34vw;
+  }
+  .testimonial-section .slick-track {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .testi-watch span {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=testimonial.css.map */

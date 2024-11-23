@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.blog-list {
+  padding: 0;
+  gap: 16px;
+}
+.blog-list .slick-track {
+  display: flex;
+  padding: 8px 0;
+  margin: 0 -6px;
+}
+.blog-list .slick-track .slick-slide {
+  background: #ffffff;
+  list-style: none;
+  border-radius: 5px;
+  overflow: hidden;
+  /*transform: translateY(-10px);*/
+  position: relative;
+  margin: 0 8px;
+  height: inherit;
+  border: 1px solid #e6eaee;
+}
+.blog-list .slick-track .slick-slide .blog-read {
+  background-color: #f4f7fa;
+  padding: 5px;
+  color: #09143E;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0px;
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+.blog-list .slick-track .slick-slide:hover {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+.blog-card {
+  text-decoration: none;
+  display: block;
+  margin: 0 0px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+.blog-card .blog-img-wrap {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.1s ease-in-out;
+}
+.blog-card .blog-img-wrap img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.1s ease-in-out;
+  min-height: 146px;
+  aspect-ratio: 244/146;
+  width: 100%;
+}
+.blog-card .blog-content-wrap {
+  background: #ffffff;
+  padding: 20px 15px;
+  transition: all 0.1s ease-in-out;
+}
+.blog-card .blog-content-wrap .cat {
+  font-size: 12px;
+  color: #09143E;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 50%;
+  flex: 0 0 auto;
+}
+.blog-card .blog-content-wrap .date {
+  color: #09143E;
+  font-size: 10px;
+  gap: 4px;
+}
+.blog-card .blog-content-wrap .date img {
+  width: 9px;
+  height: 10px;
+}
+.blog-card .blog-content-wrap .blog-content {
+  margin: 20px 0 16px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  min-height: 42px;
+  color: #09143E;
+}
+.blog-card .blog-content-wrap .author-wrap {
+  gap: 10px;
+}
+.blog-card .blog-content-wrap .author-wrap img {
+  margin: 0;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+}
+.blog-card .blog-content-wrap .author-wrap .author-details {
+  font-size: 12px;
+  font-weight: bold;
+  color: #09143E;
+  margin-bottom: 5px;
+}
+.blog-card .blog-content-wrap .author-wrap .author-details span {
+  display: block;
+  font-weight: normal;
+  font-size: 10px;
+  color: #000000;
+  margin-top: 0px;
+}
+.blog-card:hover .blog-img-wrap img {
+  transform: scale(1.1);
+}
+.blog-card:hover .blog-read {
+  opacity: 1 !important;
+}
+.blog-card:hover .blog-content-wrap {
+  transform: translateY(-15px);
+}
+
+.show-all {
+  display: block;
+  text-align: center;
+  color: #343634;
+  margin: 28px 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .blog-list .slick-track {
+    padding: 0;
+  }
+  .show-all {
+    color: #1c1c1c;
+  }
+  .blog-list {
+    margin-left: -3.34vw;
+    margin-right: -3.34vw;
+  }
+  .blog-list .slick-track {
+    margin: 0;
+  }
+  .blog-list .slick-track .slick-slide {
+    margin: 0px 8px 0 0;
+  }
+  .blog-list .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .blog-card .blog-content-wrap .author-wrap .author-details {
+    color: #09143E;
+  }
+}/*# sourceMappingURL=latest-blog.css.map */

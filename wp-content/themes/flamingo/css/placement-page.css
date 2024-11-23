@@ -1,0 +1,1648 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.about-the-placement-section .about-text {
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  color: #09143E;
+}
+.about-the-placement-section .placement-desc {
+  margin-top: 10px;
+}
+
+.bannerSliderHolder .banner-btn {
+  background: #f4f7fa;
+  color: #09143E !important;
+}
+.bannerSliderHolder .banner-btn:hover {
+  background: transparent linear-gradient(90deg, #ff6600 0%, #FF5204 0%, #FF270D 100%) 0% 0% no-repeat padding-box !important;
+  color: #ffffff;
+}
+
+.global-impact-sect .number-block .line-item {
+  flex-basis: 22% !important;
+}
+.global-impact-sect .number-block .counter-text span.counter-txt {
+  display: block;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.placement-initiation-card-img {
+  padding-bottom: 12px;
+}
+
+.placement-journey-sect .placement-drives.menu-border {
+  display: none;
+}
+.placement-journey-sect .journey-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #535353;
+}
+.placement-journey-sect .initiation-image {
+  height: 200px;
+}
+.placement-journey-sect .placement-process-title {
+  font-size: 30px !important;
+  line-height: 36px;
+  color: #ffffff;
+  padding-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+.placement-journey-sect .placement-title {
+  font-size: 30px !important;
+  line-height: 36px;
+  color: #09143E;
+  padding-bottom: 20px;
+  letter-spacing: 0.3px;
+}
+.placement-journey-sect .placement-initiation-text p {
+  font-size: 16px !important;
+  line-height: 18px;
+  color: #09143E;
+  font-weight: bold;
+}
+.placement-journey-sect .placement-initiation-slider {
+  padding-right: 12px;
+  height: inherit;
+}
+.placement-journey-sect .placement-initiation-main {
+  height: 100%;
+  padding: 24px 40px;
+  border-radius: 5px;
+}
+.placement-journey-sect .placement-initiation-slider-1 .placement-initiation-main {
+  background: transparent linear-gradient(153deg, #ffffff 58%, #E9EBFB 100%, #ffffff 101%, #7C8BE7 100%, #0522D2 170%) 0% 0% no-repeat padding-box;
+  border: 1px solid #e9e3e3;
+}
+.placement-journey-sect .placement-initiation-slider-2 .placement-initiation-main {
+  background: transparent linear-gradient(153deg, #ffffff 58%, #FFD4B7 120%, #ff6600 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #e9e3e3;
+}
+.placement-journey-sect .placement-initiation-slider-3 .placement-initiation-main {
+  background: transparent linear-gradient(153deg, #ffffff 58%, #E9EBFB 100%, #ffffff 101%, #7C8BE7 100%, #0522D2 170%) 0% 0% no-repeat padding-box;
+  border: 1px solid #e9e3e3;
+}
+.placement-journey-sect .initiation-desc {
+  margin-top: 10px;
+  font-weight: normal !important;
+}
+.placement-journey-sect .slick-track {
+  display: flex;
+}
+.placement-journey-sect .placement-services-holder .industry-readiness .placement-services-card-img img {
+  width: auto;
+  height: auto;
+}
+.placement-journey-sect .placement-services-holder .placement-services-main {
+  height: 100%;
+  border-radius: 5px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-main .industry-readiness .placement-skill-text {
+  font-size: 12px;
+  color: #000;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.64px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-main .services-title {
+  font-size: 20px !important;
+  line-height: 24px;
+  color: #535353;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-main .services-desc {
+  font-size: 16px;
+  line-height: 18px;
+  color: #535353;
+  margin-top: 10px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-main .services-image {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider {
+  padding-right: 12px;
+  max-height: 457px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+  min-height: 20.917vw;
+  border: 1px solid #e9e3e3;
+  overflow: hidden;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider .communication-text {
+  padding: 30px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider .industry-cards-text h5 {
+  min-height: unset;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider .industry-cards-text p {
+  margin-top: 10px;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text {
+  height: 466px;
+  border-bottom: 1px solid #e9e3e3;
+  border-radius: 5px 5px 0 0;
+}
+.placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text p {
+  opacity: 1;
+}
+.placement-journey-sect .placement-services-holder .placement-services-text {
+  padding: 30px 30px 20px;
+}
+.placement-journey-sect .placement-services-holder .slick-list {
+  padding: 0 13% 0 8%;
+  margin: 0 -8%;
+}
+.placement-journey-sect .drives-main {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.placement-journey-sect .drives-main .job-search {
+  background: linear-gradient(151deg, #09143E 64%, #ff6600 131%, #000000 100%);
+  padding: 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  width: 50%;
+}
+.placement-journey-sect .drives-main .job-search .placement-process-title {
+  font-size: 20px;
+}
+.placement-journey-sect .drives-main .drive-image {
+  flex-basis: 50%;
+}
+.placement-journey-sect .drives-main .drive-image img {
+  border-radius: 5px;
+}
+.placement-journey-sect .drives-main p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.placement-journey-sect .placement-journey-menu {
+  z-index: 3;
+  top: 153px;
+  background-color: #fff;
+  margin: 0 -8%;
+}
+.placement-journey-sect .placement-journey-menu .placement-menu {
+  margin: 0 8px 0 0;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #d8d8d8;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: #d8d8d8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placement-journey-sect .placement-journey-menu .menu-border {
+  width: 140px;
+  border: 2px solid #d8d8dd;
+}
+.placement-journey-sect .placement-journey-menu .menu-text {
+  color: #09143E;
+}
+
+.job-opportunity .job-opportunity-main {
+  background-color: #f4f7fa;
+  padding: 30px;
+  margin: 0 8px;
+  border-radius: 5px;
+}
+.job-opportunity .opprtunity-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #535353;
+  padding-bottom: 40px;
+}
+.job-opportunity .opprtunity-first {
+  display: flex;
+  gap: 20px;
+}
+.job-opportunity .opprtunity-image img {
+  height: auto;
+}
+.job-opportunity .opportunity-second-main {
+  display: flex;
+  gap: 65px;
+  margin-top: 47px;
+  border-bottom: 1px solid #D8D8D8;
+  padding-bottom: 10px;
+}
+.job-opportunity .opportunity-third-main {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+.job-opportunity .emd-text h4 {
+  font-size: 20px;
+  color: #09143E;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.job-opportunity .emd-sub-text {
+  margin-top: 5px;
+}
+.job-opportunity .emd-sub-text h4 {
+  font-size: 16px;
+  color: #09143E;
+  line-height: 18px;
+}
+.job-opportunity .opportunity-second p {
+  font-size: 12px !important;
+  color: #09143E;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.64px;
+  font-weight: 200;
+}
+.job-opportunity .opportunity-second h4 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #09143E;
+}
+.job-opportunity .slick-list {
+  padding: 0 8%;
+  margin: 0 -8%;
+}
+
+.placement-journey-sect .secondaryMenu .menuDetails {
+  justify-content: center;
+}
+.placement-journey-sect .secondaryMenu .menuDetails .menu-border {
+  width: 176px;
+}
+.placement-journey-sect .secondaryMenu .placement {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.placement-journey-sect .secondaryMenu .placement a {
+  text-decoration: none;
+}
+.placement-journey-sect .secondaryMenu .placement .line-items {
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
+}
+.placement-journey-sect .secondaryMenu .placement .line-items .placement-text {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+  position: relative;
+}
+.placement-journey-sect .secondaryMenu .placement .menu-text {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  min-height: 40px;
+  margin-top: 10px;
+}
+.placement-journey-sect .secondaryMenu .placement .line-items .placement-text::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 100px;
+  height: 2px;
+  background: #d8d8d8 !important;
+  display: block;
+  left: 35px;
+}
+.placement-journey-sect .secondaryMenu .placement .line-items .placement-text::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 100px;
+  height: 2px;
+  background: #d8d8d8 !important;
+  display: block;
+  left: -105px;
+}
+.placement-journey-sect .secondaryMenu .placement:first-child .line-items .placement-text::before {
+  background-color: transparent !important;
+}
+.placement-journey-sect .secondaryMenu .placement:last-child .line-items .placement-text::after {
+  background-color: transparent !important;
+}
+.placement-journey-sect .secondaryMenu .placement.active .placement-menu {
+  border: 5px solid #f6600f;
+  color: #f6600f;
+}
+.placement-journey-sect .placement-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.placement-journey-sect .placement-wrapper .left {
+  width: 36%;
+}
+.placement-journey-sect .placement-wrapper .left .placement-journey-title {
+  color: #000000;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.placement-journey-sect .placement-wrapper .left .placement-journey-title span {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin-left: 32px;
+  display: block;
+}
+.placement-journey-sect .placement-wrapper .left .placement-description {
+  color: #09143E;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px 32px;
+}
+.placement-journey-sect .placement-wrapper .left .placement-description .sub-title {
+  font-weight: bold;
+  display: flex;
+  padding-bottom: 10px;
+  color: #09143E;
+  font-size: inherit;
+  line-height: inherit;
+}
+.placement-journey-sect .placement-wrapper .left .placement-description .section-para {
+  display: block;
+  color: #09143E;
+  font-size: inherit;
+  line-height: inherit;
+  padding-bottom: 10px;
+}
+.placement-journey-sect .placement-wrapper .left .left {
+  width: 60%;
+}
+.placement-journey-sect .placement-wrapper .left .left .placement-img {
+  border-radius: 5px;
+}
+.placement-journey-sect .placement-wrapper img {
+  border-radius: 5px;
+}
+.placement-journey-sect .Industry-readiness-section {
+  padding-bottom: 30px;
+  margin-right: -5.32vw;
+  margin-left: 0;
+}
+
+.Skill-info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+.Skill-info-section .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #EAEFF5;
+  padding: 20px 27px 44px 27px;
+  align-items: flex-start;
+  border-radius: 5px;
+  flex: 1;
+}
+.Skill-info-section .card .card-img {
+  min-height: 45px;
+}
+.Skill-info-section .card .heading {
+  font-family: "HelveticaNowDisplay";
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #343634;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.Skill-info-section .card .text {
+  margin-top: 15px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #343634;
+}
+.Skill-info-section img {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0px;
+}
+
+.our-hiring-partners-sec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  justify-content: center;
+}
+.our-hiring-partners-sec .hiring-heading span {
+  font-size: 43px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Sabon LT Std";
+}
+
+.career-placement-section .career-placement-cards {
+  margin-top: 20px;
+}
+.career-placement-section .career-placement-cards .slick-track {
+  display: flex;
+  margin: 0 -8px !important;
+  justify-content: space-between;
+}
+.career-placement-section .career-placement-cards .slick-next {
+  right: 6.5%;
+}
+.career-placement-section .career-placement-cards .slick-prev {
+  left: 6%;
+}
+.career-placement-section .career-placement-cards .slick-list {
+  padding: 0 8%;
+}
+.career-placement-section .career-placement-cards .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #EAEFF5;
+  width: 50%;
+  border-radius: 5px 5px 5px 5px;
+  margin: 0 8px;
+  height: inherit;
+  overflow: hidden;
+}
+.career-placement-section .career-placement-cards .card:last-child {
+  margin-right: 0;
+}
+.career-placement-section .career-placement-cards .career-heading {
+  font-family: "HelveticaNowDisplay";
+  font-size: 43px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.career-placement-section .career-placement-cards span {
+  font-family: "Sabon LT Std";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 43px;
+}
+.career-placement-section .career-placement-cards .career-placement-content {
+  padding: 20px 40px 54px 40px;
+}
+.career-placement-section .career-placement-cards .heading-text {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.career-placement-section .career-placement-cards .career-text {
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-family: "HelveticaNowDisplay";
+}
+.career-placement-section .career-placement-cards img.career-placement-img {
+  margin: 0 auto;
+}
+
+.assesment-sect .assesmentSlider .line-items .image {
+  border-radius: 55px;
+  background: none;
+  padding: 13px;
+}
+.assesment-sect .sec-subheading {
+  line-height: 18px;
+  letter-spacing: 0.16px;
+}
+.assesment-sect .assesmentSlider .line-items .title {
+  color: #535353 !important;
+  font-family: "HelveticaNowDisplay";
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-size: 16px;
+}
+.assesment-sect .assesmentSlider .line-items {
+  min-height: 176px;
+  padding-top: 10px !important;
+}
+.assesment-sect .assesement-content {
+  padding-bottom: 40px;
+}
+
+.Industry-readiness-section .slick-next {
+  right: 4.2%;
+}
+.Industry-readiness-section .slick-prev {
+  left: -2.5%;
+}
+.Industry-readiness-section .sec-subheading {
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.Industry-readiness-section .industry-readiness-cards {
+  flex-direction: row;
+  gap: 16px;
+}
+.Industry-readiness-section .industry-readiness-cards .slick-track {
+  display: flex;
+  margin: 0 -8px !important;
+  justify-content: space-between;
+}
+.Industry-readiness-section .industry-readiness-cards .slick-list {
+  padding: 0 8%;
+}
+.Industry-readiness-section .industry-readiness-cards .line-items {
+  margin: 0 8px;
+  background: #f7f7f7;
+  height: inherit;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.Industry-readiness-section .industry-readiness-cards .line-items.active {
+  height: inherit;
+}
+.Industry-readiness-section .industry-readiness-cards .line-items.active .industry-cards-text {
+  height: 100%;
+}
+.Industry-readiness-section .industry-readiness-cards .line-items.active .industry-cards-text h5 {
+  min-height: unset;
+  margin-bottom: 10px;
+}
+.Industry-readiness-section .industry-readiness-cards .line-items.active .industry-cards-text p {
+  opacity: 1;
+  margin-bottom: 10px;
+}
+.Industry-readiness-section .industry-readiness-cards .industry-card-img .numbers {
+  display: none;
+}
+.Industry-readiness-section .industry-readiness-cards .industry-cards-text .knowmore-button-second {
+  padding: 12px 24px;
+  background: #d8d8d8;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+}
+.Industry-readiness-section .industry-card-img {
+  margin: 0 auto;
+}
+.Industry-readiness-section .industry-card-img img {
+  aspect-ratio: 368/306;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.Industry-readiness-section .industry-cards-text {
+  background: #ffffff;
+  padding: 20px 20px 65px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 155px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+.Industry-readiness-section .industry-cards-text h5 {
+  line-height: 24px;
+  min-height: 70px;
+}
+.Industry-readiness-section .industry-cards-text p {
+  opacity: 0;
+  transition: opacity 0.2s 0.2s;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+.Industry-readiness-section .knowmore-button {
+  padding: 12px 24px;
+  background: #EAEFF5;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  margin-top: auto;
+  width: 142px;
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+  color: #09143E;
+  border-radius: 5px;
+}
+.Industry-readiness-section .knowmore-button:hover {
+  background: #CBCFD9;
+}
+
+.interview-preparation-section .interview-preparation-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.interview-preparation-section .line-items {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 5px 5px 5px 5px;
+  height: inherit !important;
+}
+.interview-preparation-section span {
+  font-family: "Sabon LT Std";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 43px;
+}
+.interview-preparation-section .interview-text {
+  padding: 0px 31px 44px 31px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+}
+.interview-preparation-section .heading-text {
+  padding: 42px 31px 16px 31px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.interview-preparation-section img.interview-sec-img {
+  margin: 0 auto;
+  aspect-ratio: 562/316;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.scholarship-sect.lightgreycolor div.primaryBg {
+  background-color: #f7f7f7 !important;
+}
+
+.placebutton div.scholarship-flex-container .request-callback a:hover {
+  background: #d8d8d8;
+  color: #535353 !important;
+}
+.placebutton div.scholarship-flex-container .request-callback a {
+  display: inline-block;
+  background: #d8d8d8 !important;
+}
+
+.assesmentSlider .slick-track {
+  display: flex;
+}
+.assesmentSlider .slick-list {
+  padding: 0 !important;
+}
+.assesmentSlider .line-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  background: #f7f7f7;
+  margin: 0 6px;
+  position: relative;
+  border-radius: 5px;
+  height: inherit;
+}
+.assesmentSlider .line-items .topBar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.assesmentSlider .line-items .topBar .accr {
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 5px 2px 2px 2px;
+}
+.assesmentSlider .line-items .topBar .rank {
+  background: #f7f7f7;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+.assesmentSlider .line-items .topBar .rank img {
+  margin-right: 4px;
+}
+.assesmentSlider .line-items .img-text {
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+.assesmentSlider .line-items .image {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 12px;
+  border-radius: 2px 2px 0 0;
+}
+.assesmentSlider .line-items .image img {
+  margin: auto;
+}
+.assesmentSlider .line-items .short-text {
+  display: FLEX;
+  padding: 8px 0;
+  width: 100%;
+  justify-content: center;
+}
+.assesmentSlider .line-items .short-text span {
+  display: block;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.16px;
+  font-weight: bold;
+}
+.assesmentSlider .line-items .short-text .show {
+  background: #efefef;
+  border-radius: 0 0 2px 2px;
+}
+.assesmentSlider .line-items .title {
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  min-height: 50px;
+}
+.assesmentSlider img {
+  margin: 0;
+}
+
+.placements .section-title span {
+  font-size: 38px;
+  padding-bottom: 20px;
+  color: #09143E;
+  font-weight: 900;
+  letter-spacing: 0.44px;
+  line-height: 40px;
+  font-style: normal;
+}
+
+.job-opportunity .job-opportunity-holder {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #EAEFF5;
+  padding: 20px;
+  gap: 2%;
+}
+.job-opportunity .job-opportunity-holder .job-title {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0 0px 10px 0;
+  list-style-type: circle;
+}
+.job-opportunity .job-opportunity-holder .job-title .job-sub-title {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: bold;
+  padding: 0 0px 10px 0;
+  list-style-type: circle;
+}
+.job-opportunity .job-opportunity-holder .job-list {
+  border-top: solid 2px rgba(0, 0, 0, 0.1607843137);
+  color: #1c1c1c;
+  padding: 10px 2vw 4px;
+}
+.job-opportunity .job-opportunity-holder .right, .job-opportunity .job-opportunity-holder .left {
+  width: 50%;
+}
+.job-opportunity .job-opportunity-holder ul li {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  list-style: none;
+  list-style-type: circle;
+  margin-bottom: 10px;
+  color: #343634;
+}
+
+.industry-about-text {
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  color: #EAEFF5;
+  margin-bottom: 20px;
+}
+
+.placement-video {
+  position: relative;
+  background-image: url(../images/Placement-Thumbnail-Desktop-new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.placement-video .playVideoBtn {
+  position: absolute;
+  left: calc(50% - 28px);
+  top: 50%;
+  cursor: pointer;
+}
+.placement-video .left {
+  top: 40%;
+  position: absolute;
+}
+.placement-video .left .section-title {
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 38px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.placement-video .left .section-title span {
+  display: block;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: normal;
+  font-family: inherit;
+  font-style: normal;
+}
+.placement-video .left .sub-heading {
+  color: #CBCFD9;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.statistics-block .number-block .line-item {
+  flex-basis: 25%;
+  padding: 12px;
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  .scholarship-sect .lightgreycolor div.home-scholarship {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .scholarship-sect .lightgreycolor div.flex-item {
+    max-width: none;
+  }
+  .assesment-sect .assesmentSlider .line-items {
+    min-height: 176px;
+    padding-top: 12px !important;
+  }
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 12%;
+  }
+  .career-placement-section .career-placement-cards .slick-next {
+    right: 10.8%;
+  }
+  .career-placement-section .career-placement-cards .slick-prev {
+    left: 10.5%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-list {
+    padding: 0 12%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-prev {
+    left: 10.5%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-next {
+    right: 10.8%;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text {
+    height: 485px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider {
+    max-height: 479px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 479px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .communication-service-title {
+    padding-top: 0px;
+  }
+  .placement-journey-sect .placement-journey-menu .menu-border {
+    width: 180px;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 28.917vw;
+  }
+  .placement-journey-sect .placement-services-holder .slick-list {
+    padding: 0 13% 0 5%;
+    margin: 0 -5%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-prev {
+    left: 8.5%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-next {
+    right: 8.5%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-list {
+    padding: 0 10%;
+  }
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 10%;
+  }
+  .career-placement-section .career-placement-cards .slick-next {
+    right: 8.5%;
+  }
+  .career-placement-section .career-placement-cards .slick-prev {
+    left: 8.5%;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text {
+    height: 450px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider {
+    max-height: 447px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 26.513vw;
+  }
+  .placement-journey-sect .placement-journey-menu {
+    top: 151px;
+  }
+  .placement-journey-sect .placement-journey-menu .menu-border {
+    width: 130px;
+  }
+}
+@media only screen and (max-width: 1368px) {
+  .placement-journey-sect .placement-services-holder .slick-list {
+    margin: 0 -9%;
+    padding: 0 8% 0 8%;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 29.917vw;
+  }
+  .placement-journey-sect .Industry-readiness-section {
+    margin-left: 0%;
+    padding-bottom: 30px;
+    margin-right: -0.32vw;
+  }
+  .placement-journey-sect .Industry-readiness-section .slick-next {
+    right: -2.5%;
+  }
+}
+@media only screen and (max-width: 1280) {
+  .placement-journey-sect .placement-wrapper .left {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 35px;
+  }
+  .career-placement-section .career-placement-cards .slick-next {
+    right: 8px;
+  }
+  .career-placement-section .career-placement-cards .slick-prev {
+    left: 8px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-list {
+    padding: 0 35px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-prev {
+    left: 8px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-next {
+    right: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-the-placement-section .about-text {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .placement-journey-sect .placement-wrapper {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .placement-journey-sect .placement-wrapper .left {
+    width: 100%;
+  }
+  .placement-journey-sect .placement-wrapper .left .placement-journey-title {
+    color: #000000;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: bold;
+  }
+  .placement-journey-sect .placement-wrapper .left .placement-journey-title span {
+    margin-left: 0;
+    display: unset;
+  }
+  .placement-journey-sect .placement-wrapper .left .placement-description {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    padding: 0px 0px 10px 20px;
+  }
+  .placement-journey-sect .placement-wrapper .left .placement-description .section-para {
+    padding-bottom: 0;
+  }
+  .placement-journey-sect .placement-wrapper .left .left {
+    width: 100%;
+  }
+  .job-opportunity .job-opportunity-holder {
+    display: block;
+  }
+  .job-opportunity .job-opportunity-holder .job-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0 0px 10px 0;
+    list-style-type: circle;
+  }
+  .job-opportunity .job-opportunity-holder .right {
+    width: 100%;
+  }
+  .job-opportunity .job-opportunity-holder .right .job-list {
+    border-top: 1px solid #91AEC4;
+    color: #1c1c1c;
+    padding: 10px 20px 16px;
+  }
+  .job-opportunity .job-opportunity-holder .left {
+    width: 100%;
+  }
+  .job-opportunity .job-opportunity-holder .left .job-list {
+    border-top: 1px solid #91AEC4;
+    color: #1c1c1c;
+    padding: 10px 20px 0px;
+  }
+  .job-opportunity .job-opportunity-holder ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .Skill-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .Skill-info-section .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 27px 33px 27px;
+    border-radius: 5px;
+    flex: 1;
+  }
+  .Skill-info-section .card .heading,
+  .Skill-info-section .card .text {
+    text-align: center;
+  }
+  .Skill-info-section .card .text {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .Skill-info-section .card .heading {
+    font-family: "HelveticaNowDisplay";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+  }
+  .our-hiring-partners-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-hiring-partners-sec .hiring-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+  .our-hiring-partners-sec .hiring-heading span {
+    font-size: 28px;
+    font-family: "Sabon LT Std";
+  }
+  .career-placement-section {
+    margin-top: 20px;
+  }
+  .career-placement-section .career-heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .career-placement-section span {
+    font-size: 28px;
+    text-align: center;
+  }
+  .career-placement-section .career-placement-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+  }
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 35px;
+  }
+  .career-placement-section .career-placement-cards .slick-next {
+    right: 8px;
+  }
+  .career-placement-section .career-placement-cards .slick-prev {
+    left: 8px;
+  }
+  .career-placement-section .career-placement-cards .heading-text {
+    text-align: center;
+  }
+  .career-placement-section .career-placement-cards .career-text {
+    font-size: 14px;
+    text-align: center;
+  }
+  .career-placement-section .career-placement-cards .career-placement-content {
+    padding: 20px;
+  }
+  .career-placement-section .career-placement-cards .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAEFF5;
+    width: 100%;
+  }
+  .interview-preparation-section {
+    margin-top: 40px;
+  }
+  .interview-preparation-section .heading-text {
+    padding: 42px 31px 16px 31px;
+    text-align: center;
+    font-family: "HelveticaNowDisplay";
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+  }
+  .interview-preparation-section span {
+    font-size: 28px;
+    text-align: center;
+  }
+  .interview-preparation-section img.interview-sec-img {
+    height: auto;
+  }
+  .interview-preparation-section .interview-preparation-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0px;
+  }
+  .interview-preparation-section .interview-text {
+    font-family: "HelveticaNowDisplay";
+    font-size: 14px;
+    padding: 0px 31px 44px 31px;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 0.14px;
+  }
+  .interview-preparation-section .line-items {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .assesment-sect .sec-subheading {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .assesment-sect .assesmentSlider .line-items .title {
+    color: #535353 !important;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    letter-spacing: 0.14px;
+    min-height: auto;
+  }
+  .assesment-sect .assesmentSlider .line-items {
+    padding: 12px 5px;
+    aspect-ratio: 140/140;
+    padding-top: 2px !important;
+    min-height: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .assesment-sect .assesmentSlider .line-items .image img {
+    width: 80%;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-list {
+    padding: 0 35px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-prev {
+    left: 8px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-next {
+    right: 8px;
+  }
+  .about-the-placement-section .placement-desc {
+    line-height: 18px;
+    text-align: center;
+  }
+  .placement-journey-sect .journey-text {
+    text-align: center;
+  }
+  .placement-journey-sect .placement-process-title {
+    font-size: 18px !important;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  .placement-journey-sect .slick-list {
+    margin-right: 0px;
+    padding: 0px 3.34vw !important;
+  }
+  .placement-journey-sect .slick-list .slick-slide {
+    margin: 0 8px 0 0;
+    padding-right: 0;
+  }
+  .placement-journey-sect #placement-services {
+    margin-right: -3.34vw;
+    margin-left: -3.34vw;
+  }
+  .placement-journey-sect .placement-services-holder .slick-list {
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .placement-journey-sect .placement-services-holder .slick-list .slick-slide {
+    margin: 0 8px 0 0;
+    padding-right: 0;
+  }
+  .placement-journey-sect .drives-main {
+    flex-direction: column;
+  }
+  .placement-journey-sect .drives-main .job-search {
+    padding: 0 30px 30px;
+  }
+  .placement-journey-sect .drives-main .job-search .placement-process-title {
+    padding: 0px;
+  }
+  .placement-journey-sect .placement-journey-menu {
+    top: 78px;
+    padding: 10px 0 !important;
+    margin: 0 -3.34vw;
+  }
+  .placement-journey-sect .placement-journey-menu .menu-border {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .placement-journey-sect .secondaryMenu .menuDetails {
+    align-items: baseline !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .placement-journey-sect .secondaryMenu .placement {
+    width: 33.33%;
+  }
+  .placement-journey-sect .secondaryMenu .placement .line-items {
+    margin: 0 40px;
+  }
+  .placement-journey-sect .secondaryMenu .placement .line-items .placement-text::after, .placement-journey-sect .secondaryMenu .placement .line-items .placement-text::before {
+    content: none;
+  }
+  .placement-journey-sect .secondaryMenu .placement .menu-text {
+    max-width: 110px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .placement-journey-sect .menuDetails .line-items {
+    padding: 0;
+    flex-basis: 100%;
+  }
+  .placement-journey-sect .menuDetails .line-items span {
+    color: #D8D8D8;
+  }
+  .placement-journey-sect .menuDetails .line-items .menu-text {
+    color: #535353;
+  }
+  .placements .section-title span {
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 0.28px;
+    font-family: "Sabon LT Std";
+  }
+  .industry-about-text {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .placement-video-mob {
+    position: relative;
+    background-image: url(../images/Placement-Thumbnail-Mobile-new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 420px;
+    width: 100%;
+  }
+  .placement-video-mob .playVideoBtn {
+    position: absolute;
+    left: calc(50% - 28px);
+    top: 50%;
+    cursor: pointer;
+  }
+  .placement-video-mob .placement-video img {
+    width: 73px !important;
+  }
+  .placement-video-mob .left {
+    position: relative;
+    top: 20%;
+    text-align: center;
+  }
+  .placement-video-mob .left .section-title {
+    color: #ffffff;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    font-weight: normal;
+    text-align: center !important;
+    color: #ffffff;
+  }
+  .placement-video-mob .left .section-title span {
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: inherit;
+    font-style: normal;
+    text-align: center;
+  }
+  .placement-video-mob .left .sub-heading {
+    color: #CBCFD9;
+    font-size: 14px !important;
+    line-height: 16px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .career-placement-section .career-placement-cards {
+    gap: 0;
+  }
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 35px;
+  }
+  footer {
+    margin-bottom: 50px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-list {
+    padding: 0 35px;
+  }
+  .career-placement-section .career-placement-cards .slick-list {
+    padding: 0 35px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Industry-readiness-section .industry-readiness-cards .line-items {
+    padding: 0 0px;
+  }
+  .placement-journey-sect .Industry-readiness-section {
+    margin-right: -3.32vw !important;
+  }
+  .Industry-readiness-section .section-title {
+    font-size: 27px;
+  }
+  .Industry-readiness-section .sec-subheading {
+    font-size: 14px;
+    letter-spacing: 0.14px;
+  }
+  .Industry-readiness-section .industry-readiness-cards .industry-card-img {
+    position: relative;
+  }
+  .Industry-readiness-section .industry-readiness-cards .industry-card-img .numbers {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    min-width: 37px;
+    min-height: 37px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 6px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  }
+  .Industry-readiness-section .industry-readiness-cards .industry-card-img .numbers span {
+    font-size: 11px;
+    letter-spacing: 0.11px;
+    line-height: 13px;
+    font-weight: bold;
+  }
+  .Industry-readiness-section .industry-readiness-cards .slick-track {
+    margin: 0 -8px 0 0 !important;
+  }
+  .Industry-readiness-section .industry-cards-text {
+    width: 100%;
+  }
+  .Industry-readiness-section .industry-cards-text h5 {
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    line-height: 24px;
+  }
+  .Industry-readiness-section .industry-cards-text .knowmore-button {
+    width: 154px;
+  }
+  .Industry-readiness-section .industry-cards-text .knowmore-button-second {
+    width: 154px;
+  }
+  .Skill-info-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .Skill-info-section .card {
+    align-items: center;
+  }
+  .card .heading,
+  .card .text {
+    text-align: center;
+  }
+  .sec-subheading {
+    text-align: center;
+  }
+  .assesmentSlider .slick-list {
+    padding: 0 10% !important;
+  }
+  .assesmentSlider .line-items {
+    max-height: 140px !important;
+    padding-top: 5px !important;
+  }
+  .assesmentSlider .slick-track {
+    padding: 0 45%;
+    margin: 0 -46%;
+  }
+  .assesmentSlider .short-text span {
+    padding: 4px 0;
+    display: block;
+    font-size: 14px;
+    background: #efefef;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.16px;
+    font-weight: bold;
+  }
+  .assesmentSlider .sec-subheading {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 18px;
+  }
+  .career-placement-section .career-placement-cards .slick-track .slick-track {
+    margin: 0 -8px 0 0 !important;
+  }
+  .about-the-placement-section .placement-desc {
+    line-height: 18px;
+    text-align: left;
+    color: #09143E;
+  }
+  .about-the-placement-section .section-title {
+    margin: 0;
+  }
+  .placement-journey-sect .journey-text {
+    text-align: center;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text {
+    height: 467px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider {
+    max-height: 458px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 457px !important;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .services-title {
+    letter-spacing: 0.14px;
+    font-size: 20px !important;
+    line-height: 24px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .communication-service-title {
+    padding-top: 15px 0;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .services-desc {
+    letter-spacing: 0.14px;
+    font-size: 16px !important;
+  }
+  .placement-journey-sect .placement-process-title {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+  }
+  .placement-journey-sect .placement-title {
+    color: #343634;
+  }
+  .placement-journey-sect .drives-main {
+    flex-direction: column;
+    margin: 0 -13px;
+    gap: 0px;
+  }
+  .placement-journey-sect .drives-main h3 {
+    margin-left: 2px !important;
+  }
+  .placement-journey-sect .drives-main .job-search {
+    padding: 0 30px 30px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .placement-journey-sect .drives-main .job-search .placement-process-title {
+    padding: 0px;
+    font-size: 18px !important;
+  }
+  .placement-journey-sect .drives-main .drive-image img {
+    border-radius: 0px;
+  }
+  .placement-journey-sect .placement-journey-menu {
+    top: 78px;
+    z-index: 2;
+  }
+  .placement-journey-sect .placement-journey-menu .menu-border-link {
+    width: 100%;
+  }
+  .placement-journey-sect .placement-journey-menu .placement-menu {
+    width: 41px;
+    height: 40px;
+    font-size: 4.2vw !important;
+  }
+  .placement-journey-sect .placement-journey-menu .menu-border {
+    width: 60px;
+    margin-left: -30px;
+    margin-right: -24px;
+  }
+  .placement-journey-sect .menuDetails {
+    align-items: baseline !important;
+  }
+  .placement-journey-sect .menuDetails .line-items {
+    padding: 0;
+    flex-basis: 100%;
+  }
+  .placement-journey-sect .menuDetails .line-items span {
+    color: #D8D8D8;
+  }
+  .placement-journey-sect .menuDetails .line-items .menu-text {
+    color: #4A5373;
+    width: 131px;
+    font-size: 10px !important;
+    line-height: 18px !important;
+  }
+  .placement-journey-sect .placement-initiation-text p {
+    letter-spacing: 0.14px;
+  }
+  .placement-journey-sect #placement-drives .placement-process-title {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+  }
+  .job-opportunity .opprtunity-text {
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 0.2px;
+  }
+  .job-opportunity .slick-list {
+    padding: 0px 3.34vw !important;
+    margin: 0 -3.34vw;
+  }
+  .job-opportunity .slick-list .slick-slide {
+    margin: 0 8px 0 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 390px) {
+  .placement-journey-sect .placement-services-holder .placement-services-slider.active .industry-cards-text {
+    height: 428px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider {
+    max-height: 419px !important;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main {
+    min-height: 419px !important;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .communication-service-title {
+    min-height: 48px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .services-title {
+    min-height: 25px;
+  }
+  .placement-journey-sect .placement-services-holder .placement-services-slider .placement-services-main .communication-text {
+    min-height: 154px;
+  }
+  .placement-journey-sect .menuDetails .line-items .menu-text {
+    width: 120px !important;
+  }
+  .job-opportunity .job-opportunity-main {
+    padding: 20px 11px;
+  }
+}/*# sourceMappingURL=placement-page.css.map */

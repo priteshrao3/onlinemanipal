@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g>
+	<g>
+		<rect x="0" fill="none" width="150" height="150"/>
+	</g>
+	<g>
+		<rect x="10" y="10" fill="none" width="130" height="130"/>
+	</g>
+</g>
+<linearGradient id="monitoring_FILL0_wght700_GRAD0_opsz48_00000147908231396106050960000005241543815585211286_" gradientUnits="userSpaceOnUse" x1="-1373.0055" y1="453.7377" x2="-1373.0055" y2="448.5343" gradientTransform="matrix(24.042 0 0 -25 33084.7969 11353.3926)">
+	<stop  offset="0" style="stop-color:#FF6600"/>
+	<stop  offset="0" style="stop-color:#FF5204"/>
+	<stop  offset="1" style="stop-color:#FF270D"/>
+</linearGradient>
+<path id="monitoring_FILL0_wght700_GRAD0_opsz48_00000023960373325373669350000000173851441054780332_" fill="url(#monitoring_FILL0_wght700_GRAD0_opsz48_00000147908231396106050960000005241543815585211286_)" d="
+	M12.4,140v-16.6l15.1-15.1V140H12.4z M40,140V96.7l15.1-15.1V140H40z M67.5,140V81.6l15.1,15.1V140H67.5z M95.1,140V96.4l15.1-14.9
+	V140H95.1z M122.6,140V69.7l14.9-14.9V140H122.6z M12.4,104V81.8l49.3-48.9l26.5,26.5L137.6,10V32L88.3,81.6L61.7,55.1L12.4,104z"/>
+</svg>

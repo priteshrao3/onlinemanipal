@@ -1,0 +1,4436 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+.dateHightlight .right .share-block {
+  display: flex;
+  flex-direction: column;
+}
+.dateHightlight .right .share-block .jssocials-shares {
+  display: flex;
+  gap: 20px;
+}
+.dateHightlight .right .share-block .share-text {
+  letter-spacing: 2.64px;
+  line-height: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+.career-support-div .slick-track {
+  display: flex;
+}
+
+.career-support-details h5,
+.career-support-sub-details {
+  color: #09143E;
+  line-height: 18px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.career-support-div.international .career-support-details .sub-text {
+  color: #09143E;
+  line-height: 18px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.career-support-div .career-support-container {
+  height: inherit;
+  margin: 0 12px 5px 0;
+  padding: 0 6px;
+  border-radius: 5px;
+}
+
+.career-support-sect .slick-list {
+  margin: 0 0 0 -1% !important;
+}
+
+.detail-container {
+  background: #f7f7f7;
+}
+
+.career-support-slider .slick-prev {
+  left: -31px !important;
+  top: 40%;
+}
+
+.career-support-slider .slick-next {
+  right: -12px !important;
+  top: 40%;
+}
+
+.career-support-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.career-support-details {
+  background-color: #ffffff;
+  padding: 20px 18px 50px 18px;
+}
+
+.career-support-image {
+  height: 100%;
+}
+
+.career-support-image img {
+  width: 100%;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.who-can-apply-bg {
+  display: flex;
+  padding-top: 20px;
+}
+
+.apply-desc {
+  padding: 6px 0;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.main-apply-section {
+  color: #ffffff;
+  padding: 24px;
+  border: 1px solid #e6eaee;
+}
+
+.apply-img {
+  flex: 0.4;
+  padding-right: 10px;
+}
+.apply-img img {
+  width: 24px;
+  margin: 0;
+}
+
+.apply-content {
+  flex: 10;
+}
+
+.apply-content h6 {
+  font-weight: bold;
+  line-height: 18px;
+  color: #09143E;
+}
+
+.apply-content .sub-heading {
+  font-weight: bold;
+  line-height: 18px;
+  color: #09143E;
+  font-size: 16px;
+}
+
+.apply-content p {
+  font-size: 16px !important;
+  line-height: 18px;
+}
+
+.apply-tab,
+.main-apply-section {
+  font-size: 16px !important;
+  color: #ffffff;
+}
+
+.tabs {
+  display: flex;
+  margin-left: 0;
+  border-bottom: 4px solid #efefef;
+}
+
+.main-apply-section .tabcontent {
+  display: none;
+}
+
+.main-apply-section .tabcontent.active {
+  display: block;
+}
+
+.tab.is-tab-selected,
+.main-apply-section .tablinks.active {
+  border-bottom: 5px solid #1c1c1c;
+  color: #1c1c1c;
+}
+
+.tab.default-tab-selected,
+.main-apply-section .tablinks.active {
+  border-bottom: 5px solid #1c1c1c;
+  color: #1c1c1c;
+}
+
+.tab.non-clickable {
+  cursor: default;
+}
+
+.expect-to-learn .title1-text .panel-group .panel-body p:first-child {
+  border-top: none;
+}
+
+.tab {
+  cursor: pointer;
+  margin-left: 0px;
+  margin-right: 24px;
+  color: #d8d8d8;
+  font-size: 12px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.main-apply-section .tablinks {
+  cursor: pointer;
+  margin-left: 0px;
+  margin-right: 26px;
+  color: #d8d8d8;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  top: 4px;
+  padding-bottom: 10px;
+}
+
+.fees-scholarship-sect {
+  padding: 0px;
+}
+.fees-scholarship-sect .description-fee {
+  font-size: 12px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.fees-scholarship-sect .description {
+  margin-bottom: 10px;
+}
+
+.fees-main {
+  display: flex;
+}
+
+.fees-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fees-scolarship h5 {
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+  line-height: 17px;
+}
+
+.fees-scolarship h5.fees-scholarship-text {
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.fees-scolarship h2 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  line-height: 40px;
+}
+
+.fees-scolarship h4 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  line-height: 36px;
+}
+
+.fees-content {
+  color: #ff6600 !important;
+}
+
+.fees-scholarship-text {
+  letter-spacing: 2.64px;
+  font-weight: 200;
+}
+
+.fees-first {
+  width: 50%;
+  background-color: #fdf8f4;
+  margin-right: 16px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.fees-first.full {
+  flex-basis: 100%;
+}
+
+.course-video-sect .playVideoBtn {
+  position: absolute;
+  top: 40%;
+  left: 46%;
+}
+
+.flex-epm {
+  flex: 7.5;
+}
+
+.flex-tenure {
+  flex: 6.5;
+}
+
+.flex-roi {
+  flex: 6;
+}
+
+.flex-epm-first {
+  flex: 7.5;
+}
+
+.flex-tenure-first {
+  flex: 6.5;
+}
+
+.flex-roi-first {
+  flex: 6;
+}
+
+.flex-first-content {
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  color: #1c1c1c;
+}
+
+.flex-tenure-first h6 {
+  width: 50%;
+}
+
+.flex-data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
+.flex-tenure-first .flex-heading {
+  margin-right: 28px;
+}
+
+.flex-heading {
+  color: #1c1c1c;
+  letter-spacing: 2.64px;
+  font-size: 12px;
+}
+
+.flex-epm h6 {
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  color: #535353;
+  /*margin-right: 73px;*/
+}
+
+.flex-tenure h6 {
+  margin-right: 18px;
+}
+
+.easy-financing-option {
+  padding: 0px 35px;
+}
+
+.fees-container-modal {
+  padding: 24px 24px 0px 24px;
+}
+
+.learn-more-modal {
+  padding: 30px;
+}
+
+.popupeasyFinancingModal {
+  background-color: transparent !important;
+  justify-content: space-around !important;
+}
+
+.popupattractiveScholarshipModal {
+  background-color: transparent !important;
+  justify-content: space-around !important;
+  box-shadow: unset;
+}
+.popupattractiveScholarshipModal .middle-line {
+  height: 2px;
+  background: #aabcc6;
+  margin: 8px -43px;
+}
+
+.popupattractiveScholarshipModal.muj .easy-financing-option {
+  padding: 0 35px 35px;
+}
+.popupattractiveScholarshipModal.muj .th-width-o {
+  width: 37%;
+}
+.popupattractiveScholarshipModal.muj .th-width-e {
+  width: 31%;
+}
+.popupattractiveScholarshipModal.muj .learn-more-modal {
+  background-color: #DEEDFF !important;
+}
+.popupattractiveScholarshipModal.muj .flex-item h6 {
+  color: #09143E;
+}
+.popupattractiveScholarshipModal.muj .flex-heading {
+  color: #4A5373;
+}
+.popupattractiveScholarshipModal.muj .learn-more-modal table th {
+  color: #4A5373;
+}
+.popupattractiveScholarshipModal.muj .flex-epm h6,
+.popupattractiveScholarshipModal.muj .flex-tenure h6,
+.popupattractiveScholarshipModal.muj .flex-roi h6 {
+  color: #09143E;
+}
+.popupattractiveScholarshipModal.muj .flex-epm h6,
+.popupattractiveScholarshipModal.muj .flex-tenure h6 {
+  font-weight: bold;
+}
+.popupattractiveScholarshipModal.muj td:first-child,
+.popupattractiveScholarshipModal.muj td:nth-child(2) {
+  font-weight: bold;
+}
+.popupattractiveScholarshipModal.muj .font-regular {
+  font-weight: normal !important;
+}
+.popupattractiveScholarshipModal.muj .learn-more-modal table td {
+  color: #09143E;
+}
+
+.popupattractiveScholarshipModal.smu .easy-financing-option {
+  padding: 0 35px 35px;
+}
+.popupattractiveScholarshipModal.smu .learn-more-modal table td {
+  color: #09143E;
+}
+.popupattractiveScholarshipModal.smu .learn-more-modal table th {
+  color: #4A5373;
+}
+.popupattractiveScholarshipModal.smu .th-width-o {
+  width: 40%;
+}
+.popupattractiveScholarshipModal.smu .th-width-e {
+  width: 37%;
+}
+.popupattractiveScholarshipModal.smu td:first-child,
+.popupattractiveScholarshipModal.smu td:nth-child(2) {
+  font-weight: bold;
+}
+.popupattractiveScholarshipModal.smu .font-regular {
+  font-weight: normal !important;
+}
+.popupattractiveScholarshipModal.smu .flex-item h6 {
+  color: #09143E;
+}
+
+.popupattractiveScholarshipModal {
+  width: 90% !important;
+}
+.popupattractiveScholarshipModal .popupContainer {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 5px;
+  width: 100% !important;
+}
+.popupattractiveScholarshipModal .popupContainer .learn-more-modal {
+  width: 100% !important;
+  padding: 10px !important;
+}
+.popupattractiveScholarshipModal .popupContainer .learn-more-modal .scholarship-popup-heading {
+  color: #09143E;
+  font-weight: 600;
+  margin: inherit;
+  font-size: 20px !important;
+  line-height: 24px;
+}
+
+.popupeasyFinancingModal .close-icon {
+  top: 22px;
+  right: 29px;
+  position: absolute;
+}
+
+.popupattractiveScholarshipModal .close-icon {
+  top: 22px;
+  right: 29px;
+  position: absolute;
+}
+
+.flex-epm-merit h6 {
+  width: 85%;
+}
+
+.learn-more-modal {
+  background-color: #EAFFE0;
+  position: relative;
+}
+
+.learn-more-bg .overlay-bg {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background: unset !important;
+}
+
+.learn-more-modal .who-can-apply-bg {
+  padding: 5px;
+}
+
+.learn-more-modal .left-content img {
+  margin: 0px 16px !important;
+  padding: 0px 0 4px;
+}
+
+.course-video-sect .institution .playVideoBtn {
+  top: 50%;
+}
+
+.course-video-sect .videoHolder {
+  position: relative;
+}
+
+.course-video-text {
+  padding: 28px 43px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #343634;
+  border-radius: 0 0 5px 5px;
+  background-color: #dae7f0;
+  border-radius: 5px;
+}
+
+.course-video-sect .videoDiv img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.course-video-main {
+  border-radius: 5px;
+}
+.course-video-main .videoDiv img {
+  width: 100%;
+}
+.course-video-main .videoHolder {
+  position: relative;
+  padding-bottom: 12px;
+}
+.course-video-main .playVideoBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instVideoSlider .videoHolder {
+  display: flex !important;
+  height: inherit;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-right: 12px;
+}
+
+.fees-second {
+  height: inherit;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fees-content-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fee8da;
+  padding: 26px;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.fees-content-second {
+  margin-top: 16px;
+  background-color: #fee8da;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.fees-content-second h4 {
+  margin-top: 5px;
+}
+
+.scholarships .home-scholarship {
+  padding-bottom: 0px;
+}
+.scholarships .home-scholarship .scholarship-text-center p {
+  line-height: 18px;
+}
+
+.close-icon-show {
+  display: block !important;
+}
+
+.fees-content-term {
+  margin-top: 5px;
+}
+
+.left-content {
+  text-align: left !important;
+  padding: 50px 32px;
+}
+
+.left-content-modal {
+  align-items: center;
+  display: flex;
+  padding: 0px;
+}
+
+.fees-container-modal {
+  display: flex;
+  justify-content: start;
+}
+
+.left-content img {
+  margin-left: 9px !important;
+}
+
+.scholarships .scholarship-flex-container {
+  padding: 0px;
+}
+
+.scholarships .primaryBg {
+  background-color: #DEF5F3;
+}
+
+.coursePage.muj .scholarships .primaryBg {
+  background-color: #DEEDFF;
+}
+
+.coursePage.smu .scholarships .primaryBg {
+  background-color: #EAFFE0;
+}
+
+.smu .scholarships .primaryBg {
+  background-color: #EAEFF5;
+}
+
+.left-content h5 {
+  text-decoration: underline;
+  margin: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #1c1c1c;
+}
+
+.learn-more {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.learn-more text {
+  fill: #09143E;
+}
+.learn-more .learn-more-stroke {
+  stroke: #09143E;
+}
+
+.learn-more:hover,
+.learn-more:hover text {
+  fill: #ff6600 !important;
+}
+
+.learn-more:hover .learn-more-stroke {
+  stroke: #ff6600 !important;
+}
+
+.know-more-text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.courseSubNav {
+  position: sticky;
+  top: 152px;
+  z-index: 3;
+  margin-left: -15%;
+  padding-left: 15%;
+  margin-right: -42px;
+  display: none;
+  left: 0;
+  background: #eaeaea;
+}
+
+.wrapper.no-sidebar .courseSubNav {
+  margin-left: -15%;
+  padding-left: 15%;
+  margin-right: -9.5%;
+  padding-right: 9.5%;
+}
+
+.courseSubNav.show {
+  display: block;
+}
+
+.flex-item h6 {
+  font-size: 20px;
+  color: #343634;
+  line-height: 24px;
+}
+
+.flex-item h3 {
+  font-size: 20px;
+  color: #09143E;
+  line-height: 24px;
+  font-weight: 600;
+  margin: inherit;
+}
+
+.scholarship-arrow-right {
+  margin-left: 8px;
+}
+
+.sub-menu-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 0em auto;
+}
+
+.sub-menu {
+  background: transparent;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  white-space: nowrap;
+  padding: 0 20px 0 0;
+  scroll-behavior: smooth;
+}
+.sub-menu::-webkit-scrollbar {
+  display: none;
+}
+.sub-menu .item {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+.sub-menu .item a {
+  display: block;
+  padding: 17px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+  color: #707070;
+  font-size: 12px;
+  transition: opacity 0.2s ease-in;
+  border-bottom: 3px solid transparent;
+}
+.sub-menu .item a:hover {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+.sub-menu .item:first-child {
+  padding-left: 0;
+}
+.sub-menu .item.active a {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.paddle {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  width: 30px;
+  background: #4A5373;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 11px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  cursor: pointer;
+  line-height: 31px;
+}
+.paddle i {
+  color: #ffffff;
+}
+
+.left-paddle {
+  left: 0;
+}
+
+.right-paddle {
+  right: -20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.print {
+  margin: auto;
+  max-width: 500px;
+}
+.print span {
+  display: inline-block;
+  width: 100px;
+}
+
+.admission-process-sect .primaryBtn {
+  background: #000;
+  width: 100%;
+  justify-content: center;
+}
+.admission-process-sect .layout {
+  gap: 16px;
+}
+.admission-process-sect .tab-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  flex: 0 0 auto;
+  text-align: left;
+  margin: 0;
+  gap: 20px;
+}
+.admission-process-sect .tab-wrapper .show-popup:hover {
+  background: linear-gradient(90deg, #E12333 0%, #ff6600 100%) !important;
+}
+.admission-process-sect .tab-wrapper .tabs {
+  flex-direction: column;
+  border: 0;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  height: 100%;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link {
+  margin: 0;
+  border: 0;
+  padding: 15px;
+  font-weight: bold;
+  color: #535353;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  overflow: hidden;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-size: 16px;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span {
+  background-color: #fff;
+  border: 2px solid #707070;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  position: relative;
+  display: block;
+  border-radius: 100%;
+  flex: 0 0 auto;
+  z-index: 1;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span::before {
+  top: -100px;
+  bottom: unset;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span:before, .admission-process-sect .tab-wrapper .tabs .tab-link span:after {
+  width: 3px;
+  margin: 0 auto;
+  display: block;
+  content: " ";
+  background: #707070;
+  height: 100px;
+  position: absolute;
+  left: 9px;
+  z-index: -1;
+  bottom: -100px;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link:first-child {
+  margin: 0;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link:first-child span:before {
+  display: none;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link:last-child span:after {
+  display: none;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active {
+  background-color: #fdf8f4;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 2px;
+  color: #ff6600;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active span {
+  background-color: #fdf8f4;
+  color: #ff6600;
+  border-color: #ff6600;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active span:before, .admission-process-sect .tab-wrapper .tabs .tab-link.active span:after {
+  background-color: #ff6600;
+}
+.admission-process-sect .content-wrapper {
+  background: #fdf8f4;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 5px;
+}
+.admission-process-sect .content-wrapper .tab-content {
+  padding: 0;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card {
+  overflow: hidden;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .img-wrap {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 344/116;
+  height: 216px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .img-wrap img {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 366/162;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: none;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .content-wrap {
+  background-color: #fdf8f4;
+  padding: 30px 30px 56px;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .content-wrap .layout {
+  align-items: start;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .content-wrap .layout .count {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 4px solid #707070;
+  border-radius: 100%;
+  flex: 0 0 auto;
+  color: #707070;
+}
+.admission-process-sect .content-wrapper .tab-content .admission-card .content-wrap .layout .content h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
+.admission-process-sect .content-wrapper {
+  width: 60%;
+  flex: 0 0 auto;
+}
+
+.course-nav-pane-container.smu-cp .course-card-container .course-card {
+  flex-basis: 33.33%;
+}
+
+.elective-bg .electivesSlider .line-items img {
+  margin: 0 4px 0 auto !important;
+  padding-bottom: 0px !important;
+}
+
+.electivesSlider .slick-prev,
+.electivesSlidervwo .slick-prev {
+  right: -24px;
+  top: calc(58% - 50px);
+}
+.electivesSlider .slick-next,
+.electivesSlidervwo .slick-next {
+  right: -17px;
+  top: calc(58% - 50px);
+}
+.electivesSlider .elective-active,
+.electivesSlidervwo .elective-active {
+  border: 2px solid #ff6600;
+  position: relative;
+}
+.electivesSlider .ele-close-icon,
+.electivesSlidervwo .ele-close-icon {
+  position: absolute;
+  top: -10%;
+  left: 92%;
+  width: 20px !important;
+  display: none;
+}
+.electivesSlider .slick-track,
+.electivesSlidervwo .slick-track {
+  display: flex;
+  margin-top: 13px;
+}
+.electivesSlider .line-items,
+.electivesSlidervwo .line-items {
+  border: 1px solid #e6eaee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 11px;
+  padding: 24px;
+  height: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+.electivesSlider .line-items img,
+.electivesSlider .line-items svg,
+.electivesSlidervwo .line-items img,
+.electivesSlidervwo .line-items svg {
+  width: 32px;
+  height: 32px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+.electivesSlider .line-items svg.english,
+.electivesSlidervwo .line-items svg.english {
+  width: 26px;
+}
+.electivesSlider .line-items .name,
+.electivesSlidervwo .line-items .name {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-decoration: none !important;
+}
+
+.electivesSlider .line-items.elective-active {
+  border: 2px solid #ff6600;
+}
+
+.elective-bg .electivesSlider .line-items {
+  cursor: default;
+  background: none;
+  border: none;
+  text-align: left;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding: 0px 0;
+  margin-right: 24px;
+  width: auto !important;
+}
+.elective-bg .electivesSlider .line-items .name {
+  text-align: left;
+  max-width: 76px;
+}
+
+.Electives.elective-bg .electivesSlider .slick-track {
+  display: flex;
+  width: auto !important;
+}
+
+.smu .electivesSlider .line-items {
+  background: #DEFFD3;
+}
+.smu .electivesSlider .line-items svg path {
+  fill: #013C51;
+  stroke: #013C51;
+}
+.smu .electivesSlider .line-items svg path.nostroke {
+  stroke: transparent;
+}
+.smu .electivesSlider .elective-active {
+  border: 2px solid #013C51;
+  z-index: 1;
+}
+.smu .elective-smu-mba .electivesSlider .slick-track .line-items {
+  background: #ffffff;
+  position: relative;
+}
+
+.scholarship-sect .home-scholarship {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.scholarship-sect .flex-item img {
+  height: 35px;
+  width: auto;
+}
+
+.scholarship-sect .flex-item-attractive img {
+  width: 38px;
+}
+
+.flex-item-image {
+  width: 38px;
+  height: 28px;
+}
+
+.expandArrow {
+  left: -35px;
+}
+
+.wrapper.no-sidebar .leftBlock .right-paddle {
+  right: 0px;
+}
+
+/* subnavigation desktop arrow issue css end */
+.electives-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 0.5px solid #b5b1b1;
+  line-height: 18px;
+}
+
+#electives-subject,
+#electives-subject1,
+#electives-subject2,
+#electives-subject3,
+#electives-subject4,
+#electives-subject5,
+#electives-subject6,
+#electives-subject7,
+#electives-subject8,
+#electives-subject9 {
+  padding: 6px 12px;
+  cursor: pointer;
+  min-width: 18vw;
+  max-width: 18vw;
+}
+
+.smu .expect-to-learn .smu-mba select:disabled {
+  opacity: 1;
+  -webkit-appearance: none;
+  /* Remove default arrow */
+  -moz-appearance: none;
+  /* For Firefox */
+  appearance: none;
+}
+.smu .expect-to-learn .smu-mba #marketing-default,
+.smu .expect-to-learn .smu-mba #marketing-default2 {
+  opacity: 1;
+  -webkit-appearance: none;
+  /* Remove default arrow */
+  -moz-appearance: none;
+  /* For Firefox */
+  appearance: none;
+  cursor: default !important;
+  padding: 6px 12px;
+  cursor: pointer;
+  min-width: 18vw;
+  max-width: 18vw;
+}
+.smu .expect-to-learn .smu-mba .electives-layout select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  white-space: normal;
+  cursor: pointer;
+}
+.smu .expect-to-learn .smu-mba .electives-layout .select-dropdown {
+  position: relative;
+}
+.smu .expect-to-learn .smu-mba .electives-layout .select-dropdown:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.toolsCovered .slick-track li {
+  border: 12px solid #EAEFF5;
+  border-radius: 5px;
+  margin-right: 16px;
+  padding: 12px;
+}
+
+.toolsCovered ul {
+  padding-left: 0px !important;
+}
+
+.toolsCovered .slick-next {
+  right: -10px !important;
+  top: 35% !important;
+}
+
+.toolsCovered .slick-prev {
+  top: 35% !important;
+}
+
+.fees-container.courseFee {
+  display: flex;
+}
+.fees-container.courseFee .intCourseFee {
+  display: FLEX;
+  flex-direction: column;
+  width: 100%;
+}
+.fees-container.courseFee .tabs {
+  display: flex;
+  border-bottom: 4px solid #EAEFF5;
+  margin: 0 0 20px 0;
+}
+.fees-container.courseFee .tabcontent.active {
+  display: flex;
+  width: 100%;
+}
+.fees-container.courseFee .tablinks {
+  cursor: pointer;
+  color: #CBCFD9;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  padding-bottom: 12px;
+  margin: 0 24px 0px 0;
+}
+.fees-container.courseFee .tablinks.active {
+  border-bottom: 5px solid #09143E;
+  color: #09143E;
+}
+.fees-container.courseFee .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(145deg, #00B5B3 0%, #09143E 30%);
+  margin-right: 16px;
+  border-radius: 5px;
+  padding: 24px;
+  height: inherit;
+  width: 50%;
+}
+.fees-container.courseFee .left .line-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background-color: #fdf8f4;
+  padding: 24px;
+  border-radius: 5px;
+}
+.fees-container.courseFee .left .line-item.full {
+  height: 100%;
+}
+.fees-container.courseFee .left .line-item:nth-child(2) {
+  margin-top: 12px;
+}
+.fees-container.courseFee .left .inclusiveText {
+  color: #ffffff;
+}
+.fees-container.courseFee .left.box2 {
+  justify-content: unset;
+  align-items: unset;
+  background-color: unset;
+  border-radius: unset;
+  padding: unset;
+}
+.fees-container.courseFee .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: inherit;
+  justify-content: center;
+}
+.fees-container.courseFee .right .line-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background-color: #fee8da;
+  padding: 24px;
+  border-radius: 5px;
+}
+.fees-container.courseFee .right .line-item.full {
+  height: 100%;
+}
+.fees-container.courseFee .right .line-item:nth-child(2) {
+  margin-top: 12px;
+}
+.fees-container.courseFee .label {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.64px;
+  font-weight: 200;
+}
+.fees-container.courseFee .price {
+  font-size: 38px;
+  padding: 6px 0;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.fees-container.courseFee .emi-price {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.fees-container.courseFee .semesterFee {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.fees-container.courseFee .inclusiveText {
+  font-size: 12px;
+  text-align: center;
+  color: #013C51;
+  line-height: 17px;
+}
+.fees-container.courseFee .inclusiveText p {
+  color: #013C51;
+}
+.fees-container.courseFee .primaryColor {
+  color: #013C51 !important;
+}
+.fees-container.courseFee .nextLine {
+  display: block;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+
+.coursePage.muj .fees-container.courseFee .left {
+  background: linear-gradient(145deg, #DED7B6 0%, #0522D2 50%);
+}
+
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee .right.int-fee .line-item:first-child {
+  background: #F4AE2A;
+}
+
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee .right.int-fee .line-item:first-child {
+  background: #57FF45;
+}
+
+.coursePage.mahe .fees-scholarship-sect .fees-container.courseFee .right.int-fee .line-item:first-child {
+  background: #00D7D5;
+}
+
+.coursePage.smu .fees-container.courseFee .left {
+  background: linear-gradient(145deg, #57FF45 0%, #09143E 30%);
+}
+
+.fees-scholarship-sect .tabcontent {
+  display: none;
+}
+.fees-scholarship-sect .tabcontent.active {
+  display: block;
+}
+.fees-scholarship-sect .tablinks.active {
+  border-bottom: 5px solid #000;
+  color: #000;
+}
+.fees-scholarship-sect .tablinks {
+  cursor: pointer;
+  margin-left: 0px;
+  margin-right: 26px;
+  color: #d8d8d8;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  top: 4px;
+  padding-bottom: 10px;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj {
+  flex-direction: column;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj .right {
+  background-color: #00D7D5;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(2) {
+  margin-top: 0px;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(1) {
+  position: relative;
+  background-color: #14223D;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(1):after {
+  content: "";
+  height: 10px;
+  width: 90%;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  top: 90%;
+}
+.fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(2) {
+  border-bottom: none;
+  background-color: #00D7D5;
+}
+.fees-scholarship-sect .fees-container.courseFee.international {
+  flex-wrap: wrap;
+}
+.fees-scholarship-sect .fees-container.courseFee.international > .left,
+.fees-scholarship-sect .fees-container.courseFee.international > .right {
+  width: 49%;
+}
+.fees-scholarship-sect .non-resident-indian .left {
+  padding: 54px;
+}
+.fees-scholarship-sect .non-resident-indian .right {
+  background-color: #fee8da;
+}
+.fees-scholarship-sect .non-indian .left {
+  padding: 54px;
+}
+.fees-scholarship-sect .non-indian .right {
+  background-color: #fee8da;
+}
+.fees-scholarship-sect .indian-african .left {
+  padding: 54px;
+}
+
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee.muj .right {
+  background-color: #F4AE2A;
+}
+
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee.muj .right {
+  background-color: #57FF45;
+}
+
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee.muj .line-item:nth-child(1) {
+  background-color: #0522D2;
+}
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee.muj .line-item:nth-child(2) {
+  background-color: #F4AE2A;
+}
+
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee.muj .line-item:nth-child(1) {
+  background-color: #013C51;
+}
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee.muj .line-item:nth-child(2) {
+  background-color: #57FF45;
+}
+
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee .right .line-item.full {
+  margin: 0 !important;
+  background-color: #F4AE2A;
+}
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .label,
+.coursePage.muj .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .price {
+  color: #09143E;
+}
+
+.coursePage.mahe .fees-scholarship-sect .fees-container.courseFee .right .line-item.full {
+  margin: 0 !important;
+  background-color: #00D7D5;
+}
+.coursePage.mahe .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .label,
+.coursePage.mahe .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .price {
+  color: #09143E;
+}
+
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee .right .line-item.full {
+  margin: 0 !important;
+  background-color: #57FF45;
+}
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .label,
+.coursePage.smu .fees-scholarship-sect .fees-container.courseFee .right .line-item.full .price {
+  color: #09143E;
+}
+
+.fees-container.courseFee.pgcpdsml {
+  flex-direction: column;
+}
+.fees-container.courseFee.pgcpdsml .pgcpdsml-fee {
+  flex-direction: row;
+  display: flex;
+}
+.fees-container.courseFee.pgcpdsml .pgcpdsml-fee .left {
+  width: 50%;
+}
+.fees-container.courseFee.pgcpdsml .pgcpdsml-fee .right {
+  width: 50%;
+}
+.fees-container.courseFee.pgcpdsml .pgcpdsml-fee .right .line-item {
+  background-color: #fdf8f4 !important;
+}
+.fees-container.courseFee.pgcpdsml .right.fullwidth {
+  width: 100% !important;
+  margin-top: 15px;
+}
+
+.smu .fees-container.courseFee .left {
+  background-color: #f5f8fa;
+}
+.smu .fees-container.courseFee .right .line-item {
+  background-color: #DEFFD3;
+}
+.smu .fees-container.courseFee .primaryColor {
+  color: #013C51 !important;
+}
+
+.overlay-content.bkfs {
+  flex-direction: column !important;
+  align-items: unset !important;
+  top: 40% !important;
+  height: auto !important;
+  bottom: unset !important;
+}
+.overlay-content.bkfs .close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 24px;
+  background: unset;
+}
+.overlay-content.bkfs p {
+  padding: 0px !important;
+  border-top: unset !important;
+  line-height: initial !important;
+}
+
+.accordion-desc .listStyle {
+  padding: 20px;
+  border-top: 0.5px solid #b5b1b1;
+  line-height: 18px;
+}
+
+.learn-more-modal table {
+  padding-top: 24px;
+}
+.learn-more-modal table tbody tr {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1019607843);
+  padding: 6px 0;
+}
+.learn-more-modal table tbody tr:last-child {
+  border-bottom: none;
+}
+.learn-more-modal table tr:hover {
+  background-color: unset;
+}
+.learn-more-modal table th {
+  color: #1c1c1c;
+  letter-spacing: 2.64px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background: unset;
+  padding: 0px;
+  border: unset;
+  padding: 6px;
+  font-weight: unset;
+}
+.learn-more-modal table td {
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  color: #535353;
+  background: unset;
+  padding: 0px;
+  border: unset;
+  padding: 6px;
+}
+.learn-more-modal table tr:nth-child(even) {
+  background-color: unset;
+  padding: 4px;
+}
+.learn-more-modal table .muj-fee-consession {
+  border-bottom: none !important;
+}
+.learn-more-modal table .muj-fee-consession-data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
+.overlay-content.popupattractiveScholarshipModal.mahe {
+  padding: 0px;
+  align-items: unset !important;
+  background: #DEF5F3 !important;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .td-width {
+  width: 34%;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .th-width-d {
+  width: 15%;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .th-width-e {
+  width: 51%;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .learn-more-modal {
+  background-color: #DEF5F3;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .learn-more-modal table td {
+  color: #09143E;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .learn-more-modal table td {
+  color: #09143E;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .learn-more-modal table th {
+  color: #4A5373;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .learn-more-modal table th {
+  vertical-align: top;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .flex-item h6 {
+  color: #09143E;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .flex-epm h6,
+.overlay-content.popupattractiveScholarshipModal.mahe .flex-tenure h6 {
+  font-weight: bold;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe td:first-child,
+.overlay-content.popupattractiveScholarshipModal.mahe td:nth-child(2) {
+  font-weight: bold;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .font-regular {
+  font-weight: normal !important;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .note {
+  font-size: 12px !important;
+}
+.overlay-content.popupattractiveScholarshipModal.mahe .easy-financing-option {
+  padding: 0px 35px 30px;
+}
+
+.overlay-content.popupattractiveScholarshipModal.muj .note {
+  font-size: 12px !important;
+}
+
+h2.cuniv-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.courseDetails .courseInfo .right .row .line-item.free-content.center span {
+  align-items: center;
+}
+
+.courseDetails .courseInfo .right .row .line-item span.elibility-label {
+  padding: 8px 0;
+}
+
+.mobileNextLine {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+.mobileRFIForm .websiteForm {
+  background: #f7f7f7;
+  padding: 24px;
+}
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup input,
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup select,
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup option {
+  background: #efefef;
+}
+.mobileRFIForm .websiteForm h5 {
+  padding-bottom: 0px;
+}
+
+.scholarship-flex-container .left-content {
+  padding: 50px 24px;
+  flex-basis: 50%;
+}
+
+.scholarship-flex-container .left-content.full {
+  flex-basis: 100%;
+}
+
+.referearn-sect .refer-container {
+  display: flex;
+  background-color: #DAE7F0;
+  padding: 0px;
+}
+.referearn-sect .refer-container .referearn-scholarship {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 45px;
+  gap: 10px;
+}
+.referearn-sect .refer-container .referearn-scholarship .left-content {
+  padding: 0px 0px 20px !important;
+  flex-basis: 50%;
+}
+.referearn-sect .refer-container .referearn-scholarship .left-content.full {
+  justify-content: left;
+  flex-basis: 100%;
+}
+.referearn-sect .refer-container .referearn-scholarship .refer-earn-text {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.referearn-sect .refer-container .referearn-scholarship .refer-earn-button {
+  background: black;
+  border-radius: 2px;
+  padding: 13px 31px;
+  font-weight: 600;
+  -webkit-text-decoration: auto;
+  text-decoration: auto;
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper .testimonial {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: -14%;
+  margin-right: -5%;
+}
+.wrapper .testimonial .container {
+  margin: 0 12%;
+}
+.wrapper .testimonial .testimonial-section .slick-list {
+  padding: 0 5% 0 12%;
+}
+.wrapper .testimonial .testimonial-section .slick-prev {
+  left: 9%;
+}
+.wrapper .testimonial .testimonial-section .slick-next {
+  right: 2.5%;
+}
+.wrapper .testimonial .testimonial-section .slick-dots {
+  padding-left: 12.5%;
+  padding-right: 6.5%;
+}
+
+.wrapper.no-sidebar .testimonial {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: -9.5%;
+  margin-right: -9.5%;
+}
+.wrapper.no-sidebar .testimonial .container {
+  margin: 0 8%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+  padding: 0 8%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+  left: 6%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+  right: 7%;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-dots {
+  padding-left: 0;
+}
+
+.placement-assistance-sect .testi-read {
+  background-color: #EFEFEF;
+}
+.placement-assistance-sect .slick-slide {
+  background-color: #f7f7f7 !important;
+}
+.placement-assistance-sect .testi-wrap .content-wrap {
+  background-color: #f7f7f7;
+}
+.placement-assistance-sect .testi-wrap .content-wrap .testimonial-desc.expanded {
+  color: #f7f7f7;
+}
+.placement-assistance-sect .know-more-text {
+  padding-left: 12.5%;
+  padding-right: 6.5%;
+  padding-top: 0;
+}
+
+.wrapper.no-sidebar .know-more-text {
+  padding-left: 0;
+}
+
+.mobileRFIForm {
+  display: none;
+}
+.mobileRFIForm .websiteForm {
+  background: #f7f7f7;
+  padding: 24px;
+}
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup input,
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup select,
+.mobileRFIForm .websiteForm .rfi-form .fieldGroup option {
+  background: #efefef;
+}
+.mobileRFIForm .websiteForm h5 {
+  padding-bottom: 0px;
+}
+
+.courseOverview .MAHE .courseInfo .right,
+.courseOverview .TAPMI .courseInfo .right,
+.courseOverview .MIT .courseInfo .right {
+  background: #DEF5F3;
+}
+.courseOverview .MAHE .courseInfo .right .row .line-item .label,
+.courseOverview .MAHE .courseInfo .right .row .line-item .durationText,
+.courseOverview .MAHE .courseInfo .right .row .line-item span.elibility-label,
+.courseOverview .MAHE .courseInfo .right .row .line-item .feeText,
+.courseOverview .MAHE .courseInfo .right .row .line-item span,
+.courseOverview .TAPMI .courseInfo .right .row .line-item .label,
+.courseOverview .TAPMI .courseInfo .right .row .line-item .durationText,
+.courseOverview .TAPMI .courseInfo .right .row .line-item span.elibility-label,
+.courseOverview .TAPMI .courseInfo .right .row .line-item .feeText,
+.courseOverview .TAPMI .courseInfo .right .row .line-item span,
+.courseOverview .MIT .courseInfo .right .row .line-item .label,
+.courseOverview .MIT .courseInfo .right .row .line-item .durationText,
+.courseOverview .MIT .courseInfo .right .row .line-item span.elibility-label,
+.courseOverview .MIT .courseInfo .right .row .line-item .feeText,
+.courseOverview .MIT .courseInfo .right .row .line-item span {
+  color: #14223D;
+}
+.courseOverview .MAHE .courseInfo .right .row .line-item span svg path,
+.courseOverview .TAPMI .courseInfo .right .row .line-item span svg path,
+.courseOverview .MIT .courseInfo .right .row .line-item span svg path {
+  fill: #14223D;
+}
+.courseOverview .MAHE .dateHightlight,
+.courseOverview .TAPMI .dateHightlight,
+.courseOverview .MIT .dateHightlight {
+  background: #9ADBD8;
+}
+.courseOverview .eminence-image {
+  width: auto !important;
+  margin: 0 16px 0 0 !important;
+}
+
+.coursePage.smu .courseOverview .dateHightlight {
+  background: #B5FFAA;
+}
+
+.coursePage.muj .courseOverview .dateHightlight {
+  background: #BFDAFF;
+}
+
+.additional-skill .skill-content {
+  display: flex;
+  border: 1px solid #e6eaee;
+  padding: 22px 32px 16px;
+  gap: 4%;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.additional-skill .skill-content .future-leaders,
+.additional-skill .skill-content .business-leaders {
+  width: 50%;
+}
+.additional-skill .skill-content .future-heading,
+.additional-skill .skill-content .business-heading {
+  font-size: 16px;
+  line-height: 15px;
+  padding-right: 15px;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.1607843137);
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.additional-skill .skill-content .future-content,
+.additional-skill .skill-content .business-content {
+  padding: 20px 0;
+}
+.additional-skill .skill-content .future-content li,
+.additional-skill .skill-content .business-content li {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.32px;
+  color: #343634;
+}
+
+.learn-more-modal.mobile {
+  padding: 0;
+}
+.learn-more-modal.mobile h5 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #09143E;
+}
+.learn-more-modal.mobile .cat-region {
+  padding: 10px 15px;
+  border-bottom: 0.5px solid #ccc;
+  margin: 0 -10px;
+}
+.learn-more-modal.mobile .layout {
+  display: flex;
+  justify-content: space-between;
+}
+.learn-more-modal.mobile .Divyang-cert,
+.learn-more-modal.mobile .valid-cert {
+  width: 50%;
+}
+.learn-more-modal.mobile .smallText {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4A5373;
+}
+.learn-more-modal.mobile .scholarship-text-center h6 {
+  padding-bottom: 0px;
+}
+.learn-more-modal.mobile .close-icon {
+  top: 18px !important;
+}
+.learn-more-modal.mobile p,
+.learn-more-modal.mobile .mobilefontsize {
+  color: #09143E;
+}
+
+.institute-statistics-container {
+  background-color: #dae7f0;
+  padding: 24px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+.institute-statistics-container .statistics-container {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 24px;
+}
+.institute-statistics-container .statistics-container .statistics-count {
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  color: #343634;
+}
+.institute-statistics-container .statistics-container .statistics-description {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #343634;
+}
+
+.mahe-fee-alert {
+  justify-content: space-between;
+}
+.mahe-fee-alert .fee-alert {
+  background: #BFE9E7;
+  color: #14223D;
+  padding: 3px 5px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 12px;
+}
+
+.wrapper.no-sidebar .courseSubNav .sub-menu-wrapper .sub-menu {
+  background-color: transparent;
+}
+.wrapper.no-sidebar .courseSubNav .sub-menu-wrapper .sub-menu .item a {
+  color: #A0A6B6;
+}
+.wrapper.no-sidebar .courseSubNav .sub-menu-wrapper .sub-menu .item.active a {
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+.wrapper.no-sidebar .testimonial {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper.no-sidebar .testimonial .container {
+  margin: 0 !important;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+  padding: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+  right: -20px;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+  left: -25px;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .slick-dots {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .testi-wrap .content-wrap {
+  padding: 20px 20px;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .testi-wrap .content-wrap .testimonial-desc.default {
+  -webkit-line-clamp: 4;
+  max-height: 72px;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .testi-wrap .name-course .name {
+  font-size: 13px;
+}
+.wrapper.no-sidebar .testimonial .testimonial-section .testi-wrap .course-wrap.layout-vertical .name-course {
+  width: 58%;
+}
+
+.career-support-details {
+  padding: 20px 18px 30px 18px;
+}
+
+.career-support-image {
+  height: auto;
+}
+.career-support-image img {
+  border-radius: 0;
+}
+
+.career-support-div.international .career-support-container {
+  border: none;
+}
+.career-support-div.international .career-support-container .career-support-image {
+  height: 100%;
+}
+.career-support-div.international .slick-dots li button::before {
+  -webkit-text-stroke-color: #ffffff;
+}
+.career-support-div.international .slick-dots li.slick-active button::before {
+  color: #ffffff;
+}
+
+.fees-scholarship-sect .description-fee {
+  font-size: 12px;
+  color: #000;
+  margin-top: 20px;
+}
+.fees-scholarship-sect .non-resident-indian .left,
+.fees-scholarship-sect .non-indian .left {
+  padding: 24px;
+}
+.fees-scholarship-sect .non-resident-indian .left,
+.fees-scholarship-sect .african-student .left,
+.fees-scholarship-sect .non-indian .left {
+  padding: 61px !important;
+}
+.fees-scholarship-sect .fees-container.courseFee .left {
+  background-color: transparent;
+}
+.fees-scholarship-sect .fees-container.courseFee .right {
+  background-color: transparent;
+}
+.fees-scholarship-sect .fees-container.courseFee .right .line-item {
+  background-color: transparent;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left {
+  background-color: transparent;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left .layout {
+  flex-direction: column;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left .layout .left-fee {
+  width: 100%;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left .layout .left-fee .label {
+  text-align: center;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left .layout .right-fee .price,
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .left .layout .right-fee .inclusiveText {
+  text-align: center;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item {
+  background-color: transparent;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item .layout .left-fee .label {
+  text-align: center;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item .layout .right-fee .price,
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item .layout .right-fee .inclusiveText {
+  text-align: center;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:first-child {
+  margin-bottom: 8px !important;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:first-child .inclusiveText {
+  color: #ffffff;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:last-child {
+  margin-top: 8px !important;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .primaryColor {
+  color: #3F2B55 !important;
+}
+.fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:nth-child(1):after {
+  border-bottom: 0 !important;
+}
+.fees-scholarship-sect #indian .right {
+  background-color: #fff;
+}
+.fees-scholarship-sect #non-resident-indian .right,
+.fees-scholarship-sect #non-indian .right,
+.fees-scholarship-sect #indian-african .right {
+  border-radius: 5px;
+}
+
+.career-support-div .career-support-container {
+  background: #ffffff;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e6eaee;
+}
+
+.fees-container .left .layout {
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.fees-container .left .layout .left-fee {
+  width: 40%;
+}
+.fees-container .left .layout .left-fee .label {
+  text-align: left;
+}
+.fees-container .left .layout .right-fee .price,
+.fees-container .left .layout .right-fee .inclusiveText {
+  text-align: left;
+}
+.fees-container .left .layout .right-fee .inclusiveText {
+  margin-top: -5px;
+}
+.fees-container .right .layout {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.fees-container .right .layout .left-fee {
+  /*width: 30%;*/
+}
+.fees-container .right .layout .left-fee .label {
+  text-align: left;
+}
+.fees-container .right .layout .right-fee .price,
+.fees-container .right .layout .right-fee .inclusiveText {
+  text-align: left;
+}
+
+.courseDetails .courseInfo .right {
+  flex-basis: 100%;
+}
+.courseDetails .courseInfo .right .row {
+  display: block;
+  padding: 0 6px 0 12px;
+  border-bottom: 0;
+  border-right: 1px solid #09143E;
+}
+.courseDetails .courseInfo .right .row .coursera {
+  display: block !important;
+}
+.courseDetails .courseInfo .right .row .coursera .coursera-img {
+  width: 73px !important;
+}
+.courseDetails .courseInfo .right .row .coursera .coursera-text {
+  color: #09143E !important;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 6px 0;
+}
+.courseDetails .courseInfo .right .row .coursera .coursera-text .know-more {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  background: none;
+  padding: 0;
+  display: inline;
+  text-decoration: underline;
+  color: #09143E;
+}
+.courseDetails .courseInfo .right .row .coursera .coursera-text .know-more-mobile {
+  text-align: left;
+  text-decoration: underline;
+  display: block;
+}
+.courseDetails .courseInfo .right .row .google-text {
+  color: #09143E !important;
+  font-size: 14px;
+  line-height: 16px;
+}
+.courseDetails .courseInfo .right .row .line-item:first-child {
+  margin-bottom: 10px;
+}
+.courseDetails .courseInfo .right .row .line-item span.elibility-label {
+  padding: 0;
+}
+.courseDetails .courseInfo .right .row .line-item .feeText {
+  flex-flow: row;
+}
+.courseDetails .courseInfo .right .row .line-item .feeText span {
+  margin-left: 5px;
+}
+.courseDetails .courseInfo .right .row .line-item.free-content.center {
+  margin-bottom: 20px;
+}
+.courseDetails .courseInfo .right .row .line-item.free-content.center span {
+  font-weight: bold;
+}
+.courseDetails .courseInfo .right .row .line-item.free-content.center:last-child {
+  margin-bottom: 0;
+}
+.courseDetails .courseInfo .right .layout .row {
+  flex-basis: 40%;
+}
+.courseDetails .courseInfo .right .layout .row:last-child {
+  border-right: 0;
+}
+.courseDetails .courseInfo .right .layout .row:first-child, .courseDetails .courseInfo .right .layout .row:last-child {
+  flex-basis: 30%;
+}
+.courseDetails .courseInfo .right .layout .row:nth-child(2) {
+  border-right: 1px solid #09143E;
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  flex-basis: 40%;
+}
+
+.page-template-distance-bca-v2-lp .course-details .right p {
+  color: #09143E !important;
+}
+.page-template-distance-bca-v2-lp .course-details .right .edit, .page-template-distance-bca-v2-lp .course-details .right .resend-otp, .page-template-distance-bca-v2-lp .course-details .right .countdown, .page-template-distance-bca-v2-lp .course-details .right .edit i {
+  color: #09143E !important;
+}
+
+.dateHightlight {
+  background: #3E0C04;
+}
+.dateHightlight span {
+  color: #fff;
+}
+
+.testi-read {
+  background: transparent !important;
+  padding: 8px 0 !important;
+  text-decoration: underline !important;
+  font-weight: 400 !important;
+  text-align: right !important;
+  font-size: 14px;
+}
+
+.banner-top-section > .left {
+  width: 70%;
+}
+.banner-top-section > .left h2.cuniv-name {
+  color: #09143E;
+}
+.banner-top-section > .left .description {
+  margin-bottom: 24px;
+}
+.banner-top-section > .left .description p {
+  line-height: 18px;
+  text-align: justify;
+  color: #09143E;
+}
+.banner-top-section .right {
+  width: 30%;
+}
+.banner-top-section .right .otp-verification-block {
+  padding: 0;
+}
+
+.course-details .right p,
+.course-details .right .edit,
+.course-details .right .edit i,
+.course-details .right .resend-otp,
+.course-details .right .countdown {
+  color: #ffffff !important;
+}
+
+.right .websiteForm.Vertical {
+  position: relative;
+  top: 0;
+  background: #3E0C04;
+  border-radius: 5px;
+  padding: 20px !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  z-index: unset;
+}
+.right .websiteForm.Vertical .univ-logo {
+  background: #f7f7f7;
+  padding: 14px;
+  margin: 0 -20px 10px;
+}
+.right .websiteForm.Vertical .univ-logo img {
+  max-width: 175px;
+}
+.right .websiteForm.Vertical h5 {
+  font-size: 16px;
+  color: #ffffff;
+  padding-bottom: 6px;
+}
+.right .websiteForm.Vertical .form-heading {
+  font-size: 16px;
+  color: #ffffff;
+  padding-bottom: 6px;
+  text-align: center;
+}
+.right .websiteForm.Vertical .label {
+  display: none;
+}
+.right .websiteForm.Vertical .otp-verification-block .buttons .courseDetails {
+  display: none;
+}
+.right .websiteForm.Vertical .rfi-form .fieldGroup input {
+  background: #ffffff;
+}
+.right .websiteForm.Vertical .rfi-form .fieldGroup input::-moz-placeholder {
+  opacity: 1;
+}
+.right .websiteForm.Vertical .rfi-form .fieldGroup input::placeholder {
+  opacity: 1;
+}
+.right .websiteForm.Vertical .rfi-form .submitField input {
+  background: transparent linear-gradient(90deg, #FF6600 0%, #FF5204 0%, #FF270D 100%) 0% 0% no-repeat padding-box !important;
+}
+.right .websiteForm.Vertical .rfi-form .submitField input:hover {
+  background: #DB1800 0% 0% no-repeat padding-box !important;
+}
+.right .websiteForm.Vertical .rfi-form .submitField .download-brochure-submit-btn {
+  background: transparent linear-gradient(90deg, #fee8da 0%, #fee8da 0%, #fee8da 100%) 0% 0% no-repeat padding-box !important;
+  margin-top: 10px;
+  color: #000000 !important;
+}
+.right .websiteForm.Vertical .rfi-form .submitField .download-brochure-submit-btn:hover {
+  background: transparent linear-gradient(90deg, #FF6600 0%, #FF5204 0%, #FF270D 100%) 0% 0% no-repeat padding-box !important;
+  color: #ffffff !important;
+}
+.right .websiteForm.Vertical .rfi-form .termsField label {
+  color: #ffffff;
+}
+.right .websiteForm.Vertical .right-frm-resp-text {
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.websiteForm.Horizontal .otp-verification-block .buttons .courseDetails {
+  display: none;
+}
+
+.certificate-section {
+  padding: 40px 50px 40px 70px !important;
+}
+
+.Electives .section-title {
+  font-size: 20px;
+  padding-bottom: 0;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.Electives .section-title span {
+  font-size: 20px;
+  font-style: normal;
+  font-family: inherit;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.admission-process-sect .tab-wrapper {
+  width: auto;
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #e6eaee;
+}
+.admission-process-sect .tab-wrapper .tabs {
+  flex-direction: row;
+  gap: 0;
+  background-color: transparent;
+  padding: 0;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link {
+  flex-direction: column;
+  flex-basis: 25%;
+  padding: 0;
+  display: block;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span {
+  margin: 0 auto;
+  background-color: transparent;
+  color: #ff6600;
+  border-color: #ff6600;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span:before, .admission-process-sect .tab-wrapper .tabs .tab-link span:after {
+  width: 11vw;
+  height: 2px;
+  left: 22px;
+  bottom: 8px;
+  background-color: #ffcaa6;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link span::before {
+  right: 22px;
+  top: unset;
+  left: unset;
+}
+.admission-process-sect .tab-wrapper .tabs img {
+  height: 50px;
+  margin: 10px auto 0;
+}
+.admission-process-sect .tab-wrapper .tabs h5,
+.admission-process-sect .tab-wrapper .tabs .sub-title {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  /*min-height: 46px;*/
+}
+.admission-process-sect .tab-wrapper .tabs h5,
+.admission-process-sect .tab-wrapper .tabs p,
+.admission-process-sect .tab-wrapper .tabs .sub-title {
+  padding: 0 10px;
+  text-align: center;
+  color: #09143E;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active {
+  background-color: inherit;
+  box-shadow: none;
+  border-radius: 0;
+  color: #535353;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active span {
+  background-color: transparent;
+  color: #ff6600;
+  border-color: #ff6600;
+}
+.admission-process-sect .tab-wrapper .tabs .tab-link.active span:before, .admission-process-sect .tab-wrapper .tabs .tab-link.active span:after {
+  background-color: #ffcaa6;
+}
+.admission-process-sect .primaryBtn {
+  background: #09143E;
+  width: auto;
+}
+.admission-process-sect .primaryBtn:hover {
+  background: linear-gradient(180deg, #ff6600 0%, #FF5204 0%, #FF270D 100%) !important;
+  color: #ffffff !important;
+}
+
+.electivesSlider .line-items {
+  padding: 16px;
+}
+
+.scholarship-flex-container .left-content {
+  padding: 24px;
+}
+
+.overlay-content.popupleadForm .rfi-form .fieldGroup,
+.overlay-content.popupdownloadForm .rfi-form .fieldGroup {
+  flex-basis: 100%;
+  padding: 8px 6px;
+}
+.overlay-content.popupleadForm .rfi-form .form-group label:before,
+.overlay-content.popupdownloadForm .rfi-form .form-group label:before {
+  border-color: #000000;
+}
+.overlay-content.popupleadForm .rfi-form .submitField p,
+.overlay-content.popupleadForm .rfi-form .submitField input,
+.overlay-content.popupdownloadForm .rfi-form .submitField p,
+.overlay-content.popupdownloadForm .rfi-form .submitField input {
+  width: 100%;
+}
+.overlay-content.popupleadForm .websiteForm.Horizontal,
+.overlay-content.popupdownloadForm .websiteForm.Horizontal {
+  padding: 24px 0px;
+}
+
+.rfi-form .fieldGroup {
+  flex-basis: 100%;
+}
+
+.breadcrumb-container {
+  position: relative;
+  top: 0 !important;
+}
+
+.test {
+  color: #000;
+}
+
+.career-support-sect .slick-list {
+  margin: 0 !important;
+}
+
+.Electives .electivesSlider .line-items .name {
+  color: #000000;
+}
+
+.rankings .rankingSlider .line-items .title {
+  color: #000000;
+}
+
+.coursePage.mahe .courseDetails .courseInfo .right {
+  background: #DEF5F3;
+}
+.coursePage.mahe .dateHightlight {
+  background: #9ADBD8;
+}
+.coursePage.mahe .dateHightlight .left span {
+  color: #09143E;
+}
+
+.toolsCovered .slick-slide img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.coursePage.muj .courseDetails .courseInfo .right {
+  background: #DEEDFF;
+}
+.coursePage.muj .dateHightlight {
+  background: #BFDAFF;
+}
+.coursePage.muj .dateHightlight .left span {
+  color: #060e2b;
+}
+
+.coursePage.smu .courseDetails .courseInfo .right {
+  background: #EAFFE0;
+}
+.coursePage.smu .dateHightlight {
+  background: #B5FFAA;
+}
+.coursePage.smu .dateHightlight .left span {
+  color: #013C51;
+}
+
+.coursePage.muj .right .websiteForm.Vertical {
+  background: linear-gradient(150deg, #0522D2 0%, #09143E 30%);
+}
+
+.coursePage.mahe .right .websiteForm.Vertical {
+  background: linear-gradient(150deg, #00B5B3 0%, #09143E 30%);
+}
+
+.coursePage.smu .right .websiteForm.Vertical {
+  background: linear-gradient(150deg, #57FF45 0%, #09143E 30%);
+}
+
+.coursePage.muj .wrapper.no-sidebar .courseSubNav {
+  background: linear-gradient(357deg, #0522D2 0%, #09143E 40%);
+}
+
+.coursePage.mahe .wrapper.no-sidebar .courseSubNav {
+  background: linear-gradient(357deg, #00B5B3 0%, #09143E 40%);
+}
+
+.coursePage.smu .wrapper.no-sidebar .courseSubNav {
+  background: linear-gradient(357deg, #57FF45 0%, #09143E 40%);
+}
+
+.popupattractiveScholarshipModal.muj .popupContainer .learn-more-modal {
+  overflow: scroll;
+}
+
+.popupattractiveScholarshipModal.muj .learn-more-modal table th {
+  width: 34%;
+}
+
+.electives-mca .electivesSlider,
+.electives-bca .electivesSlider {
+  z-index: 1;
+  position: relative;
+}
+.electives-mca .electivesSlider .slick-list,
+.electives-bca .electivesSlider .slick-list {
+  overflow: unset !important;
+}
+
+.elective-bg .electivesSlider .line-items img {
+  margin-right: 8px !important;
+}
+
+.elective-bg .electivesSlider .line-items .name {
+  max-width: 200px !important;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block !important;
+  line-height: 1.5px !important;
+  padding-bottom: 0px !important;
+}
+.tooltip .tooltiptext {
+  display: none;
+  width: 159px;
+  background-color: #09143E;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+}
+.tooltip .tooltiptext ul {
+  padding-left: 0px !important;
+  font-weight: normal;
+}
+.tooltip .tooltiptext ul li {
+  list-style: none !important;
+  font-size: 12px;
+  color: #ffffff;
+}
+.tooltip .tooltiplist {
+  right: 0px;
+  left: 24px;
+  padding: 10px 0px !important;
+}
+.tooltip .tooltiplist .sem-2-tooltip span,
+.tooltip .tooltiplist .sem-3-tooltip span,
+.tooltip .tooltiplist .sem-4-tooltip span {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tooltip .tooltiplist ul li {
+  padding: 0px 16px;
+  position: relative;
+}
+.tooltip .tooltiplist .sem-2-tooltip,
+.tooltip .tooltiplist .sem-3-tooltip {
+  border-bottom: 1px solid #717991;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: -5px;
+  margin-left: -5px;
+  border-width: 5px;
+  transform: rotate(90deg);
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip .sem-2-tooltip span,
+.tooltip .sem-3-tooltip span,
+.tooltip .sem-4-tooltip span {
+  color: #ffffff;
+}
+.tooltip .ele-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tooltip .ele-name img {
+  height: 12px;
+  width: 12px;
+  padding-bottom: 0;
+  margin: 0;
+  margin-left: 2px;
+}
+
+.svg-tooltip:hover .tooltiptext {
+  display: flex !important;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.svg-tooltip {
+  display: flex;
+  cursor: pointer;
+  width: 15px;
+  position: relative;
+}
+
+.tooltip .tooltiplist ul li:before {
+  content: " ";
+  font-size: 25px;
+  position: absolute;
+  display: block;
+  left: 10px;
+  top: 6px;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+.electives-bca .online-mca-data-science-analytics .ele-name img {
+  margin-left: 0px !important;
+}
+
+.who-should-do-sect .block-item-row {
+  display: flex;
+  gap: 16px;
+}
+.who-should-do-sect .block-item-row .block-item-div {
+  display: flex;
+  gap: 9.06px;
+  padding: 20px;
+  border: 1px solid #e6eaee;
+  border-radius: 5px;
+  align-items: center;
+  width: 25%;
+}
+.who-should-do-sect .block-item-row .block-item-div .text-block {
+  width: 50%;
+  margin: 22px 0 auto;
+}
+.who-should-do-sect .block-item-row .block-item-div .text-block p {
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-weight: bold;
+  color: #000000;
+}
+.who-should-do-sect .block-item-row .block-item-div .text-block p br {
+  display: none;
+}
+.who-should-do-sect .block-item-row .block-item-div .image-block img {
+  width: auto;
+  height: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .courseOverview {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  .courseOverview .courseDetails {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .courseOverview .courseDetails .courseInfo {
+    margin-bottom: auto;
+  }
+  .websiteForm.Vertical {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+  .scholarships .left-content {
+    max-width: 500px;
+  }
+  .scholarships .scholarship-flex-container .flex-item {
+    margin: 10px;
+  }
+  .apply-img {
+    flex: 0.5;
+    padding-right: 0px;
+  }
+  .wrapper.no-sidebar .courseSubNav {
+    margin-right: -16.5% !important;
+  }
+  .courseSubNav.show {
+    margin-left: -230px !important;
+    padding-left: 230px !important;
+  }
+  .wrapper .testimonial {
+    margin-left: -22%;
+    margin-right: -4%;
+  }
+  .wrapper .testimonial .container {
+    margin: 0 17.5% !important;
+  }
+  .wrapper .testimonial .testimonial-section .slick-list {
+    padding: 0 5% 0 17.5%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-prev {
+    left: 15.5%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-next {
+    right: 3.5%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-dots {
+    padding-left: 17.5%;
+    padding-right: 6%;
+  }
+  .wrapper.no-sidebar .testimonial {
+    margin-left: -16.5%;
+    margin-right: -15.5%;
+  }
+  .wrapper.no-sidebar .testimonial .container {
+    margin: 0 12.5% !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 12.5%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+    left: 11%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+    right: 12%;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+  .career-support-detail {
+    padding: 20px 31px;
+  }
+  .fees-first {
+    padding: 24px;
+  }
+  .apply-img {
+    padding-right: 0px;
+  }
+  .wrapper.no-sidebar .courseSubNav {
+    margin-right: -12.5%;
+    margin-left: -160px !important;
+    padding-left: 162px !important;
+    padding-right: 154px !important;
+  }
+  .courseSubNav.show {
+    margin-left: -160px !important;
+    padding-left: 160px !important;
+    padding-right: 0;
+  }
+  .wrapper .testimonial {
+    margin-left: -18%;
+    margin-right: -5%;
+  }
+  .wrapper .testimonial .container {
+    margin: 0 14.4% !important;
+  }
+  .wrapper .testimonial .testimonial-section .slick-list {
+    padding: 0 5% 0 14.4%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-dots {
+    padding-left: 14.5%;
+    padding-right: 6.5%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-prev {
+    left: 12%;
+  }
+  .wrapper .testimonial .testimonial-section .slick-next {
+    right: 3%;
+  }
+  .wrapper.no-sidebar .testimonial {
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+  }
+  .wrapper.no-sidebar .testimonial .container {
+    margin: 0 10% !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 10%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-prev {
+    left: 8.5%;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-next {
+    right: 9%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .websiteForm.Vertical {
+    padding: 30px 20px 30px !important;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner-top-section {
+    display: block;
+  }
+  .banner-top-section > .left,
+  .banner-top-section > .right {
+    width: 100%;
+  }
+  .banner-top-section .rfi-form .submitField {
+    padding: 0 6px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .left {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+    padding: 13px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .left .left-fee {
+    width: 100% !important;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .left .left-fee .label {
+    text-align: center;
+    font-size: 12px !important;
+    margin-bottom: -10px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .left .layout {
+    flex-direction: column;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right {
+    flex-direction: row;
+    width: 100%;
+    background: #fee8da;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .line-item {
+    background: transparent;
+    border-radius: 0;
+    position: relative;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .layout {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .layout .left-fee {
+    width: 100%;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .layout .left-fee .label {
+    text-align: center;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .line-item {
+    width: 50%;
+    padding: 13px 12px !important;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .right .line-item:nth-child(2) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .non-resident-indian .left,
+  .fees-scholarship-sect .fees-container.courseFee .african-student .left,
+  .fees-scholarship-sect .fees-container.courseFee .non-indian .left {
+    padding: 24px !important;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .african-student .right {
+    padding: 30px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:first-child::after {
+    border-right: 0;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:first-child {
+    margin-bottom: 0 !important;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee .tabcontent .right .line-item:last-child {
+    margin-top: 0 !important;
+    margin-left: 2px;
+    border-radius: 5px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.international > .left,
+  .fees-scholarship-sect .fees-container.courseFee.international > .right {
+    width: 100%;
+  }
+  .coursePage.muj .fees-container.courseFee .right {
+    background: transparent;
+  }
+  .coursePage.muj .fees-container.courseFee .right .line-item.full {
+    background-color: #F4AE2A;
+  }
+  .coursePage.muj .fees-container.courseFee .right .line-item.full .label,
+  .coursePage.muj .fees-container.courseFee .right .line-item.full .price {
+    color: #09143E;
+  }
+  .coursePage.mahe .fees-container.courseFee .right {
+    background: transparent;
+  }
+  .coursePage.mahe .fees-container.courseFee .right .line-item.full {
+    background-color: #00D7D5;
+  }
+  .coursePage.mahe .fees-container.courseFee .right .line-item.full .label,
+  .coursePage.mahe .fees-container.courseFee .right .line-item.full .price {
+    color: #09143E;
+  }
+  .coursePage.smu .fees-container.courseFee .right {
+    background: transparent;
+  }
+  .coursePage.smu .fees-container.courseFee .right .line-item.full {
+    background-color: #57FF45;
+  }
+  .coursePage.smu .fees-container.courseFee .right .line-item.full .label,
+  .coursePage.smu .fees-container.courseFee .right .line-item.full .price {
+    color: #09143E;
+  }
+  .overlay-content.popupleadForm,
+  .overlay-content.popupdownloadForm {
+    max-height: 100% !important;
+    width: 90%;
+  }
+  .overlay-content.popupleadForm .websiteForm.Horizontal,
+  .overlay-content.popupdownloadForm .websiteForm.Horizontal {
+    padding: 24px 37px;
+  }
+  .certificate-section .open-title p {
+    text-align: left !important;
+  }
+  .fees-scholarship-sect p.description {
+    text-align: left;
+  }
+  .expect-to-learn .title1-text .text-btn {
+    align-items: flex-start !important;
+    margin: 0 0 10px 0 !important;
+  }
+  .expect-to-learn .title1-text .text-btn p {
+    text-align: left !important;
+  }
+  .tools-cert-detail .tools-desc.mt-0 {
+    text-align: left !important;
+  }
+  .courseDetails .courseInfo .right .row .line-item.free-content.center span {
+    align-items: center !important;
+  }
+  .certificate-section {
+    padding: 20px 15px !important;
+  }
+  .certificate-section .open-title.column {
+    flex-direction: column;
+  }
+  .courseSubNav {
+    position: fixed;
+  }
+  .sub-menu-wrapper {
+    position: fixed;
+  }
+  .coursePage.muj .wrapper.no-sidebar .sub-menu-wrapper {
+    background: linear-gradient(357deg, #0522D2 0%, #09143E 40%);
+  }
+  .coursePage.mahe .wrapper.no-sidebar .sub-menu-wrapper {
+    background: linear-gradient(357deg, #00B5B3 0%, #09143E 40%);
+  }
+  .coursePage.smu .wrapper.no-sidebar .sub-menu-wrapper {
+    background: linear-gradient(357deg, #57FF45 0%, #09143E 40%);
+  }
+  .who-should-do-sect .block-item-row {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .who-should-do-sect .block-item-row .block-item-div {
+    gap: 6px;
+    padding: 10px;
+    width: 49%;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .who-should-do-sect .block-item-row .block-item-div .text-block {
+    margin: 0;
+    width: 100%;
+  }
+  .who-should-do-sect .block-item-row .block-item-div .text-block p {
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    text-align: center;
+  }
+  .who-should-do-sect .block-item-row .block-item-div .text-block p br {
+    display: block;
+  }
+  .who-should-do-sect .block-item-row .block-item-div .image-block img {
+    width: auto;
+    height: 64px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .left-content {
+    padding-bottom: 70px;
+    padding-top: 49px;
+    padding-right: 9px;
+    padding-left: 16px;
+  }
+  .career-support-detail {
+    padding: 14px 34px;
+  }
+  .fees-first {
+    padding: 70px 17px 35px 17px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .fees-second {
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .flex-item img {
+    height: 50px;
+    width: 45px;
+  }
+  .course-video-main {
+    background-color: #e9f4fc;
+  }
+  .instVideoSlider {
+    background-color: transparent !important;
+  }
+  .course-video-text {
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .fees-content-INR {
+    font-size: 18px !important;
+  }
+  .scholarship-sect .home-scholarship {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .scholarships .scholarship-flex-container {
+    padding: 0px 9px 50px;
+  }
+  .scholarships .scholarship-flex-container .flex-item {
+    margin: 10px 0px 0px 10px;
+  }
+  .who-can-apply-sect .section-title {
+    padding-bottom: 20px !important;
+  }
+  .fees-first {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 22px 68px 22px 68px;
+  }
+  .fees-container {
+    flex-direction: column;
+  }
+  .fees-content-first {
+    width: 50%;
+    margin-right: 10px;
+    height: auto;
+    margin-bottom: 0px;
+    padding: 34px 13px;
+  }
+  .fees-content-second {
+    height: auto;
+    padding: 20px;
+  }
+  .fees-scolarship h4 {
+    font-size: 18px;
+  }
+  .left-content {
+    padding-bottom: 0px;
+    text-align: center !important;
+    padding-top: 45px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .career-support-sect .section-title {
+    padding-bottom: 20px !important;
+  }
+  .career-support-detail {
+    padding: 20px 20px 50px 20px;
+  }
+  .left-content img {
+    margin: auto !important;
+  }
+  .apply-content {
+    flex: 5;
+  }
+  .fees-scholarship-sect {
+    padding: 0px;
+  }
+  .flex-item p {
+    color: #535353;
+  }
+  .flex-item-image {
+    height: 45px !important;
+    width: auto !important;
+  }
+  .sub-menu .item a:hover {
+    color: #707070;
+    border-bottom: none;
+  }
+  .sub-menu .item.active a {
+    color: #ffffff !important;
+    border-bottom: 3px solid #ffffff !important;
+  }
+  .institute-statistics-container {
+    padding: 40px 16px;
+  }
+  .institute-statistics-container .statistics-container {
+    flex: 1;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 6% 6px;
+    justify-content: unset;
+  }
+  .institute-statistics-container .statistics-container .statistics-count {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    text-align: center;
+    color: #343634;
+  }
+  .institute-statistics-container .statistics-container .statistics-description {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    text-align: center;
+    color: #535353;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body.page-template-course-page footer,
+  body.page-template-course-page-pgcp-ei footer {
+    margin-bottom: 110px;
+  }
+  .mahe-fee-alert {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .mahe-fee-alert .fee-alert {
+    background: #09143E;
+    color: #ffffff;
+    margin: -10px -3.34vw 12px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .wrapper.no-sidebar .leftBlock {
+    padding-right: 3.34vw;
+    padding-left: 3.34vw;
+  }
+  .wrapper.no-sidebar .leftBlock .certificate-section {
+    border-radius: 0;
+    margin: 30px -3.34vw;
+  }
+  .wrapper.no-sidebar .leftBlock .websiteForm.Vertical {
+    margin-left: 0;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section {
+    flex-direction: column;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .left {
+    width: 100%;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .left .courseOverview .courseDetails .courseShortName,
+  .wrapper.no-sidebar .layout.banner-top-section .left .courseOverview .courseDetails .section-title {
+    padding: 0;
+    margin: 8px 0;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .left .courseOverview .courseDetails .section-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .left .courseOverview .courseDetails .top-bar {
+    padding: 0 0 12px !important;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .left .courseOverview .courseDetails .top-bar .acc-logos {
+    justify-content: space-evenly;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right {
+    width: 100%;
+    padding: 0px;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout {
+    flex-direction: column;
+    padding: 12px;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row {
+    padding: 0;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row .line-item:first-child {
+    margin-bottom: 10px;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row .line-item:first-child span.elibility-label {
+    padding: 0;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row .coursera-div {
+    margin-bottom: 0 !important;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row .free-content {
+    margin-top: 10px;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row:nth-child(2) {
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .wrapper.no-sidebar .layout.banner-top-section .right .layout .row:first-child {
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .faculty .pgcp-ei-facultySlider .line-items .card .item .designation {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+.courseOverview .courseDetails .courseInfo.newLayout {
+  margin-bottom: unset;
+  padding-bottom: 0px;
+}
+
+.course-details .banner-top-section {
+  margin-bottom: 16px;
+}
+
+.brochureBlock {
+  display: flex;
+  padding: 0;
+}
+
+.courseDownloadBtn {
+  background: #09143E;
+  padding: 12px 30px;
+  border-radius: 2px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.courseDownloadBtn span {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.courseDownloadBtn:hover {
+  background: linear-gradient(90deg, #E12333 0%, #ff6600 100%);
+}
+
+@media only screen and (max-width: 640px) {
+  .courseDetails .courseInfo .right .layout {
+    flex-direction: column;
+  }
+  .courseDetails .courseInfo .right .layout .row {
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 0 10px 0;
+    margin-bottom: 10px;
+  }
+  .courseDetails .courseInfo .right .layout .row:last-child {
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .courseDetails .courseInfo .right .layout .row .line-item {
+    margin-bottom: 10px !important;
+  }
+  .courseDetails .courseInfo .right .layout .row .line-item span img,
+  .courseDetails .courseInfo .right .layout .row .line-item span svg {
+    margin: 0px 5px 0 0;
+  }
+  .courseDetails .courseInfo .right .layout .row .line-item.free-content.center ~ .line-item:last-child {
+    margin-bottom: 0 !important;
+  }
+  .courseDetails .courseInfo .right .layout .duration-work {
+    display: flex;
+    justify-content: space-between;
+  }
+  .websiteForm.Vertical {
+    margin-top: 10px;
+  }
+  .section-title {
+    text-align: left;
+  }
+  .Electives {
+    margin: 25px 0 25px 0 !important;
+  }
+  .Electives .section-title {
+    font-size: 28px;
+  }
+  .Electives .section-title span {
+    font-size: 28px;
+    font-family: "Sabon LT Std";
+    font-style: italic;
+  }
+  .Electives .electivesSlider .slick-list {
+    margin-right: -3.34vw;
+    margin-left: -3.34vw;
+    padding: 0 3.34vw !important;
+  }
+  .Electives .electivesSlider .slick-track {
+    margin-top: 10px;
+  }
+  .Electives .electivesSlider .line-items {
+    margin-right: 3px !important;
+    padding: 10px 5px !important;
+  }
+  .Electives .electivesSlider .line-items .name {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 10px;
+  }
+  .rankings .rankingSlider .line-items {
+    margin: 0 2px;
+  }
+  .admission-process-sect .primaryBtn {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .admission-process-sect p br {
+    display: none;
+  }
+  .mobile-admission-process {
+    margin: 0;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e6eaee;
+  }
+  .mobile-admission-process .tab-link span {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ff6600;
+    border-color: #ff6600;
+    background: transparent;
+    margin: 0 auto;
+  }
+  .mobile-admission-process .tab-link span::before, .mobile-admission-process .tab-link span::after {
+    top: 8px;
+    background-color: #ffcaa6;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide {
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide:first-child .admission-card .content-wrap .layout .content span::before {
+    display: none;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide:last-child .admission-card .content-wrap .layout .content span::after {
+    display: none;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .admission-card .content-wrap .layout .content span {
+    border: 2px solid #707070;
+    width: 24px;
+    height: 24px;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    display: block;
+    border-radius: 100%;
+    flex: 0 0 auto;
+    z-index: 1;
+    margin: 0 auto 10px;
+    background-color: transparent;
+    color: #ff6600;
+    border-color: #ff6600;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .admission-card .content-wrap .layout .content span::after {
+    margin: 0 auto;
+    display: block;
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    width: 32vw;
+    height: 2px;
+    left: 22px;
+    bottom: 8px;
+    background-color: #ffcaa6;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .admission-card .content-wrap .layout .content span::before {
+    margin: 0 auto;
+    display: block;
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    width: 32vw;
+    height: 2px;
+    right: 22px;
+    bottom: 8px;
+    background-color: #ffcaa6;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section {
+    margin: 0 -3.34vw !important;
+  }
+  .wrapper.no-sidebar .testimonial .testimonial-section .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .career-support-sect {
+    margin: 0 !important;
+  }
+  .career-support-sect .career-support-div {
+    margin: 0 -3.34vw !important;
+  }
+  .career-support-sect .career-support-div .career-support-container {
+    margin: 0 4px;
+  }
+  .career-support-sect .career-support-div .career-support-container:first-child {
+    margin: 0 4px 0 0;
+  }
+  .career-support-sect .career-support-div .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .scholarships {
+    margin-left: -3.34vw !important;
+    margin-right: -3.34vw !important;
+  }
+  .fees-container.courseFee .non-resident-indian .right .layout,
+  .fees-container.courseFee .non-indian .right .layout {
+    gap: 5px;
+  }
+  .fees-container.courseFee .non-resident-indian .right .line-item,
+  .fees-container.courseFee .non-indian .right .line-item {
+    width: 100%;
+  }
+  .fees-container.courseFee .non-resident-indian .right .line-item::after,
+  .fees-container.courseFee .non-indian .right .line-item::after {
+    display: none;
+  }
+  .know-more-text {
+    padding: 20px 0 30px;
+  }
+  .section-title {
+    font-size: 24px !important;
+  }
+  .section-title span {
+    font-size: 26px !important;
+  }
+  .rankings .rankingSlider .line-items .image img {
+    height: auto;
+  }
+  .elective-bg .electivesSlider .slick-track {
+    margin-top: 0 !important;
+  }
+  .elective-bg .electivesSlider .line-items {
+    cursor: default;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 2px 0 !important;
+  }
+  .elective-bg .electivesSlider .line-items .name {
+    text-align: left;
+    max-width: 62px;
+    line-height: 12px;
+  }
+  .electives-bca.elective-bg .electivesSlider .line-items {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    max-width: unset !important;
+  }
+  .electives-mca.elective-bg .electivesSlider .line-items {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    max-width: unset !important;
+  }
+  .electives-mca .electivesSlider,
+  .electives-bca .electivesSlider {
+    z-index: 1;
+    position: relative;
+  }
+  .electives-mca .slick-track,
+  .electives-bca .slick-track {
+    flex-direction: column;
+  }
+  .electives-mca svg,
+  .electives-bca svg {
+    width: 23px !important;
+    height: 25px !important;
+  }
+  .electives-bca .online-mca-data-science-analytics .ele-name .name {
+    max-width: 100% !important;
+  }
+  .electives-bca .online-mca-data-science-analytics .ele-name img {
+    margin-left: 10px !important;
+  }
+  .tooltip.line-items {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .tooltip.line-items .name {
+    max-width: 100% !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    font-weight: bold !important;
+    color: #09143E !important;
+  }
+  .tooltip .tooltiptext {
+    top: -20px;
+    right: 0;
+    margin-left: 0;
+  }
+  .tooltip .tooltiptext ul {
+    font-weight: normal;
+  }
+  .tooltip .ele-name img {
+    height: 12px !important;
+    width: 12px !important;
+    margin-left: 2px !important;
+  }
+  .tooltip span {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+  }
+}
+.courseDetails .courseInfo .right .layout .row:last-child {
+  border-right: unset !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .banner-top-section .rfi-form .submitField {
+    padding: 0px !important;
+  }
+  .elective-bg .electivesSlider .line-items .name {
+    font-size: 12px;
+  }
+  .bba-text {
+    padding: 0px 12px 20px 12px !important;
+  }
+  .tooltip.mahe-electives .ele-name svg {
+    margin-left: 4px !important;
+  }
+  .tooltip.line-items.mahe-electives {
+    gap: 4px !important;
+  }
+  .tooltip.line-items.mahe-electives .ele-name {
+    align-items: center !important;
+  }
+  .electivesSlider .line-items.mahe-electives svg {
+    padding-bottom: 0px;
+  }
+  .mahe-electives svg {
+    width: 25px !important;
+  }
+  .elective-bg .electivesSlider .line-items .name {
+    max-width: 100% !important;
+  }
+  .toolsCovered .slick-track li {
+    border: 5px solid #EAEFF5;
+    border-radius: 5px;
+    margin-right: 8px;
+    padding: 2px;
+  }
+  .learn-more-modal.mobile h5 {
+    font-size: 16px;
+  }
+  .courseDetails .courseInfo .right .row .line-item {
+    display: block;
+  }
+  .faculty .pgcp-ei-facultySlider .line-items .card .item .designation {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .course-video-main .videoHolder {
+    padding-bottom: 0px !important;
+  }
+  .sub-menu .item:first-child {
+    padding-left: 10px;
+  }
+  .toolsCovered .slick-track li {
+    padding: 2px;
+  }
+  .brochureBlock {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
+  }
+  .brochureBlock .downloadBtn {
+    display: block !important;
+  }
+  .banner-top-section .courseInfo.newLayout .right {
+    width: 100%;
+  }
+  .courseDetails .courseInfo.newLayout .right .layout .row:nth-child(2) {
+    border-right: unset;
+  }
+  .electivesSlider .line-items .name {
+    line-height: 14px;
+  }
+  .discount-text {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4A5373;
+  }
+  .panel-group .electives-layout {
+    flex-direction: column;
+  }
+  .panel-group .electives-layout .left {
+    padding-bottom: 12px;
+  }
+  .panel-group .electives-layout .right #electives-subject,
+  .panel-group .electives-layout .right #electives-subject1,
+  .panel-group .electives-layout .right #electives-subject2,
+  .panel-group .electives-layout .right #electives-subject3 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .smu .expect-to-learn .smu-mba #marketing-default,
+  .smu .expect-to-learn .smu-mba #marketing-default2 {
+    min-width: 100% !important;
+    max-width: 100%;
+  }
+  .toolsCovered {
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+  .toolsCovered .slick-list {
+    padding: 0 10%;
+  }
+  .fees-container.courseFee {
+    flex-direction: column;
+  }
+  .fees-container.courseFee .tabcontent {
+    flex-direction: column;
+  }
+  .fees-container.courseFee .left {
+    width: 100%;
+    margin-bottom: 12px;
+    margin-right: 0px;
+  }
+  .fees-container.courseFee .right {
+    width: 100%;
+    flex-direction: row;
+  }
+  .fees-container.courseFee .right .line-item {
+    padding: 12px;
+    width: 50%;
+  }
+  .fees-container.courseFee .right .line-item.full {
+    width: 100%;
+  }
+  .fees-container.courseFee .right .line-item:nth-child(2) {
+    margin-top: 0px;
+    margin-left: 12px;
+  }
+  .fees-container.courseFee .right.single-box .line-item {
+    width: 100% !important;
+  }
+  .fees-container.courseFee .semesterFee,
+  .fees-container.courseFee .emi-price {
+    font-size: 18px !important;
+    line-height: initial;
+  }
+  .fees-container.courseFee .price {
+    font-size: 30px !important;
+    line-height: 32px;
+  }
+  .fees-container.courseFee .label {
+    font-size: 10px;
+    line-height: initial;
+  }
+  .fees-container.courseFee .inclusiveText {
+    font-size: 10px;
+    line-height: initial;
+  }
+  .fees-container.courseFee .intCourseFee {
+    width: auto;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    margin-right: -3.34vw;
+  }
+  .fees-container.courseFee .intCourseFee::after {
+    display: block;
+    content: " ";
+    width: 130%;
+    height: 4px;
+    background: #EAEFF5;
+    margin-top: -4px;
+  }
+  .fees-container.courseFee .intCourseFee::-webkit-scrollbar {
+    height: 0;
+  }
+  .fees-container.courseFee .tabs {
+    margin-right: 0;
+    margin-bottom: 0;
+    z-index: 1;
+    border-bottom-color: transparent;
+  }
+  .fees-container.courseFee .tabs .tablinks {
+    flex: 0 0 auto;
+    border-bottom: 4px solid #EAEFF5;
+  }
+  .fees-container.courseFee .tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .fees-container.courseFee .tablinks.active {
+    border-bottom: 5px solid #000;
+  }
+  .fees-container.courseFee.pgcpdsml {
+    flex-direction: column;
+  }
+  .fees-container.courseFee.pgcpdsml .pgcpdsml-fee {
+    flex-direction: column;
+    display: flex;
+  }
+  .fees-container.courseFee.pgcpdsml .pgcpdsml-fee .left {
+    width: 100%;
+  }
+  .fees-container.courseFee.pgcpdsml .pgcpdsml-fee .right {
+    width: 100%;
+  }
+  .fees-container.courseFee.pgcpdsml .pgcpdsml-fee .right .line-item {
+    background-color: #fdf8f4 !important;
+  }
+  .fees-container.courseFee.pgcpdsml .right.fullwidth {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .fees-container.courseFee.pgcpdsml .right.fullwidth .line-item {
+    width: 100% !important;
+  }
+  .learn-more-modal {
+    padding: 6vw;
+  }
+  .flex-heading {
+    font-size: 2.5vw;
+  }
+  .courseSubNav {
+    top: 66px;
+  }
+  .courseSubNav .sub-menu-wrapper .left-paddle {
+    left: -3.34vw;
+    opacity: 0;
+  }
+  .courseSubNav .sub-menu-wrapper .right-paddle {
+    right: 2px;
+    opacity: 0;
+  }
+  .learn-more-modal .who-can-apply-bg {
+    gap: 10px;
+  }
+  .mobileNextLine {
+    display: block;
+  }
+  .apply-img {
+    flex: 0.4;
+  }
+  .apply-img img {
+    width: 24px;
+  }
+  .flex-item h5 {
+    font-size: 4.2vw;
+  }
+  .flex-item h6 {
+    font-size: 20px;
+  }
+  .career-support-details {
+    border-radius: 5px 5px 5px 5px;
+  }
+  .career-support-sect .slick-list {
+    padding: 0 0 !important;
+    padding: 0 3.34vw !important;
+    margin: 0 !important;
+  }
+  .career-support-image img {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .career-support-div .career-support-container {
+    padding: 0;
+    margin: 0 8px 0 0;
+  }
+  .career-support-div .career-support-container:last-child {
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  .career-support-sect {
+    margin-right: -3.34vw;
+    margin-left: -3.34vw;
+  }
+  .scholarship-sect .home-scholarship {
+    padding: 20px 0;
+  }
+  .scholarships .scholarship-flex-container .flex-item:last-child {
+    padding-top: 0px;
+  }
+  .tabs {
+    margin: unset;
+  }
+  .scholarship-sect .home-scholarship {
+    align-items: center;
+  }
+  .fees-scolarship h5 {
+    font-size: 10px;
+    line-height: 1;
+  }
+  .popupeasyFinancingModal .popupContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .popupeasyFinancingModal .popupContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .fees-scolarship h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+  .Electives .section-title {
+    padding-bottom: 20px !important;
+  }
+  .Electives .electivesSlider .slick-list {
+    padding: 0 3.34vw !important;
+  }
+  .easy-financing-popup-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .courseSubNav {
+    margin: 0 -3.34vw;
+  }
+  .popupattractiveScholarshipModal.smu {
+    align-items: flex-start !important;
+  }
+  .popupattractiveScholarshipModal.smu .scholarship-text-center {
+    padding: 12px 24px 0;
+  }
+  .popupattractiveScholarshipModal {
+    padding: 0;
+    width: 90% !important;
+    align-items: flex-start !important;
+  }
+  .popupattractiveScholarshipModal .home-scholarship h6 {
+    font-size: 20px;
+  }
+  .popupattractiveScholarshipModal .scholarship-text-center {
+    padding: 12px 24px 0;
+  }
+  .popupattractiveScholarshipModal .flex-roi {
+    flex: 6;
+  }
+  .popupattractiveScholarshipModal .flex-epm h6 {
+    margin-right: 0px;
+    padding-right: 2px;
+  }
+  .popupattractiveScholarshipModal .flex-tenure-first {
+    flex: 6.5;
+  }
+  .flex-epm-merit h6 {
+    margin-right: 22px !important;
+  }
+  .learn-more-modal {
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .flex-epm h6 {
+    font-size: 3.4vw;
+  }
+  .flex-tenure h6 {
+    font-size: 3.4vw;
+  }
+  .flex-roi h6 {
+    font-size: 3.4vw;
+  }
+  .easy-financing-option {
+    padding: 0px;
+  }
+  .flex-tenure-first .flex-heading {
+    margin-right: 0px;
+  }
+  .fees-container-modal {
+    padding: 0px;
+  }
+  .left-content-modal {
+    padding-left: 0px !important;
+  }
+  .learn-more-modal .left-content img {
+    margin: 0 7px 0px 5px !important;
+  }
+  .popupeasyFinancingModal .left-content-modal img {
+    width: 17px !important;
+    height: 20px !important;
+  }
+  .popupattractiveScholarshipModal .left-content-modal img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .popupeasyFinancingModal .close-icon {
+    top: 22px;
+    right: 24px;
+  }
+  .popupattractiveScholarshipModal .close-icon {
+    top: 22px;
+    right: 24px;
+  }
+  .flex-epm-first .flex-heading {
+    width: 45%;
+  }
+  .scholarships {
+    margin-left: -35px;
+    margin-right: -35px;
+  }
+  .learn-more {
+    width: 94px !important;
+  }
+  .course-video-sect .playVideoBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .career-support-sect .slick-slide {
+    width: 417px;
+  }
+  .course-video-sect .institution .playVideoBtn {
+    top: 40%;
+    left: 50%;
+  }
+  .career-support-detail {
+    padding: 20px 20px 50px 20px;
+  }
+  .career-support-sect .section-title {
+    padding-bottom: 20px !important;
+  }
+  .course-video-main {
+    background-color: #e9f4fc;
+  }
+  .instVideoSlider {
+    background-color: transparent !important;
+  }
+  .instVideoSlider .slick-list {
+    margin: 0;
+    padding: 0;
+  }
+  .instVideoSlider .videoHolder {
+    padding-right: 0;
+  }
+  .course-video-text {
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .flex-item img {
+    height: 50px !important;
+    width: auto;
+  }
+  .flex-item-image {
+    max-height: 45px !important;
+    width: auto !important;
+  }
+  .flex-item-attractive img {
+    height: 45px !important;
+    width: auto !important;
+  }
+  .flex-item p {
+    color: #535353;
+  }
+  .fees-scholarship-sect {
+    margin-bottom: 60px;
+  }
+  .fees-scholarship-sect .right {
+    background-color: #fee8da;
+  }
+  .fees-scholarship-sect .right .line-item {
+    padding: 34px 12px !important;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.muj {
+    margin-top: 20px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(2) {
+    margin-left: 0px;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(1) {
+    position: relative;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(1):after {
+    content: "";
+    height: 75%;
+    width: 0;
+    display: block;
+    border-right: 0px solid #ccc;
+    position: absolute;
+    border-bottom: none;
+    bottom: 90%;
+    top: 0;
+    padding-left: 100%;
+    margin: 8% 0;
+  }
+  .fees-scholarship-sect .fees-container.courseFee.muj .right .line-item:nth-child(2) {
+    border-bottom: none;
+  }
+  .fees-scholarship-sect .non-resident-indian .left {
+    padding: 30px;
+  }
+  .fees-scholarship-sect .non-resident-indian .right {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fees-scholarship-sect .non-indian .left,
+  .fees-scholarship-sect .indian-african .left {
+    padding: 30px;
+  }
+  .fees-scholarship-sect .non-indian .right,
+  .fees-scholarship-sect .indian-african .right {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .scholarships .scholarship-flex-container .flex-item {
+    margin: 12px 20px 0px 20px;
+  }
+  .who-can-apply-sect .section-title {
+    padding-bottom: 20px !important;
+    font-size: 28px;
+  }
+  .main-apply-section {
+    padding: 20px;
+  }
+  .fees-content-INR {
+    font-size: 18px !important;
+  }
+  .fees-second {
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .fees-scholarship-sect {
+    padding: 0px;
+  }
+  .fees-first {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 22px 35px 22px 35px;
+  }
+  .fees-container {
+    flex-direction: column;
+  }
+  .fees-content-first {
+    margin-right: 10px;
+    height: auto;
+    margin-bottom: 0px;
+    width: 50%;
+    padding: 34px 8px;
+  }
+  .fees-content-first.full {
+    width: 100%;
+    padding: 34px 0;
+    margin-right: 0px;
+  }
+  .fees-content-second {
+    height: auto;
+    padding: 20px 0px;
+    width: 50%;
+    margin-top: 0px;
+  }
+  .fees-scolarship h4 {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .fees-scholarship-sect p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .left-content {
+    text-align: center !important;
+    padding: 24px;
+  }
+  .left-content img {
+    margin: auto !important;
+  }
+  .apply-content {
+    flex: 5;
+  }
+  .tab-link {
+    margin: 0;
+    border: 0;
+    padding: 15px;
+    font-weight: bold;
+    color: #535353;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .tab-link span {
+    background-color: #fff;
+    border: 3px solid #b5b1b1;
+    color: #b5b1b1;
+    width: 41px;
+    height: 41px;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    display: block;
+    border-radius: 100%;
+    flex: 0 0 auto;
+    font-size: 27px;
+  }
+  .tab-link span::before {
+    left: -200px;
+    right: unset !important;
+  }
+  .tab-link span:before, .tab-link span:after {
+    height: 3px;
+    margin: 0 auto;
+    display: block;
+    content: " ";
+    background: #b5b1b1;
+    width: 200px;
+    position: absolute;
+    top: 12px;
+    z-index: -1;
+    right: -200px;
+  }
+  .tab-link:first-child {
+    margin: 0;
+  }
+  .tab-link:first-child span:before {
+    display: none;
+  }
+  .tab-link:last-child span:after {
+    display: none;
+  }
+  .tab-link.slick-current {
+    color: #ff6600;
+  }
+  .tab-link.slick-current span {
+    background-color: #fdf8f4;
+    color: #ff6600;
+    border-color: #ff6600;
+  }
+  .mobile-admission-process-nav .tab-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mobile-admission-process {
+    margin: 0 -35px;
+  }
+  .mobile-admission-process .primaryBtn {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px 30px;
+  }
+  .mobile-admission-process-for .slick-track {
+    display: flex;
+    padding: 10px 0;
+  }
+  .mobile-admission-process-for .slick-track .admission-slide {
+    margin: 0 35px;
+    background: #fdf8f4;
+    height: inherit;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1607843137);
+  }
+  .admission-card {
+    /*box-shadow: 0px 6px 6px #00000029;
+    border-radius: 5px;
+    overflow: hidden;*/
+  }
+  .admission-card .img-wrap img {
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 408/229;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .admission-card .content-wrap {
+    background-color: #fdf8f4;
+    padding: 20px 20px 20px;
+  }
+  .admission-card .content-wrap .layout {
+    align-items: start;
+  }
+  .admission-card .content-wrap .layout .count {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #707070;
+    border-radius: 100%;
+    flex: 0 0 auto;
+  }
+  .admission-card .content-wrap .layout .content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .sub-menu .item a:hover {
+    color: #707070;
+    border-bottom: none;
+  }
+  .sub-menu .item.active a {
+    color: #ffffff !important;
+    border-bottom: 3px solid #ffffff !important;
+  }
+  .courseDetails .dateHightlight {
+    align-items: flex-start;
+    padding: 12px 16px;
+    justify-content: left;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+  .testimonial-section .slick-list {
+    margin-right: 0px;
+    padding: 0px 3.34vw !important;
+  }
+  .wrapper .testimonial {
+    margin-left: -3.34vw;
+    margin-right: -3.34vw;
+    padding: 0;
+  }
+  .wrapper .testimonial .testimonial-section .slick-dots {
+    padding-left: 8%;
+    padding-right: 10%;
+  }
+  .additional-skill .skill-section-title {
+    text-align: center;
+    font-size: 20px;
+  }
+  .additional-skill .skill-desc {
+    text-align: left;
+  }
+  .additional-skill .skill-content {
+    flex-direction: column;
+  }
+  .additional-skill .skill-content .future-leaders {
+    width: 100%;
+  }
+  .additional-skill .skill-content .business-leaders {
+    width: 100%;
+  }
+  .additional-skill .skill-content .future-heading {
+    padding-right: 0px;
+  }
+  .additional-skill .skill-content .business-leaders {
+    padding-right: 0px;
+  }
+  .institute-statistics-container {
+    padding: 40px 16px;
+  }
+  .institute-statistics-container .statistics-container {
+    flex: 1;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 6% 6px;
+    justify-content: unset;
+  }
+  .institute-statistics-container .statistics-container .statistics-count {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    text-align: center;
+    color: #343634;
+  }
+  .institute-statistics-container .statistics-container .statistics-description {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    text-align: center;
+    color: #535353;
+  }
+  .overlay-content.popupattractiveScholarshipModal.mahe {
+    height: 90% !important;
+  }
+  .admission-process-sect > .layout > p br {
+    display: none;
+  }
+  .mobile-admission-process {
+    margin: 0 0px;
+    background: #ffffff;
+    padding: 20px 10px;
+  }
+  .mobile-admission-process .mobile-admission-process-nav {
+    margin: 0 -10px;
+  }
+  .mobile-admission-process .mobile-admission-process-nav .tab-link {
+    padding: 0;
+  }
+  .mobile-admission-process .mobile-admission-process-nav .tab-link span {
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .mobile-admission-process .mobile-admission-process-nav .tab-link span:after, .mobile-admission-process .mobile-admission-process-nav .tab-link span::before {
+    top: 8px;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide {
+    background: transparent;
+    margin: 0;
+    box-shadow: none;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .content-wrap {
+    background: transparent;
+    padding: 0 10px;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .content-wrap .layout .content {
+    text-align: center;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .content-wrap .layout .content h4 {
+    font-size: 14px !important;
+    line-height: 16px;
+    margin-top: 10px;
+    color: #09143E;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .content-wrap .layout .content p {
+    font-size: 12px !important;
+    line-height: 14px;
+    color: #000000;
+  }
+  .mobile-admission-process .mobile-admission-process-for .slick-track .admission-slide .content-wrap .layout .content img {
+    height: 60px;
+  }
+  .mobile-admission-process .mobile-admission-process-for .subnav-buttons {
+    display: none;
+  }
+  .mobile-admission-process ~ .primaryBtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .career-support-sect .career-support-image img {
+    height: 10vh;
+    -o-object-position: 0 10%;
+    object-position: 0 10%;
+  }
+  .career-support-sect .career-support-details {
+    padding: 10px;
+  }
+  .career-support-sect .career-support-details h5 {
+    font-size: 12px !important;
+    line-height: 14px;
+  }
+  .career-support-sect .career-support-text {
+    font-size: 14px !important;
+    line-height: 16px;
+    color: #535353;
+  }
+  .career-support-sect .career-support-sub-details {
+    font-size: 12px !important;
+  }
+  .fees-container.courseFee .inclusiveText {
+    text-align: center !important;
+    font-size: 12px !important;
+  }
+  .fees-container.courseFee .right .layout .left-fee .label {
+    font-size: 12px !important;
+  }
+  .mobile-admission-process {
+    padding: 14px 0px !important;
+  }
+  .popupattractiveScholarshipModal.muj {
+    align-items: unset !important;
+    background: #DEEDFF !important;
+  }
+  .mobileenrollnow {
+    display: none !important;
+  }
+}
+.bba-text {
+  display: flex;
+  padding: 10px 12px 0 12px;
+  color: #09143E;
+  font-size: 14px;
+}
+
+.fees-scholarship-sect .description-fee.bba {
+  font-size: 14px;
+}/*# sourceMappingURL=coursepage.css.map */

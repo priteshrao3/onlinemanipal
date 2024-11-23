@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("../fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("../fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sabon LT Std";
+  src: url("../fonts/SabonLTStd-BoldItalic.eot");
+  src: url("../fonts/SabonLTStd-BoldItalicd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/SabonLTStd-BoldItalic.woff2") format("woff2"), url("../fonts/SabonLTStd-BoldItalic.woff") format("woff"), url("../fonts/SabonLTStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.institution-details .courseDetails .description p {
+  text-align: left;
+}
+
+.page-template-institution-page .course-section .show-all-link {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.page-template-institution-page .institute-course-section {
+  padding: 0 !important;
+}
+
+.institute-statistics-container {
+  background-color: #EAEFF5;
+  padding: 24px 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.institute-statistics-container .statistics-container {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 24px;
+}
+.institute-statistics-container .statistics-container .statistics-count {
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+  color: #ff6600;
+}
+.institute-statistics-container .statistics-container .statistics-description {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  color: #060e2b;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .institute-statistics-container {
+    padding: 40px 16px;
+  }
+  .institute-statistics-container .statistics-container {
+    flex: 1;
+    flex-basis: 50%;
+    align-items: center;
+    padding: 6% 6px;
+    justify-content: unset;
+  }
+  .institute-statistics-container .statistics-container .statistics-count {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.26px;
+    text-align: center;
+  }
+  .institute-statistics-container .statistics-container .statistics-description {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    text-align: center;
+  }
+  .institute-statistics-container .statistics-container:nth-child(5) {
+    padding: 6px 20%;
+  }
+}/*# sourceMappingURL=institution-statistics.css.map */

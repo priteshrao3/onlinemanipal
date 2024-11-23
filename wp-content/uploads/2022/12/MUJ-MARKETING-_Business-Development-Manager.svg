@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fee8da;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="41.2999992" y1="77" x2="108.6244011" y2="77" gradientTransform="translate(0 152) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f60"/>
+      <stop offset="0" stop-color="#ff5204"/>
+      <stop offset="1" stop-color="#ff270d"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_113" data-name="Ellipse 113" class="cls-1" cx="75" cy="75" r="70"/>
+  <path class="cls-2" d="m41.2999992,110v-8.9000015l8.1000023-8.0999985v17h-8.1000023Zm14.9000015,0v-23.3000031l8.1000023-8.0999985v31.4000015h-8.1000023Zm14.7999992,0v-31.4000015l8.0999985,8.0999985v23.3000031h-8.0999985Zm14.8000031,0v-23.5l8.0999985-8v31.5h-8.0999985Zm14.7999954,0v-37.9000015l8-8v45.9000015h-8Zm-59.2999992-19.4000015v-12l26.5000038-26.2999992,14.3000031,14.2999992,26.5999908-26.5999985v11.9000015l-26.5999985,26.6999969-14.1999969-14.2999954-26.6000023,26.2999954Z"/>
+</svg>
